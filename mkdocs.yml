@@ -4,15 +4,19 @@ site_url: https://spaghetmenot.github.io/normalmagic/
 theme:
   name: material
   font:
-    text: Roboto
+    text: Ubuntu
     code: Red Hat Mono
-  logo: assets\uvproject_banner_icon.png
-  favicon: assets\uvproject_banner_icon.png
+  logo: assets\normalMagicIcon.png
+  favicon: assets\normalMagicIcon.png
   features:
     - navigation.tracking
     - navigation.indexes
     - navigation.sections
+    # - navigation.tabs
+    
+    # - navigation.top
     - toc.follow
+
 
   palette:  
   # Dark Mode
@@ -80,3 +84,39 @@ plugins:
       background: black
       shadow: true
       manual: false
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Tools Overview: tools_overview.md
+  - Mesh Tools:
+    - mesh_tools/index.md
+    - Boolean Pro: mesh_tools/boolean_pro.md
+    - Surface Blend: mesh_tools/surface_blend.md
+    - Surface Insert: mesh_tools/surface_insert.md
+  
+  - Normal Tools:
+    - normal_tools/index.md
+    - Normal Transfer: normal_tools/normal_transfer.md
+    - Smooth Normals: normal_tools/smooth_normals.md
+    - Weighted Normals: normal_tools/weighted_normals.md
+    - Bent Normals: normal_tools/bent_normals.md
+    - Repair Bevel Normals: normal_tools/repair_bevel_normals.md
+    - Repair Boolean Normals: normal_tools/repair_boolean_normals.md
+    - Repair Mirrored Normals: normal_tools/repair_mirrored_normals.md
+
+  - Visualize Tools:
+    - visualize_tools/index.md
+    - View Normals: visualize_tools/view_normals.md
+    - View Sharp: visualize_tools/view_sharp.md
+
+  - Other Tools:
+    - other_tools/index.md
+    - Mark Sharp: other_tools/mark_sharp.md
+    - Sharp Edges to Attribute: other_tools/sharp_edges_to_attribute.md
+    - Auto-Flip Faces: other_tools/auto-flip_faces.md
+
+  - Add-on:
+    - add-on/index.md
+    - Install: add-on/install.md
+    - Boolean Pro: add-on/boolean_pro.md

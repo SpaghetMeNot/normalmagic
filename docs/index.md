@@ -1,17 +1,6 @@
 # normalMagic
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! warning "Site under construction :construction_site: :construction:"
+**normalMagic** is a versatile toolset designed to give you powerful control over mesh normals and enhance modeling workflows.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Controlling normals can be essential for creating high quality 3D art. Whether it's for hard surfaces, foliage, cel shading, hair/fur... The list goes on! Modifying mesh normals can get surfaces behaving the way you want.
