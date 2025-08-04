@@ -58,15 +58,17 @@ markdown_extensions:
       permalink: true
 
 extra:
-  social:
-    - icon: simple/bluesky
-      link: https://bsky.app/profile/spaghetmenot.bsky.social
-    - icon: simple/mastodon
-      link: https://mastodon.social/@SpaghetMeNot
-    - icon: simple/x
-      link: https://x.com/SpaghetMeN0t
-    - icon: simple/youtube
-      link: https://www.youtube.com/@SpaghetMeNot
+  # social:
+  #   - icon: simple/bluesky
+  #     link: https://bsky.app/profile/spaghetmenot.bsky.social
+  #   - icon: simple/mastodon
+  #     link: https://mastodon.social/@SpaghetMeNot
+  #   - icon: simple/x
+  #     link: https://x.com/SpaghetMeN0t
+  #   - icon: simple/youtube
+  #     link: https://www.youtube.com/@SpaghetMeNot
+  generator: false
+
 
 plugins:
   - search
@@ -89,34 +91,39 @@ nav:
   - Home: index.md
   - Install: install.md
   - Tools Overview: tools_overview.md
-  - Mesh Tools:
+  - Examples: examples.md
+
+  - Mesh Modifiers:
     - mesh_tools/index.md
-    - Boolean Pro: mesh_tools/boolean_pro.md
-    - Surface Blend: mesh_tools/surface_blend.md
-    - Surface Insert: mesh_tools/surface_insert.md
+    - mesh_tools/boolean_pro.md
+    - mesh_tools/surface_blend.md
+    - mesh_tools/surface_insert.md
   
-  - Normal Tools:
+  - Normal Modifiers:
     - normal_tools/index.md
-    - Normal Transfer: normal_tools/normal_transfer.md
-    - Smooth Normals: normal_tools/smooth_normals.md
-    - Weighted Normals: normal_tools/weighted_normals.md
-    - Bent Normals: normal_tools/bent_normals.md
-    - Repair Bevel Normals: normal_tools/repair_bevel_normals.md
-    - Repair Boolean Normals: normal_tools/repair_boolean_normals.md
-    - Repair Mirrored Normals: normal_tools/repair_mirrored_normals.md
+    - normal_tools/normal_transfer.md
+    - normal_tools/smooth_normals.md
+    - normal_tools/weighted_normals.md
+    - normal_tools/bent_normals.md
+    - normal_tools/repair_bevel_normals.md
+    - normal_tools/repair_boolean_normals.md
+    - normal_tools/repair_mirrored_normals.md
 
-  - Visualize Tools:
+  - Visualize Modifiers:
     - visualize_tools/index.md
-    - View Normals: visualize_tools/view_normals.md
-    - View Sharp: visualize_tools/view_sharp.md
+    - visualize_tools/view_normals.md
+    - visualize_tools/view_sharp.md
 
-  - Other Tools:
+  - Other Modifiers:
     - other_tools/index.md
-    - Mark Sharp: other_tools/mark_sharp.md
-    - Sharp Edges to Attribute: other_tools/sharp_edges_to_attribute.md
-    - Auto-Flip Faces: other_tools/auto-flip_faces.md
+    - other_tools/mark_sharp.md
+    - other_tools/sharp_edges_to_attribute.md
+    - other_tools/auto-flip_faces.md
+
+  - Manual Tools:
+    - manual_tools/index.md
+    - manual_tools/recalculate_normals.md
 
   - Add-on:
     - add-on/index.md
-    - Install: add-on/install.md
-    - Boolean Pro: add-on/boolean_pro.md
+    - add-on/boolean_pro.md
