@@ -6,8 +6,8 @@ theme:
   font:
     text: Ubuntu
     code: Red Hat Mono
-  logo: assets\normalMagicIcon.png
-  favicon: assets\normalMagicIcon.png
+  logo: assets/normalMagicIcon.png
+  favicon: assets/normalMagicIcon.png
   features:
     - navigation.tracking
     - navigation.indexes

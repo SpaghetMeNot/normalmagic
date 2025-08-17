@@ -4,3 +4,7 @@ Examples can be found in ***examples.blend*** which is included as a separate do
 ## Boolean Examples
 
 ## Surface Blend Examples
+
+## Normal Tool Examples
+
+## Visualize Examples
