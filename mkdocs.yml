@@ -68,6 +68,8 @@ extra:
   #   - icon: simple/youtube
   #     link: https://www.youtube.com/@SpaghetMeNot
   generator: false
+  version:
+    provider: mike
 
 
 plugins:
