@@ -2,7 +2,14 @@
 
 ![Repair Boolean Icon](../assets/icons/repair_boolean_normals_1.png){ width=128}
 
-This tool does its best to fix bad normals on geometry caused by booleans. This is intended for destructively applied booleans, for boolean modifiers please consider using [Boolean Pro](../mesh_tools/boolean_pro.md) as it provides much more accurate and consistent results
+This tool attempts to fix bad normals caused by booleans. This is intended for destructively applied booleans, for boolean modifiers please consider using [Boolean Pro](../mesh_tools/boolean_pro.md) as it provides much more accurate and consistent results.
+
+<div class="grid cards" markdown>
+- ![Bool Normals Default](../assets/booleans/bool_unrepaired.png)
+Default Boolean Normals
+- ![Bool Normals Repaired](../assets/booleans/bool_repaired.png)
+Repaired Boolean Normals
+</div>
 
 ## Requirements
 
