@@ -14,7 +14,7 @@ Welcome to the normalMagic documentation. Here you'll find everything there is t
 
 Controlling normals can be essential for creating high quality 3D art. Whether it's for hard surfaces, foliage, cel shading, hair/fur... The list goes on! Modifying normals is sometimes the only way to get surfaces behaving the way you want.
 
-!!! info "Word of caution"
+!!! info "Custom Normals"
     Most of these tools create or edit ***custom normals***.
 
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 

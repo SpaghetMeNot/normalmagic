@@ -89,9 +89,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - Install: install.md
-  - Tools Overview: tools_overview.md
-  - Examples: examples.md
+  - install.md
+  - tools_overview.md
+  - common_settings.md
+  - examples.md
 
   - Mesh Modifiers:
     - mesh_tools/index.md
@@ -116,6 +117,7 @@ nav:
 
   - Other Modifiers:
     - other_tools/index.md
+    - other_tools/instance_object.md
     - other_tools/mark_sharp.md
     - other_tools/sharp_edges_to_attribute.md
     - other_tools/auto-flip_faces.md

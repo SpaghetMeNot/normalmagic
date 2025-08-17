@@ -1,5 +1,7 @@
 # Auto-Flip Faces
 
+![Auto-Flip Faces Icon](../assets/icons/auto-flip.png){ width=128 }
+
 Flipped faces on meshes can cause multiple issues. Traditionally you would check for flipped faces by using the the 'Face Orientation' overlay and resolve areas of flipped faces one by one.
 
 This modifier will detect flipped faces and fix them automatically.
