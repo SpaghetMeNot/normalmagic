@@ -63,7 +63,7 @@ This section specifies which meshes to insert
 #### Projection Masking
 This section controls masking the projection of insert meshes to the surface. This is most useful when using ***Blend with Surface***.
 ![falloff](../assets/surface_insert/falloff.gif)
-Controlling falloff is covered [here](../tools_overview.md#falloff-options)
+Controlling falloff is covered [here](../common_settings.md#mask-falloff)
 
 #### Normals
 This section controls how much of the surface normals are transferred to the insert mesh. This is most useful when using ***Blend with Surface***.
@@ -75,7 +75,7 @@ This section controls how much of the surface normals are transferred to the ins
 - **Recalculate Blend Normals.** Only available when using **Blend with Surface**. This will recalculate the normals on the blended portion of the insert mesh before transferring any from the surface.
 - **Match Boundary Normals.** When choosing ***New Mask*** this will make sure the boundary edge of the insert mesh matches the normals on the underlying surface. Turn off to create a hard edge.
 
-If ***New Mask*** is chosen, the settings for the falloff will appear below. Controlling falloff is covered [here](../tools_overview.md#falloff-options)
+If ***New Mask*** is chosen, the settings for the falloff will appear below. Controlling falloff is covered [here](../common_settings.md#mask-falloff)
 
 ### Surface Boolean
 This section controls how the surface is cut for the insert mesh.
@@ -84,9 +84,35 @@ This section controls how the surface is cut for the insert mesh.
 - **Weld Distance.** Distance at which to weld vertices, this takes effect at several points during the process, not just the final weld between surface and insert mesh.
 - **Boolean Extrusion.** How far to extrude the cutter shape from the surface. You might need to increase this value if the insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
     ![Boolean Extrusion](../assets/surface_insert/boolean_extrusion.gif)
+- **Non-Manifold Solver.** Which boolean solver to use when surface mesh is not manifold. Keep this as ***Float*** for most situations.
+    - **Float.** Faster and in a lot of cases more accurate when matching surface points.
+    - **Exact.** Much slower and rarely better. Included "just in case" it helps in rare cases.
 
 ### Materials
-TODO
+This section controls how materials and UVs are transferred from the surface to the insert meshes
+
+- **Transfer Surface Material.** How to transfer materials from the surface to the insert mesh.
+    - **None.** Don't transfer any materials.
+    - **Boundary Material.** Transfer the material island(s) that touch open edges.
+    - **All.** Overwrite all insert mesh materials with those on the surface.
+
+- **Transfer Material UVs.** Transfer UV Maps for the transferred materials.
+- **UV Map.** Which UV map to transfer.
 
 ### Debug
-TODO
+This section lets you inspect certain points along the process if the modifier isn't behaving as expected.
+
+- **View.** Outputs geometry from different points in the node graph.
+
+    !!! warning
+        This changes the output of the graph, make sure to turn off when done inspecting.
+    - **None.** Output standard result, no debugging.
+    - **Boolean Cutters.** Output the shapes used to cut the surface.
+    - **Skipped Insert Islands.** Output any mesh islands that did not project due to missed ray casts.
+
+<div class="grid cards" markdown>
+- ![Boolean Cutters](../assets/surface_insert/debug_cutters.png)
+Debug Cutters
+- ![Skipped Islands](../assets/surface_insert/debug_skipped_islands.png)
+Debug Skipped Insert Islands
+</div>

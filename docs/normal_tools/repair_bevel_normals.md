@@ -1,5 +1,7 @@
 # Repair Bevel Normals
 
+![Repair Bevel Normals Icon](../assets/icons/repair_bevel.png){ width=128 }
+
 Beveling a mesh with custom normals can lead to unexpected behavior. This tool identifies bevels and replicates Blender's "Harden Normals" functionality found on the bevel modifier.
 <div class="grid cards" markdown>
 
@@ -40,4 +42,4 @@ For weighting normals **inside** the bevel. Available when [Bevel Detection](#be
 
 ### Selection Panel
 
-See [Selection](asdf.md) page
+See [Selection](../common_settings.md#selection) options

@@ -1,4 +1,4 @@
-# Repair Boolean Normals
+# Repair Boolean Normals :construction_site:
 
 ![Repair Boolean Icon](../assets/icons/repair_boolean_normals_1.png){ width=128}
 
@@ -22,7 +22,7 @@ This can fix normal issues but will also introduce more issues as the value incr
 
 ### Selection Panel
 
-See [Selection](asdf.md) page
+See [Selection](../common_settings.md#selection) options
 
 ## How it Works
 

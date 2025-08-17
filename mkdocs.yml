@@ -89,9 +89,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - Install: install.md
-  - Tools Overview: tools_overview.md
-  - Examples: examples.md
+  - install.md
+  - tools_overview.md
+  - common_settings.md
+  - examples.md
 
   - Mesh Modifiers:
     - mesh_tools/index.md
