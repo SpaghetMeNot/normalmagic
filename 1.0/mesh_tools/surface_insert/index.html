@@ -22,7 +22,7 @@
     
     
       
-        <title>Surface Insert 🏗 - normalMagic</title>
+        <title>Surface Insert - normalMagic</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Surface Insert 🏗
+              Surface Insert
             
           </span>
         </div>
@@ -270,7 +270,7 @@
   
   
   <span class="md-ellipsis">
-    Install ⚠
+    Install 🏗
     
   </span>
   
@@ -424,7 +424,7 @@
   
   
   <span class="md-ellipsis">
-    Boolean Pro 🏗
+    Boolean Pro
     
   </span>
   
@@ -479,7 +479,7 @@
   
   
   <span class="md-ellipsis">
-    Surface Insert 🏗
+    Surface Insert
     
   </span>
   
@@ -492,7 +492,7 @@
   
   
   <span class="md-ellipsis">
-    Surface Insert 🏗
+    Surface Insert
     
   </span>
   
@@ -1458,7 +1458,7 @@
 
 
 
-<h1 id="surface-insert">Surface Insert <img alt="🏗" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3d7.svg" title=":construction_site:" /><a class="headerlink" href="#surface-insert" title="Permanent link">&para;</a></h1>
+<h1 id="surface-insert">Surface Insert<a class="headerlink" href="#surface-insert" title="Permanent link">&para;</a></h1>
 <p>Seamlessly join <strong>insert meshes</strong> into a mesh's surface.<br />
 An <strong>insert mesh</strong> can be thought of as a "decal", "patch" or "plug".</p>
 <p>There are two primary ways of performing the insert operation:</p>
@@ -1491,6 +1491,7 @@ Keep world position of geometry and blend to surface via masking. This allows yo
 <ol>
 <li>A receiving mesh object. This will have the modifier on it.</li>
 <li>An insert mesh with open edges. This will be projected, cut and welded into the surface of the receiving mesh.</li>
+<li>Insert mesh cannot partially cut into surface, it has to be fully surrounded.</li>
 </ol>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
 <h3 id="insert-meshes">Insert Meshes<a class="headerlink" href="#insert-meshes" title="Permanent link">&para;</a></h3>
@@ -1553,6 +1554,7 @@ Controlling falloff is covered <a href="../../common_settings/#mask-falloff">her
 <li><strong>Weld Distance.</strong> Distance at which to weld vertices, this takes effect at several points during the process, not just the final weld between surface and insert mesh.</li>
 <li><strong>Boolean Extrusion.</strong> How far to extrude the cutter shape from the surface. You might need to increase this value if the insert mesh covers a large area of curvature. You can preview cutters in the <a href="#debug">Debug</a> panel.
     <a class="glightbox" href="../../assets/surface_insert/boolean_extrusion.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Boolean Extrusion" src="../../assets/surface_insert/boolean_extrusion.gif" /></a></li>
+<li><strong>Boolean Offset.</strong> Offset the Boolean cutter outside the surface. This only effects the "top" of the cutter and will also help when an insert mesh covers a large area of curvature. You can preview cutters in the <a href="#debug">Debug</a> panel.</li>
 <li><strong>Non-Manifold Solver.</strong> Which boolean solver to use when surface mesh is not manifold. Keep this as <strong><em>Float</em></strong> for most situations.<ul>
 <li><strong>Float.</strong> Faster and in a lot of cases more accurate when matching surface points.</li>
 <li><strong>Exact.</strong> Much slower and rarely better. Included "just in case" it helps in rare cases.</li>
