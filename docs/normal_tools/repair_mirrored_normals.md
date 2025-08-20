@@ -16,4 +16,15 @@ Mirrored Custom Normals
 - **Normal Domain.** Whether normals are stored on points (smooth) or face corners (allows sharp edges)
 - **Method.** Choose which faces get mirrored normals:
     - **Detect.** Faces and axes will be determined automatically, this should work in most cases.
+    - **Side of Origin.** Select and mirror normals based on axis and object origin.
     - **Specify.** Specify which faces to flip normals and which axes to flip them on.
+
+### Side of Origin
+When using this method, other options become available:
+
+- **Recalculate Center Normals.** Recalculate Normals for points at the center of specified axes
+- **Mirror Axis.** Which axes to select and mirror normals on.
+- **Flip Axis.** Flip the direction of the selection of normals to mirror.
+
+### Selection
+See [Selection Options](../common_settings.md#selection)

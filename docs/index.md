@@ -18,7 +18,7 @@ Controlling normals can be essential for creating high quality 3D art. Whether i
     Most of these tools create or edit ***custom normals***.
 
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 
-    Tools are included to fix situations such as mirroring or beveling but it's something to be aware of.
+    Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it's something to be aware of.
 
 ## Tool Highlights
 

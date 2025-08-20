@@ -1,4 +1,4 @@
-# Surface Insert :construction_site:
+# Surface Insert
 
 
 Seamlessly join **insert meshes** into a mesh's surface.  
@@ -33,6 +33,7 @@ The **Surface Insert** Modifier performs the following steps:
 
 1. A receiving mesh object. This will have the modifier on it.
 2. An insert mesh with open edges. This will be projected, cut and welded into the surface of the receiving mesh.
+3. Insert mesh cannot partially cut into surface, it has to be fully surrounded.
 
 
 ## Options
@@ -84,6 +85,7 @@ This section controls how the surface is cut for the insert mesh.
 - **Weld Distance.** Distance at which to weld vertices, this takes effect at several points during the process, not just the final weld between surface and insert mesh.
 - **Boolean Extrusion.** How far to extrude the cutter shape from the surface. You might need to increase this value if the insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
     ![Boolean Extrusion](../assets/surface_insert/boolean_extrusion.gif)
+- **Boolean Offset.** Offset the Boolean cutter outside the surface. This only effects the "top" of the cutter and will also help when an insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
 - **Non-Manifold Solver.** Which boolean solver to use when surface mesh is not manifold. Keep this as ***Float*** for most situations.
     - **Float.** Faster and in a lot of cases more accurate when matching surface points.
     - **Exact.** Much slower and rarely better. Included "just in case" it helps in rare cases.
