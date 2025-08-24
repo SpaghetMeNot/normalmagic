@@ -4,7 +4,7 @@ Many tools share common options, for reference they are listed on this page.
 ---
 
 ## Mask Falloff
-When two sets of data blend together there are often falloff controls. These can be found across normalMagic in tools such as [Normal Transfer](normal_tools/normal_transfer.md), [Surface Insert](mesh_tools/surface_insert.md) and [Surface Blend](mesh_tools/surface_blend.md).
+When two sets of data blend together there are often falloff controls. These can be found across normalMagic in tools such as [Normal Transfer](normal_tools/normal_transfer.md), [Surface Insert](mesh_tools/surface_insert.md) and [Surface Project](mesh_tools/surface_project.md).
 
 
 ### Boundary Edge Expand

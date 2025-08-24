@@ -99,7 +99,7 @@ nav:
   - Mesh Modifiers:
     - mesh_tools/index.md
     - mesh_tools/boolean_pro.md
-    - mesh_tools/surface_blend.md
+    - mesh_tools/surface_project.md
     - mesh_tools/surface_insert.md
   
   - Normal Modifiers:

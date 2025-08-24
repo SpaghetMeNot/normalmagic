@@ -5,7 +5,7 @@ Examples can be found in ***examples.blend*** which is included as a separate do
 
 TODO
 
-## Surface Blend Examples
+## Surface Project Examples
 
 TODO
 

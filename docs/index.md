@@ -29,7 +29,7 @@ Controlling normals can be essential for creating high quality 3D art. Whether i
 
 ### **Seamlessly blend surfaces**
 
-- Project positions, normals and UVs with [Surface Blend](mesh_tools/surface_blend.md).
+- Project positions, normals and UVs with [Surface Project](mesh_tools/surface_project.md).
 - Merge, cut and weld projected meshes into a surface with [Surface Insert](mesh_tools/surface_insert.md).
 
 Convenient auto-masking options means no need for creating and managing vertex groups. Sharp edges can be preserved and transferred.
