@@ -8,10 +8,10 @@ For an individual purchasing normalMagic, licenses are as follows:
 - Add-on (Pro version): [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
 
 
-## Teams/Studio Licenses
+## :warning: Teams/Studio Licenses
 
 !!! danger "Not available until release"
-    Studios that wish to use/test normalMagic during early access please purchase **individual licenses** for **each team member**. 
+    Studios that wish to use/test normalMagic during early access can purchase an **individual license** for **each user**. 
     
     Upon release, individual licenses can be transferred into a studio license per request. This will discount the studio license by the price paid for each individual license.
 
