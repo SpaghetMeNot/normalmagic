@@ -95,6 +95,7 @@ nav:
   - tools_overview.md
   - common_settings.md
   - examples.md
+  - licensing.md
 
   - Mesh Modifiers:
     - mesh_tools/index.md
