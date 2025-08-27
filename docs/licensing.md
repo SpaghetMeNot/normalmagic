@@ -1,17 +1,19 @@
 # Licensing
 
-## Individuals
+## Individual Licenses
 
-For an individual purchasing normalMagic the licensing is as follows:
+For an individual purchasing normalMagic, licenses are as follows:
 
 - Asset Library: [Standard Royalty Free License](#standard-royalty-free-license)
-- Add-on (Pro tier only): [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
+- Add-on (Pro version): [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
 
 
-## Teams/Studios
+## Teams/Studio Licenses
 
-!!! danger "Will be made available on release"
-    Studios that wish to use/test normalMagic during early access please purchase **individual licenses** for **each team member**.
+!!! danger "Not available until release"
+    Studios that wish to use/test normalMagic during early access please purchase **individual licenses** for **each team member**. 
+    
+    Upon release, individual licenses can be transferred into a studio license per request. This will discount the studio license by the price paid for each individual license.
 
 For teams/studios the number of people that use normalMagic is limited by the version purchased.
 The following team sizes are available:
