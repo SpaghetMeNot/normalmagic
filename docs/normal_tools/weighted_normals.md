@@ -1,1 +1,0 @@
-# Weighted Normals :warning:

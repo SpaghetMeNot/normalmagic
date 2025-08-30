@@ -107,7 +107,7 @@ nav:
     - normal_tools/index.md
     - normal_tools/normal_transfer.md
     - normal_tools/smooth_normals.md
-    - normal_tools/weighted_normals.md
+    - normal_tools/face_weighted_normals.md
     - normal_tools/bent_normals.md
     - normal_tools/repair_bevel_normals.md
     - normal_tools/repair_boolean_normals.md
