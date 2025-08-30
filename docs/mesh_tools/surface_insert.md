@@ -2,7 +2,8 @@
 
 ![Surface Insert Icon](../assets/icons/surface_insert6.png){width=128}
 
-Seamlessly join **insert meshes** into a mesh's surface. An **insert mesh** can be thought of as a "decal", "patch" or "plug".
+Seamlessly join **insert meshes** into a mesh's surface.
+!!! tip "An **insert mesh** can be thought of as a "decal", "patch" or "plug"."
 
 There are two primary ways of performing the insert operation:
 
