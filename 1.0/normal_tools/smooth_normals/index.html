@@ -1433,13 +1433,17 @@
 </li>
 <li>
 <p><a class="glightbox" href="../../assets/smooth/mix_point_normals.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="mix_point_normals" src="../../assets/smooth/mix_point_normals.gif" /></a>
-    Mix smoothed point normals for a cheap SSS shading.</p>
+    Mix smoothed point normals for a unique effect (cheap SSS shading).</p>
 </li>
 </ul>
 </div>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Normal Domain.</strong> Whether normals are stored on points (smooth) or face corners (allows sharp edges).</li>
+<li><strong>Keep Sharp.</strong> Keep edges marked as sharp when normals are on face corners.</li>
+</ul>
 <h3 id="smoothed-proxy-mesh">Smoothed Proxy Mesh<a class="headerlink" href="#smoothed-proxy-mesh" title="Permanent link">&para;</a></h3>
-<p>Generate a smoothed version of the mesh to copy normals from. The mesh is split on sharp edges before smoothing, you can preview this mesh from the debug panel.</p>
+<p>Generate a smoothed version of the mesh to transfer normals from. The mesh is split on sharp edges before smoothing, you can preview this mesh from the debug panel.</p>
 <p><a class="glightbox" href="../../assets/smooth/smoothed_proxy.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="smoothed_proxy" src="../../assets/smooth/smoothed_proxy.gif" width="256" /></a></p>
 <ul>
 <li><strong>Transfer Method.</strong> How to transfer the normals from the smoothed mesh.<ul>
