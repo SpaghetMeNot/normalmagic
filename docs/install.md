@@ -1,6 +1,6 @@
 # Install
 
-normalMagic is installed as an asset library in Blender. There is an optional add-on included with the pro version that makes setting up the modifiers easier.
+normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version that makes setting up the modifiers easier.
 
 ## Asset Library
 
