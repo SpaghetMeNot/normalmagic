@@ -16,13 +16,16 @@ Smooth Normals will smooth mesh normals without smoothing mesh topology. This ca
     Smooth and/or completely flatten normal islands.
 
 - ![mix_point_normals](../assets/smooth/mix_point_normals.gif)
-    Mix smoothed point normals for a cheap SSS shading.
+    Mix smoothed point normals for a unique effect (cheap SSS shading).
 </div>
 
 ## Options
 
+- **Normal Domain.** Whether normals are stored on points (smooth) or face corners (allows sharp edges).
+- **Keep Sharp.** Keep edges marked as sharp when normals are on face corners.
+
 ### Smoothed Proxy Mesh
-Generate a smoothed version of the mesh to copy normals from. The mesh is split on sharp edges before smoothing, you can preview this mesh from the debug panel.
+Generate a smoothed version of the mesh to transfer normals from. The mesh is split on sharp edges before smoothing, you can preview this mesh from the debug panel.
 
 ![smoothed_proxy](../assets/smooth/smoothed_proxy.gif){width=256}
 
