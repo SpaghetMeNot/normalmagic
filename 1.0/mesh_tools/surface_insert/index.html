@@ -270,7 +270,7 @@
   
   
   <span class="md-ellipsis">
-    Install 🏗
+    Install
     
   </span>
   
@@ -292,7 +292,7 @@
   
   
   <span class="md-ellipsis">
-    Tools Overview 🏗
+    Tools Overview
     
   </span>
   
@@ -314,7 +314,7 @@
   
   
   <span class="md-ellipsis">
-    Common Settings 🏗
+    Common Settings
     
   </span>
   
@@ -336,7 +336,7 @@
   
   
   <span class="md-ellipsis">
-    Examples 🏗
+    Examples
     
   </span>
   
@@ -770,12 +770,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../normal_tools/weighted_normals/" class="md-nav__link">
+      <a href="../../normal_tools/face_weighted_normals/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Weighted Normals ⚠
+    Face Weighted Normals ⚠
     
   </span>
   
@@ -844,7 +844,7 @@
   
   
   <span class="md-ellipsis">
-    Repair Boolean Normals 🏗
+    Repair Boolean Normals
     
   </span>
   
@@ -1481,6 +1481,7 @@
 
 
 <h1 id="surface-insert">Surface Insert<a class="headerlink" href="#surface-insert" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="../../assets/icons/surface_insert6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Surface Insert Icon" src="../../assets/icons/surface_insert6.png" width="128" /></a></p>
 <p>Seamlessly join <strong>insert meshes</strong> into a mesh's surface. An <strong>insert mesh</strong> can be thought of as a "decal", "patch" or "plug".</p>
 <p>There are two primary ways of performing the insert operation:</p>
 <div class="grid cards">
@@ -1502,7 +1503,7 @@ Keep world position of geometry and blend to surface via masking. This allows yo
 </ol>
 <div class="admonition info">
 <p class="admonition-title">Mesh Islands</p>
-<p>Insert meshes are performed per mesh island. Only mesh islands with open edges will be cut and welded into the original surface.</p>
+<p>Insert meshes are performed per mesh island. Only mesh islands with <strong>open edges</strong> will be cut and welded into the original surface.</p>
 <ul>
 <li>Manifold (solid) mesh islands can be projected but won't affect the underlying surface geometry.</li>
 <li>Mesh islands that miss a raycast will be skipped entirely and a warning will show on the modifier.</li>
@@ -1549,9 +1550,9 @@ Keep world position of geometry and blend to surface via masking. This allows yo
 </li>
 </ul>
 <h4 id="projection-masking">Projection Masking<a class="headerlink" href="#projection-masking" title="Permanent link">&para;</a></h4>
-<p>This section controls masking the projection of insert meshes to the surface. This is most useful when using <strong><em>Blend with Surface</em></strong>.
-<a class="glightbox" href="../../assets/surface_insert/falloff.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="falloff" src="../../assets/surface_insert/falloff.gif" /></a>
-Controlling falloff is covered <a href="../../common_settings/#mask-falloff">here</a></p>
+<p>This section controls masking the projection of insert meshes to the surface. This is most useful when using <strong><em>Blend with Surface</em></strong>.</p>
+<p><a class="glightbox" href="../../assets/surface_insert/falloff.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="falloff" src="../../assets/surface_insert/falloff.gif" /></a></p>
+<p>Controlling falloff is covered <a href="../../common_settings/#mask-falloff">here</a></p>
 <h4 id="normals">Normals<a class="headerlink" href="#normals" title="Permanent link">&para;</a></h4>
 <p>This section controls how much of the surface normals are transferred to the insert mesh. This is most useful when using <strong><em>Blend with Surface</em></strong>.</p>
 <ul>
