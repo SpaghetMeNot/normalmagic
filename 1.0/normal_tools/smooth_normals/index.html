@@ -22,7 +22,7 @@
     
     
       
-        <title>Smooth Normals 🏗 - normalMagic</title>
+        <title>Smooth Normals - normalMagic</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Smooth Normals 🏗
+              Smooth Normals
             
           </span>
         </div>
@@ -621,17 +621,109 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Smooth Normals
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Smooth Normals 🏗
+    Smooth Normals
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smoothed-proxy-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smoothed Proxy Mesh
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smooth-normals_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smooth Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flatten-normal-islands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flatten Normal Islands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mix-point-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mix Point Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1240,6 +1332,74 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smoothed-proxy-mesh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smoothed Proxy Mesh
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smooth-normals_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smooth Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flatten-normal-islands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flatten Normal Islands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mix-point-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mix Point Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1254,18 +1414,70 @@
 
 
 
-<h1 id="smooth-normals">Smooth Normals <img alt="🏗" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3d7.svg" title=":construction_site:" /><a class="headerlink" href="#smooth-normals" title="Permanent link">&para;</a></h1>
-<p>Smooth Normals will smooth mesh normals without smoothing mesh topology. </p>
-<p>Some common use-cases for this are:</p>
+<h1 id="smooth-normals">Smooth Normals<a class="headerlink" href="#smooth-normals" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="../../assets/icons/smooth_normals_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Smooth Normals Icon" src="../../assets/icons/smooth_normals_1.png" width="128" /></a></p>
+<p>Smooth Normals will smooth mesh normals without smoothing mesh topology. This can be useful in a variety of situations</p>
+<div class="grid cards">
 <ul>
-<li>Achieve good shading on difficult topology. (Pinched, uneven or distorted normals).</li>
-<li>Achieve stylized effects:<ul>
-<li>Improve cel shading contours.</li>
-<li>Flatten normal islands.</li>
-<li>Fake SSS by mixing face corner and point normals together.</li>
-</ul>
+<li>
+<p><a class="glightbox" href="../../assets/smooth/fix%20bad_shading.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="fix_bad_shading" src="../../assets/smooth/fix%20bad_shading.gif" /></a>
+    Achieve good shading on difficult topology. (Pinched, uneven or distorted normals).</p>
+</li>
+<li>
+<p><a class="glightbox" href="../../assets/smooth/cel_contour.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="cel_shading" src="../../assets/smooth/cel_contour.gif" /></a>
+    Simplify cel shading contours.</p>
+</li>
+<li>
+<p><a class="glightbox" href="../../assets/smooth/smooth_flatten.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="smooth_flatten" src="../../assets/smooth/smooth_flatten.gif" /></a>
+    Smooth and/or completely flatten normal islands.</p>
+</li>
+<li>
+<p><a class="glightbox" href="../../assets/smooth/mix_point_normals.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="mix_point_normals" src="../../assets/smooth/mix_point_normals.gif" /></a>
+    Mix smoothed point normals for a cheap SSS shading.</p>
 </li>
 </ul>
+</div>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<h3 id="smoothed-proxy-mesh">Smoothed Proxy Mesh<a class="headerlink" href="#smoothed-proxy-mesh" title="Permanent link">&para;</a></h3>
+<p>Generate a smoothed version of the mesh to copy normals from. The mesh is split on sharp edges before smoothing, you can preview this mesh from the debug panel.</p>
+<p><a class="glightbox" href="../../assets/smooth/smoothed_proxy.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="smoothed_proxy" src="../../assets/smooth/smoothed_proxy.gif" width="256" /></a></p>
+<ul>
+<li><strong>Transfer Method.</strong> How to transfer the normals from the smoothed mesh.<ul>
+<li><strong>Closest Surface.</strong> Transfer normals from the closest point of the smoothed mesh.</li>
+<li><strong>Point Index.</strong> Transfer normals by their original point index.</li>
+</ul>
+</li>
+<li><strong>Iterations.</strong> How many iterations of smoothing to perform.</li>
+</ul>
+<h3 id="smooth-normals_1">Smooth Normals<a class="headerlink" href="#smooth-normals_1" title="Permanent link">&para;</a></h3>
+<p>Controls methods of directly smoothing mesh normals.</p>
+<ul>
+<li>
+<p><strong>Smooth Method.</strong> How to smooth normals:</p>
+<ul>
+<li><strong>None.</strong> Don't perform any direct normal smoothing.</li>
+<li><strong>Blur Normals.</strong> Fastest Method of smoothing at the cost of being less accurate and not preserving shape as well.</li>
+<li><strong>Smooth Normals.</strong> Iterative smooth function of normals. Slower than blur but can produce better results.</li>
+</ul>
+</li>
+<li>
+<p><strong>Smooth/Blur Iterations.</strong> How many iterations of smoothing to apply to normals.</p>
+</li>
+<li><strong>Face Weight Influence.</strong> Cheap approximation of face weighted normals, lessens the contribution of smaller faces.</li>
+</ul>
+<h3 id="flatten-normal-islands">Flatten Normal Islands<a class="headerlink" href="#flatten-normal-islands" title="Permanent link">&para;</a></h3>
+<p>Calculate the average normal direction for entire normal islands (defined by sharp edges).</p>
+<ul>
+<li><strong>Amount.</strong> How much to blend to the completely flat island normals.</li>
+</ul>
+<h3 id="mix-point-normals">Mix Point Normals<a class="headerlink" href="#mix-point-normals" title="Permanent link">&para;</a></h3>
+<p>Mix in smoothed point normals. This can achieve a unique effect, somewhat like sub-surface scattering.</p>
+<ul>
+<li><strong>Amount.</strong> How much to blend to the smoothed point normals.</li>
+<li><strong>Blur Iterations.</strong> Perform blur iterations on the point normals.</li>
+</ul>
+<h3 id="selection">Selection<a class="headerlink" href="#selection" title="Permanent link">&para;</a></h3>
+<p>See <a href="../../common_settings/#selection">Selection</a> options</p>
 
 
 
