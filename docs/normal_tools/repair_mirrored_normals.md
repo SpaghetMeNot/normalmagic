@@ -1,5 +1,7 @@
 # Repair Mirrored Normals
 
+![Repair Mirrored Normals](../assets/icons/repair_mirrored.png){width=128}
+
 Mirroring a mesh with custom normals will not mirror the normals. This leads to incorrect normals on the mirrored geometry.
 
 This modifier will detect mesh islands with flipped normals and what axis they need flipping on.

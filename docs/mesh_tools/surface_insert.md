@@ -1,5 +1,6 @@
 # Surface Insert
 
+![Surface Insert Icon](../assets/icons/surface_insert6.png){width=128}
 
 Seamlessly join **insert meshes** into a mesh's surface. An **insert mesh** can be thought of as a "decal", "patch" or "plug".
 
@@ -22,7 +23,7 @@ The **Surface Insert** Modifier performs the following steps:
 - Vertices are matched on both sides of the seam and welded.
 
 !!! info "Mesh Islands"
-    Insert meshes are performed per mesh island. Only mesh islands with open edges will be cut and welded into the original surface.
+    Insert meshes are performed per mesh island. Only mesh islands with **open edges** will be cut and welded into the original surface.
 
     - Manifold (solid) mesh islands can be projected but won't affect the underlying surface geometry.
     - Mesh islands that miss a raycast will be skipped entirely and a warning will show on the modifier.
@@ -62,7 +63,9 @@ This section specifies which meshes to insert
 
 #### Projection Masking
 This section controls masking the projection of insert meshes to the surface. This is most useful when using ***Blend with Surface***.
+
 ![falloff](../assets/surface_insert/falloff.gif)
+
 Controlling falloff is covered [here](../common_settings.md#mask-falloff)
 
 #### Normals

@@ -1,4 +1,4 @@
-# Repair Boolean Normals :construction_site:
+# Repair Boolean Normals
 
 ![Repair Boolean Icon](../assets/icons/repair_boolean_normals_1.png){ width=128}
 
