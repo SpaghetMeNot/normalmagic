@@ -22,7 +22,7 @@
     
     
       
-        <title>View Sharp ⚠ - normalMagic</title>
+        <title>View Sharp - normalMagic</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              View Sharp ⚠
+              View Sharp
             
           </span>
         </div>
@@ -851,17 +851,58 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    View Sharp
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    View Sharp ⚠
+    View Sharp
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1240,6 +1281,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1254,7 +1312,26 @@
 
 
 
-<h1 id="view-sharp">View Sharp <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /><a class="headerlink" href="#view-sharp" title="Permanent link">&para;</a></h1>
+<h1 id="view-sharp">View Sharp<a class="headerlink" href="#view-sharp" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="../../assets/icons/view_sharp.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="View Sharp Icon" src="../../assets/icons/view_sharp.png" width="128" /></a></p>
+<p>View sharp generates geometry to visualize sharp edges on a mesh. Similar to <a href="../view_normals/">View Normals</a> colors are currently only available in <a href="https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#material-preview">Material Preview</a> and <a href="https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#rendered">Rendered</a> viewport shading.</p>
+<p><a class="glightbox" href="../../assets/view/view_sharp.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="View Sharp" src="../../assets/view/view_sharp.gif" width="512" /></a></p>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong>Detect Sharp.</strong> How to detect sharp edges:</p>
+<ul>
+<li><strong>From Markup.</strong> Use smooth shading attributes to define sharp edges. This might miss sharp edges defined by custom normals.</li>
+<li><strong>From Normals.</strong> Detect sharp edges from normals. This will detect sharp edges created from custom normals but can have a small amount of error.</li>
+<li><strong>Both.</strong> Combine both methods above to detect sharp edges.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tolerance (When "From Normals" is used).</strong> Change the normal angle difference at which edges will be marked as sharp.</p>
+</li>
+<li><strong>Width.</strong> Width of pipe geometry created in object-space.</li>
+<li><strong>Color.</strong> Color to apply to sharp edge visualization. </li>
+</ul>
 
 
 
