@@ -5,7 +5,7 @@
 View Normals creates geometry to visualize mesh normals on objects.
 
 - Normals will show up in object mode
-- Normal Colors are currently only available in [Material Preview](https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#material-preview) and [Rendered](https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#rendered) viewport shading
+- Normal Colors are currently only available in [Material Preview](https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#material-preview) and [Rendered](https://docs.blender.org/manual/en/latest/editors/3dview/display/shading.html#rendered) viewport shading.
 
 ## Options
 

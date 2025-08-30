@@ -2,7 +2,7 @@
 
 ![Smooth Normals Icon](../assets/icons/smooth_normals_1.png){width=128}
 
-Smooth Normals will smooth mesh normals without smoothing mesh topology. This can be useful in a variety of situations
+Smooth Normals will smooth mesh normals without smoothing mesh topology. This can be useful in a variety of situations.
 
 <div class="grid cards" markdown>
 

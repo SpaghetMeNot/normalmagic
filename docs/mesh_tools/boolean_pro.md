@@ -13,13 +13,13 @@ The most powerful feature is transferring the normals automatically from boolean
 
 ![Perfect Boolean Normals](../assets/bool_pro_1.gif)
 
-The cutter object can be expanded with even thickness before cutting:
+The cutter object can be given an outset (expanded) with even thickness before cutting:
 
 ![Expand Boolean](../assets/booleans/bool_expand.gif)
 
 There is also a ***Slice*** operation with optional inset:
 
-| Intersect | Union | Difference | ++"Slice"++ |
+| Intersect | Union | Difference | Slice |
 |---|---|---|---|
 |![Intersect](../assets//booleans/bool_intersect.png) |![Union](../assets//booleans/bool_union.png)|![Difference](../assets//booleans/bool_diff.png) |![Slice](../assets//booleans/bool_slice.gif)|
 
@@ -38,7 +38,7 @@ There is also a ***Slice*** operation with optional inset:
     - **Float.** Simple solver with good performance.
     - **Exact.** Slower solver with best results on coplanar faces.
     - **Manifold.** (Default) Fastest solver that works only on manifold meshes but gives better results.
-- **Expand Cutter.** Expands the cutter mesh with even thickness.
+- **Outset.** Expands the cutter mesh with even thickness.
 - **Inset (Slice Mode).** Offsets the cutter inwards for the intersect boolean to give a gap between meshes.
 
 ### Weld
