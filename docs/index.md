@@ -16,6 +16,8 @@ Welcome to the **normalMagic** documentation. Here you'll find everything there 
 ## What is normalMagic?
 normalMagic is a collection of tools for [Blender](https://www.blender.org/) that offer powerful new modelling workflows and advanced control over mesh normals.
 
+![all_tools](./assets/all_tools.png)
+
 Controlling normals can be essential for creating high quality 3D artwork. Everything from hard surfaces, organic shapes, foliage, hair and fur, either realistic or stylized can benefit from modifying normals. Sometimes it's the only way to get surfaces shading the way you want.
 
 !!! info "Custom Normals"
