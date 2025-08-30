@@ -2,7 +2,10 @@
 
 !!! warning "Site under construction :construction_site: :construction:"
 
-Welcome to the normalMagic documentation. Here you'll find everything there is to know about the tools.
+Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
+
+
+
 <div class="grid cards" markdown>
 
 - [:octicons-download-16: Install normalMagic](install.md)
@@ -10,9 +13,10 @@ Welcome to the normalMagic documentation. Here you'll find everything there is t
 
 </div>
 
-**normalMagic** is a versatile Blender toolset designed to give you powerful control over mesh normals and enhance modeling workflows.
+## What is normalMagic?
+normalMagic is a collection of tools for [Blender](https://www.blender.org/) that offer powerful new modelling workflows and advanced control over mesh normals.
 
-Controlling normals can be essential for creating high quality 3D art. Whether it's for hard surfaces, foliage, cel shading, hair/fur... The list goes on! Modifying normals is sometimes the only way to get surfaces behaving the way you want.
+Controlling normals can be essential for creating high quality 3D artwork. Everything from hard surfaces, organic shapes, foliage, hair and fur, either realistic or stylized can benefit from modifying normals. Sometimes it's the only way to get surfaces shading the way you want.
 
 !!! info "Custom Normals"
     Most of these tools create or edit ***custom normals***.
@@ -22,21 +26,23 @@ Controlling normals can be essential for creating high quality 3D art. Whether i
 
 ## Tool Highlights
 
-### **Perfect boolean normals**
+### :material-check-circle: **Perfect boolean normals**
 
 - Completely avoid boolean normal issues with [Boolean Pro](mesh_tools/boolean_pro.md).
 - Repair normals on previously cut geometry with [Repair Boolean Normals](normal_tools/repair_boolean_normals.md).
 
-### **Seamlessly blend surfaces**
+### :material-check-circle: **Seamlessly blend surfaces**
 
 - Project positions, normals and UVs with [Surface Project](mesh_tools/surface_project.md).
 - Merge, cut and weld projected meshes into a surface with [Surface Insert](mesh_tools/surface_insert.md).
 
 Convenient auto-masking options means no need for creating and managing vertex groups. Sharp edges can be preserved and transferred.
 
-### **Smooth Normals**
+### :material-check-circle: **Smooth and Transfer Normals**
 
-Smooth normals to improve shading, achieve good toon lighting or for cheap subsurface scattering effects.
+- Smooth and flatten normals normals to improve shading, achieve good toon lighting or for cheap subsurface scattering effects with [Smooth Normals](normal_tools/smooth_normals.md)
+- Transfer and blend normals between unconnected meshes using [Normal Transfer](./normal_tools/normal_transfer.md)
+
 
 
 ## Contact
