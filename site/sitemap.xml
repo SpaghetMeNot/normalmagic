@@ -1,119 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/common_settings/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/common_settings/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/examples/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/examples/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/install/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/install/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/tools_overview/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/licensing/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/add-on/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/tools_overview/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/add-on/boolean_pro/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/troubleshooting/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/manual_tools/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/add-on/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/manual_tools/recalculate_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/add-on/boolean_pro/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/mesh_tools/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/manual_tools/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/mesh_tools/boolean_pro/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/manual_tools/recalculate_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/mesh_tools/surface_blend/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/mesh_tools/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/mesh_tools/surface_insert/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/mesh_tools/boolean_pro/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/mesh_tools/surface_insert/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/bent_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/mesh_tools/surface_project/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/normal_transfer/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/repair_bevel_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/bent_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/repair_boolean_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/face_weighted_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/repair_mirrored_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/normal_transfer/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/smooth_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/repair_bevel_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/normal_tools/weighted_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/repair_boolean_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/other_tools/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/repair_mirrored_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/other_tools/auto-flip_faces/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/normal_tools/smooth_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/other_tools/instance_object/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/other_tools/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/other_tools/mark_sharp/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/other_tools/auto-flip_faces/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/other_tools/sharp_edges_to_attribute/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/other_tools/instance_object/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/visualize_tools/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/other_tools/mark_sharp/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/visualize_tools/view_normals/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/other_tools/sharp_edges_to_attribute/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
     <url>
-         <loc>https://spaghetmenot.github.io/normalmagic/1.0/visualize_tools/view_sharp/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/visualize_tools/</loc>
+         <lastmod>2025-08-30</lastmod>
+    </url>
+    <url>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/visualize_tools/view_normals/</loc>
+         <lastmod>2025-08-30</lastmod>
+    </url>
+    <url>
+         <loc>https://spaghetmenot.github.io/normalmagic/latest/1.0/visualize_tools/view_sharp/</loc>
+         <lastmod>2025-08-30</lastmod>
     </url>
 </urlset>
