@@ -1,4 +1,4 @@
-# Common Settings :construction_site:
+# Common Settings
 Many tools share common options, for reference they are listed on this page.
 
 ---
