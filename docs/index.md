@@ -50,6 +50,8 @@ Convenient auto-masking options means no need for creating and managing vertex g
 ## Contact
 
 If anything is unclear or missing, please reach out!  
+
+:simple-discord: [spaghetTools Discord](https://discord.gg/CtpZWGHFhG)  
 :material-email: <spaghetmenot@gmail.com>  
 :fontawesome-brands-bluesky: [@spaghetmenot.bsky.social](https://bsky.app/profile/spaghetmenot.bsky.social)  
 :fontawesome-brands-mastodon: [@SpaghetMeNot@mastodon.social](https://mastodon.social/@SpaghetMeNot)
