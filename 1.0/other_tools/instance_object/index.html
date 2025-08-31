@@ -22,7 +22,7 @@
     
     
       
-        <title>Instance Object ⚠ - normalMagic</title>
+        <title>Instance Object - normalMagic</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instance Object ⚠
+              Instance Object
             
           </span>
         </div>
@@ -947,17 +947,73 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Instance Object
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Instance Object ⚠
+    Instance Object
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transform-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transform Instance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1240,6 +1296,38 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transform-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transform Instance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1254,7 +1342,31 @@
 
 
 
-<h1 id="instance-object">Instance Object <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /><a class="headerlink" href="#instance-object" title="Permanent link">&para;</a></h1>
+<h1 id="instance-object">Instance Object<a class="headerlink" href="#instance-object" title="Permanent link">&para;</a></h1>
+<p>Instances another object (after modifiers) to replace or append to the current objects geometry. This can be particularly useful when re-using details.</p>
+<div class="grid">
+<p><a class="glightbox" href="../../assets/other_tools/instance.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Instance" src="../../assets/other_tools/instance.gif" /></a>
+Create duplicates of an object without needing to sync all modifier settings to the duplicates.</p>
+<p><a class="glightbox" href="../../assets/other_tools/instance_append.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Instance Append" src="../../assets/other_tools/instance_append.gif" /></a>
+Append to and nest modular pieces. Such as these bolt inserts, these can be instanced themselves and used with <a href="../../mesh_tools/surface_insert/">Surface Insert</a> on larger meshes.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Add-on</p>
+<p>The normalMagic <a href="../../add-on/">Add-on</a> has instance operators:</p>
+<p><a class="glightbox" href="../../assets/add-on/instance_panel.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="addonpanel" src="../../assets/add-on/instance_panel.png" /></a></p>
+<ul>
+<li>Create a linked duplicate of an object(s), replace all modifiers with <strong>Instance Object</strong></li>
+<li>Select original object being instanced</li>
+</ul>
+</div>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Object.</strong> Object to instance</li>
+<li><strong>As Instance.</strong> When turned off, will copy object's geometry. Turned on will instance the object <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/instances.html">Official Documentation</a></li>
+<li><strong>Replace / Append.</strong> Replace will replace current objects geometry with that of the instance. Append will keep geometry and append the instanced object with additional transform options.</li>
+</ul>
+<h3 id="transform-instance">Transform Instance<a class="headerlink" href="#transform-instance" title="Permanent link">&para;</a></h3>
+<p>When appending the instance, these settings allow you to transform the instance relative to the objects origin.</p>
 
 
 
