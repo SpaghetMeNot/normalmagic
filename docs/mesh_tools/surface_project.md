@@ -4,12 +4,12 @@
 
 Project and blend geometry onto another mesh's surface, transfer normals and UVs for a seamless blend.
 
-<div class="grid" markdown>
+<div class="grid cards" markdown>
 
-![Surface Project 1](../assets/surface_project/surface_blend_1.gif)
+- ![Surface Project 1](../assets/surface_project/surface_blend_1.gif)  
 Blend a mesh object to others. Multiple other mesh surfaces can be specified.
 
-![Surface Project 2](../assets/surface_project/surface_blend_2.gif)
+- ![Surface Project 2](../assets/surface_project/surface_blend_2.gif)  
 Project mesh as a "Decal" other objects. This flattens the geometry but keeps the original normals.
 
 </div>
