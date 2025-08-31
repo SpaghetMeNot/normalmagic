@@ -15,7 +15,7 @@ Append to and nest modular pieces. Such as these bolt inserts, these can be inst
 
 
 !!! tip "Add-on"
-    The normalMagic [Add-on](../add-on/index.md) has instance operators:
+    The normalMagic [Add-on](../add-on/index.md) has instance operators to make working with this modifier easier:
     
     ![addonpanel](../assets/add-on/instance_panel.png)
 

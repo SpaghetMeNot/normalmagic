@@ -36,3 +36,7 @@ To install the add-on simply:
 1. Download the latest "addon" .zip file.
 2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)
 
+You should now see a "Normal Magic" tab in the sidebar of the 3D viewport:
+
+![addon panel](./assets/add-on/addon_panel.png)
+

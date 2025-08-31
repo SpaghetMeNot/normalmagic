@@ -5,9 +5,8 @@
 Boolean Pro is designed to act as a replacement for Blender's built-in boolean modifier with extra functionality. For reference here is the  documentation for Blender's built-in modifier: [Documentation](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html)
 
 !!! tip "Add-on"
-    The normalMagic add-on (Pro version) includes operators to quickly set up the Boolean Pro modifier, similar the the Bool Tool add-on.
+    The [normalMagic Add-on](../add-on/index.md) includes operators to quickly set up the Boolean Pro modifier, similar the the Bool Tool add-on.
 
-    [normalMagic Add-on](../add-on/index.md)
 
 The most powerful feature is transferring the normals automatically from boolean inputs for perfect boolean normals:
 

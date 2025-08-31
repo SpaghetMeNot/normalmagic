@@ -131,4 +131,6 @@ nav:
 
   - Add-on:
     - add-on/index.md
+    - add-on/preferences.md
     - add-on/boolean_pro.md
+    - add-on/instance_objects.md
