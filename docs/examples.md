@@ -1,4 +1,6 @@
 # Examples
+
+## Example Scenes
 Examples for all tools can be found in the "Examples" file available as a separate download on the store page: ***normalMagic \[version\] Examples.blend***
 
 This file contains several scenes, each showing different categories of tools.
