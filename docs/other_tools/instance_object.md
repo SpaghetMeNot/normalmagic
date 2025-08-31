@@ -1,6 +1,6 @@
 # Instance Object
 
-Instances another object (after modifiers) to replace or append to the current objects geometry. This can be particularly useful when re-using details.
+Instances another object (after modifiers) to replace or append to the current objects geometry. This can be particularly useful for re-using details.
 
 <div class="grid" markdown>
 
