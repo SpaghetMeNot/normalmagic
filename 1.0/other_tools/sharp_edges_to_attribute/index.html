@@ -22,7 +22,7 @@
     
     
       
-        <title>Sharp Edges to Attribute ⚠ - normalMagic</title>
+        <title>Sharp Edges to Attribute - normalMagic</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sharp Edges to Attribute ⚠
+              Sharp Edges to Attribute
             
           </span>
         </div>
@@ -993,17 +993,91 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Sharp Edges to Attribute
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Sharp Edges to Attribute ⚠
+    Sharp Edges to Attribute
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharp-edge-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharp Edge Detection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expand-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expand Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Attributes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1240,6 +1314,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharp-edge-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharp Edge Detection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expand-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expand Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Attributes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1254,7 +1378,49 @@
 
 
 
-<h1 id="sharp-edges-to-attribute">Sharp Edges to Attribute <img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /><a class="headerlink" href="#sharp-edges-to-attribute" title="Permanent link">&para;</a></h1>
+<h1 id="sharp-edges-to-attribute">Sharp Edges to Attribute<a class="headerlink" href="#sharp-edges-to-attribute" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="../../assets/icons/sharp_to_attribute.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Sharp Edges to Attribute Icon" src="../../assets/icons/sharp_to_attribute.png" width="128" /></a></p>
+<p>Write edge and point attributes based on sharp edges or other arbitrary edge attributes.</p>
+<div class="grid cards">
+<ul>
+<li>
+<p>Edge attributes can be used for:  </p>
+<ul>
+<li>Mark sharp edges as UV seams.</li>
+<li>Add a bevel weight to sharp edges.</li>
+<li>Detect sharp edges from custom normals and mark them as sharp.</li>
+</ul>
+</li>
+<li>
+<p>Point attributes can be used for:  </p>
+<ul>
+<li>Creating a vertex group for selection in another modifier from sharp edges.</li>
+<li>Expanding selection with or without a falloff.</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<h3 id="sharp-edge-detection">Sharp Edge Detection<a class="headerlink" href="#sharp-edge-detection" title="Permanent link">&para;</a></h3>
+<p>How to specify edges to write to attribute(s)</p>
+<ul>
+<li><strong>Detect From Markup.</strong> Use smooth shading attributes to define sharp edges. This might miss sharp edges defined by custom normals.</li>
+<li><strong>Detect Custom.</strong> Detect sharp edges from normals. This will detect sharp edges created from custom normals but can have a small amount of error.</li>
+<li><strong>Tolerance (When "Detect Custom" is on).</strong> Change the normal angle difference at which edges will be marked as sharp.</li>
+</ul>
+<h3 id="expand-points">Expand Points<a class="headerlink" href="#expand-points" title="Permanent link">&para;</a></h3>
+<p>Expand point selection. Can be useful in <a href="../../common_settings/#selection">Selection Panel</a> of other modifiers.</p>
+<ul>
+<li><strong>Point Values.</strong> How selection is expanded:<ul>
+<li><strong>Float.</strong> Each expansion gets a lower value creating a falloff.</li>
+<li><strong>Bool.</strong> Each expansion is set to 1.</li>
+</ul>
+</li>
+<li><strong>Expand Iterations.</strong> How many edges to expand point selection.</li>
+<li><strong>Falloff (When Point Values are "Float").</strong> Falloff of point selection. similar to <a href="../../common_settings/#base-falloff">mask falloff</a></li>
+</ul>
+<h3 id="output-attributes">Output Attributes<a class="headerlink" href="#output-attributes" title="Permanent link">&para;</a></h3>
+<p>What to name Edge / Point attributes. <strong>Leaving blank will not write to any attributes.</strong></p>
 
 
 
