@@ -1,7 +1,5 @@
 # normalMagic Home
 
-!!! warning "Site under construction :construction_site: :construction:"
-
 Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
 
 
