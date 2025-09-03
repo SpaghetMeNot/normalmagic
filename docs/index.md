@@ -24,6 +24,8 @@ Controlling normals can be essential for creating high quality 3D artwork. Every
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 
     Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it's something to be aware of.
 
+[:simple-gumroad:  Buy normalMagic](https://spaghetmenot.gumroad.com/l/normalmagic){ .md-button .md-button--primary }
+
 ## Tool Highlights
 
 ### :material-check-circle: **Perfect boolean normals**
