@@ -1,6 +1,6 @@
 # Install
 
-normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version that makes setting up the modifiers easier.
+normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version which makes it easier and faster to set up certain modifiers.
 
 ## Asset Library
 
@@ -36,7 +36,7 @@ To install the add-on simply:
 1. Download the latest "addon" .zip file.
 2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)
 
-You should now see a "Normal Magic" tab in the sidebar of the 3D viewport:
+You should now see a "Normal Magic" tab in the sidebar of the 3D viewport.
 
 ![addon panel](./assets/add-on/addon_panel.png)
 

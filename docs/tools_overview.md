@@ -1,12 +1,12 @@
 # Tools Overview
 !!! info "Custom Normals"
-    Most of these tools create or edit ***custom normals***. These can be unintuitive to work with if you're unfamiliar.
+    Most of these tools create or edit ***custom normals***. These can be unintuitive to work with if you're unfamiliar with them.
 
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 
-    Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it's something to be aware of.
+    Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it is something to be aware of.
 
 ## Asset Library
-The core of normalMagic is an asset library. You'll find links to all the tools in the sidebar under the following categories:
+The core of normalMagic is an asset library. You will find links to all the tools in the sidebar under the following categories:
 
 - [Mesh Modifiers](./mesh_tools/index.md)
 - [Normal Modifiers](./normal_tools/index.md)

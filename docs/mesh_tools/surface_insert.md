@@ -2,7 +2,7 @@
 
 ![Surface Insert Icon](../assets/icons/surface_insert6.png){width=128}
 
-Seamlessly join **insert meshes** into a mesh's surface.
+Seamlessly join **insert meshes** into the surface of a mesh.
 !!! tip "An **insert mesh** can be thought of as a "decal", "patch" or "plug"."
 
 There are two primary ways of performing the insert operation:
@@ -40,21 +40,21 @@ The **Surface Insert** Modifier performs the following steps:
 ## Options
 
 ### Insert Meshes
-This section specifies which meshes to insert
+This section specifies which meshes to insert.
 
-- **Objects/Collection.** Choose individual mesh objects or a collection containing mesh objects
-- **Object Count.** How many mesh objects to insert (when in ***Objects*** mode)
+- **Objects/Collection:** Choose individual mesh objects or a collection containing mesh objects.
+- **Object Count:** How many mesh objects to insert (when in ***Objects*** mode).
 
 ### Insert Mesh Projection
 
-- **Method.** How to project the insert meshes to the underlying surface
-    - **Wrap to Surface.** Warp geometry to match the underlying surface.
-    - **Blend with Surface.** Warp geometry to match the underlying surface.
+- **Method:** How to project the insert meshes to the underlying surface:
+    - **Wrap to Surface:** Warp geometry to match the underlying surface.
+    - **Blend with Surface:** Warp geometry to match the underlying surface.
 
-- **Projection Direction.** Which direction to project insert mesh(es)
-    - **Mesh Island Normal.** Use average mesh island normal
-    - **Insert Direction.** Specify a direction in the space of each insert object
-    - **Object Direction.** Specify a direction in the space of receiving object
+- **Projection Direction:** Which direction to project insert mesh(es).
+    - **Mesh Island Normal:** Use average mesh island normal
+    - **Insert Direction:** Specify a direction in the space of each insert object.
+    - **Object Direction:** Specify a direction in the space of receiving object.
 
 - **Projection Origin.** Where to use as the origin of the insert object. This will affect how the objects height is calculated for re-projection.
 
