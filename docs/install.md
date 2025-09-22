@@ -2,6 +2,8 @@
 
 normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version that makes setting up the modifiers easier.
 
+<iframe width="900" height="390" src="https://www.youtube.com/embed/JhmOyhYI4zM?si=lt3rrJaOTV8b3G8s&amp;start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Asset Library
 
 !!! tip "TLDR"

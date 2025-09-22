@@ -2,8 +2,6 @@
 
 Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
 
-
-
 <div class="grid cards" markdown>
 
 - [:octicons-download-16: Install normalMagic](install.md)
@@ -16,6 +14,8 @@ normalMagic is a collection of tools for [Blender](https://www.blender.org/) tha
 
 ![all_tools](./assets/all_tools.png)
 
+<iframe width="900" height="390" src="https://www.youtube.com/embed/JhmOyhYI4zM?si=lt3rrJaOTV8b3G8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Controlling normals can be essential for creating high quality 3D artwork. Hard surfaces, organic shapes, foliage, hair and fur can benefit from modifying normals. Sometimes it's the only way to get surfaces shading the way you want.
 
 !!! info "Custom Normals"
@@ -23,6 +23,8 @@ Controlling normals can be essential for creating high quality 3D artwork. Hard 
 
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 
     Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it is something to be aware of.
+
+    See this video for more information: [Custom Normal Issues](https://youtu.be/NoISc01URHg?si=s6NedSzDIFr30zOe)
 
 [:simple-gumroad:  Buy normalMagic](https://spaghetmenot.gumroad.com/l/normalmagic){ .md-button .md-button--primary }
 
