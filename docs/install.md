@@ -17,7 +17,7 @@ normalMagic is installed as an **asset library** in Blender. There is an optiona
 2. Unzip/extract to a folder in your desired location.
 3. Open Blender and go to **Edit/Preferences/File Paths/Asset Libraries.**
 4. Click ++"\+"++ Add Asset Library. ![install_1](assets/install/install_1.png)
-5. Navigate to the unzipped folder and press **Add Asset Library** (make sure you are in the root "normalMagic" folder, not the catalogs one). ![install_2](assets/install/install_2.png)
+5. Navigate to the unzipped folder and press **Add Asset Library**. ![install_2](assets/install/install_2.png)
 6. You should now see "normalMagic" in your asset libraries.  
 **Optional**: Here you can choose how the data is imported in by default. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
 
@@ -39,4 +39,3 @@ To install the add-on simply:
 You should now see a "Normal Magic" tab in the sidebar of the 3D viewport:
 
 ![addon panel](./assets/add-on/addon_panel.png)
-

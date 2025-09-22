@@ -16,13 +16,13 @@ normalMagic is a collection of tools for [Blender](https://www.blender.org/) tha
 
 ![all_tools](./assets/all_tools.png)
 
-Controlling normals can be essential for creating high quality 3D artwork. Everything from hard surfaces, organic shapes, foliage, hair and fur, either realistic or stylized can benefit from modifying normals. Sometimes it's the only way to get surfaces shading the way you want.
+Controlling normals can be essential for creating high quality 3D artwork. Hard surfaces, organic shapes, foliage, hair and fur can benefit from modifying normals. Sometimes it's the only way to get surfaces shading the way you want.
 
 !!! info "Custom Normals"
     Most of these tools create or edit ***custom normals***.
 
     Once custom normals exist on a mesh, some default Blender tools/modifiers might not behave as expected. 
-    Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it's something to be aware of.
+    Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it is something to be aware of.
 
 [:simple-gumroad:  Buy normalMagic](https://spaghetmenot.gumroad.com/l/normalmagic){ .md-button .md-button--primary }
 
@@ -42,8 +42,8 @@ Convenient auto-masking options means no need for creating and managing vertex g
 
 ### :material-check-circle: **Smooth and Transfer Normals**
 
-- Smooth and flatten normals normals to improve shading, achieve good toon lighting or for cheap subsurface scattering effects with [Smooth Normals](normal_tools/smooth_normals.md)
-- Transfer and blend normals between unconnected meshes using [Normal Transfer](./normal_tools/normal_transfer.md)
+- Smooth and flatten normals normals to improve shading, achieve good toon lighting or for cheap subsurface scattering effects with [Smooth Normals](normal_tools/smooth_normals.md).
+- Transfer and blend normals between unconnected meshes using [Normal Transfer](./normal_tools/normal_transfer.md).
 
 
 
