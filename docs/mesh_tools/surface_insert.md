@@ -5,6 +5,8 @@
 Seamlessly join **insert meshes** into the surface of a mesh.
 !!! tip "An **insert mesh** can be thought of as a "decal", "patch" or "plug"."
 
+<iframe width="900" height="390" src="https://www.youtube.com/embed/xlBAIdUAhiw?si=B4-DWee9Gs_cy452" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 There are two primary ways of performing the insert operation:
 
 <div class="grid cards" markdown>
