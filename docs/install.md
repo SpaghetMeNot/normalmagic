@@ -26,12 +26,36 @@ Timestamped install video:
 
 normalMagic should now be installed. Modifiers will now show up under the **Add Modifier** menu. ![install_check](./assets/install/install_check.png)
 
-### Update version
+### Update Version
 
 To update to a newer version of normalMagic:
 
 1. Remove existing asset library under **Edit/Preferences/File Paths/Asset Libraries.**
 2. Repeat [install instructions](#first-time-install) to add new version.
+
+### Update Existing Modifiers
+
+#### Linked Library
+Update modifiers in existing scenes if **library is set to "Link"**:
+
+1. Go to the outliner and change the view to "Blend File".
+2. Locate the normalMagic file.
+3. Right Click/Relocate.
+4. Select .blend file in the current asset library path.
+
+![Relocate Library](./assets/install/relocate_library.png){ width=512 }
+
+#### Appended Library
+
+Update modifiers in existing scenes if **library is set to "Append"**:
+
+1. Add new version of modifier somewhere in your scene.
+2. Go to the outliner and change the view to "Blend File".
+3. Find the modifier under "Node Groups".
+4. Right Click/Remap Users.
+5. Select the newer version (most likely called ".001").
+
+![Remap Modifiers](./assets/install/remap_modifiers.png){ width=512 }
 
 
 
