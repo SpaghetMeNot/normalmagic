@@ -2,6 +2,7 @@
 
 normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version which makes it easier and faster to set up certain modifiers.
 
+Timestamped install video:
 <iframe width="900" height="390" src="https://www.youtube.com/embed/JhmOyhYI4zM?si=lt3rrJaOTV8b3G8s&amp;start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Asset Library
@@ -13,7 +14,7 @@ normalMagic is installed as an **asset library** in Blender. There is an optiona
 
     !!! info "For more information on asset libraries you can check Blender's [Official Documentation](https://docs.blender.org/manual/en/dev/files/asset_libraries/introduction.html#introduction)"
 
-
+### First Time Install
 
 1. Download latest .zip file for the closest Blender version (*normalMagic 4.5 v1.0.blend*).
 2. Unzip/extract to a folder in your desired location.
@@ -21,9 +22,18 @@ normalMagic is installed as an **asset library** in Blender. There is an optiona
 4. Click ++"\+"++ Add Asset Library. ![install_1](assets/install/install_1.png)
 5. Navigate to the unzipped folder and press **Add Asset Library**. ![install_2](assets/install/install_2.png)
 6. You should now see "normalMagic" in your asset libraries.  
-**Optional**: Here you can choose how the data is imported in by default. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
+**Optional**: Here you can choose how the data is imported by default. Setting this to 'Link' will reduce file sizes and make it easier to update versions. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
 
 normalMagic should now be installed. Modifiers will now show up under the **Add Modifier** menu. ![install_check](./assets/install/install_check.png)
+
+### Update version
+
+To update to a newer version of normalMagic:
+
+1. Remove existing asset library under **Edit/Preferences/File Paths/Asset Libraries.**
+2. Repeat [install instructions](#first-time-install) to add new version.
+
+
 
 ## Add-on
 
@@ -33,7 +43,7 @@ normalMagic should now be installed. Modifiers will now show up under the **Add 
     [Add-on Documentation](./add-on/index.md)
 
 
-To install the add-on simply:
+To install/update the add-on simply:
 
 1. Download the latest "addon" .zip file.
 2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)
