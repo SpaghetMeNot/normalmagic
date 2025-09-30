@@ -13,10 +13,11 @@ For an individual purchasing normalMagic, licenses are as follows:
 For teams/studios the number of people that use normalMagic is limited by the version purchased.
 The following team sizes are available:
 
-- Small Studio: up to 9 people.
-- Large Studio: 10-20 people.
+- Small Studio: up to 9 users.
+- Large Studio: 10-20 users.
 
-For teams that exceed the maximum size, additional licenses should be purchased. This only applies to the asset library's [Standard Royalty Free License](#standard-royalty-free-license).
+
+For teams that exceed 20 users, additional licenses should be purchased. This only applies to the asset library's [Standard Royalty Free License](#standard-royalty-free-license).
 The licensing is as follows:
 
 - Asset Library: [Standard Royalty Free License](#standard-royalty-free-license).
