@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://spaghetmenot.github.io/normalmagic/1.1/other_tools/instance_object/">
+        <link rel="canonical" href="https://spaghetmenot.github.io/normalmagic/1.1/mesh_tools/symmetrize/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../surface_insert/">
       
       
-        <link rel="next" href="../mark_sharp/">
+        <link rel="next" href="../../normal_tools/">
       
       
       <link rel="icon" href="../../assets/normalMagicIcon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Instance Object - normalMagic</title>
+        <title>Symmetrize - normalMagic</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instance-object" class="md-skip">
+        <a href="#symmetrize" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Instance Object
+              Symmetrize
             
           </span>
         </div>
@@ -372,6 +372,8 @@
       
   
   
+    
+  
   
   
     
@@ -398,15 +400,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../mesh_tools/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -425,7 +427,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Mesh Modifiers
@@ -441,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mesh_tools/boolean_pro/" class="md-nav__link">
+      <a href="../boolean_pro/" class="md-nav__link">
         
   
   
@@ -464,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mesh_tools/surface_project/" class="md-nav__link">
+      <a href="../surface_project/" class="md-nav__link">
         
   
   
@@ -487,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mesh_tools/surface_insert/" class="md-nav__link">
+      <a href="../surface_insert/" class="md-nav__link">
         
   
   
@@ -507,10 +509,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../mesh_tools/symmetrize/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Symmetrize
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -521,6 +545,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#merge-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uvs" class="md-nav__link">
+    <span class="md-ellipsis">
+      UVs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Center Normals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -917,8 +1003,6 @@
       
   
   
-    
-  
   
   
     
@@ -947,15 +1031,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../other_tools/" class="md-nav__link ">
               
   
   
@@ -974,7 +1058,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Other Modifiers
@@ -987,32 +1071,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Instance Object
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../other_tools/instance_object/" class="md-nav__link">
         
   
   
@@ -1023,50 +1085,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#options" class="md-nav__link">
-    <span class="md-ellipsis">
-      Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#transform-instance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Transform Instance
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1079,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mark_sharp/" class="md-nav__link">
+      <a href="../../other_tools/mark_sharp/" class="md-nav__link">
         
   
   
@@ -1102,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sharp_edges_to_attribute/" class="md-nav__link">
+      <a href="../../other_tools/sharp_edges_to_attribute/" class="md-nav__link">
         
   
   
@@ -1125,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../auto-flip_faces/" class="md-nav__link">
+      <a href="../../other_tools/auto-flip_faces/" class="md-nav__link">
         
   
   
@@ -1148,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../change_materials/" class="md-nav__link">
+      <a href="../../other_tools/change_materials/" class="md-nav__link">
         
   
   
@@ -1438,9 +1456,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#transform-instance" class="md-nav__link">
+  <a href="#merge-points" class="md-nav__link">
     <span class="md-ellipsis">
-      Transform Instance
+      Merge Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uvs" class="md-nav__link">
+    <span class="md-ellipsis">
+      UVs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Center Normals
     </span>
   </a>
   
@@ -1467,31 +1503,50 @@
 
 
 
-<h1 id="instance-object">Instance Object<a class="headerlink" href="#instance-object" title="Permanent link">&para;</a></h1>
-<p>Instances another object (after modifiers) to replace or append to the current objects geometry. This can be particularly useful for re-using details.</p>
-<div class="grid">
-<p><a class="glightbox" href="../../assets/other_tools/instance.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Instance" src="../../assets/other_tools/instance.gif" /></a>
-Create duplicates of an object without needing to sync all modifier settings to the duplicates.</p>
-<p><a class="glightbox" href="../../assets/other_tools/instance_append.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Instance Append" src="../../assets/other_tools/instance_append.gif" /></a>
-Append to and nest modular pieces. Such as these bolt inserts, these can be instanced themselves and used with <a href="../../mesh_tools/surface_insert/">Surface Insert</a> on larger meshes.</p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Add-on</p>
-<p>The normalMagic <a href="../../add-on/">Add-on</a> has instance operators to make working with this modifier easier:</p>
-<p><a class="glightbox" href="../../assets/add-on/instance_panel.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="addonpanel" src="../../assets/add-on/instance_panel.png" /></a></p>
-<ul>
-<li>Create a linked duplicate of an object(s), replace all modifiers with <strong>Instance Object</strong></li>
-<li>Select original object being instanced</li>
-</ul>
-</div>
+<h1 id="symmetrize">Symmetrize<a class="headerlink" href="#symmetrize" title="Permanent link">&para;</a></h1>
+<p><a class="glightbox" href="../../assets/icons/symmetrize.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Icon" src="../../assets/icons/symmetrize.png" width="128" /></a></p>
+<p>Mirrors a mesh on a single axis. Similar to Blender's <a href="https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/mirror.html">Mirror Modifier</a> but with the following improvements:</p>
+<ol>
+<li>Correctly mirrors custom normals.</li>
+<li>Optional gizmo for displaying the symmetry plane and direction.</li>
+<li>Output attribute for mirrored faces.</li>
+<li>Global space option without having to use another object.</li>
+</ol>
+<p>The one disadvantage of Symmetrize is the limitation to a single axis. However, this can easily be overcome by using another symmetrize modifier.</p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Object.</strong> Object to instance</li>
-<li><strong>As Instance.</strong> When turned off, will copy object's geometry. Turned on will instance the object <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/instances.html">Official Documentation</a></li>
-<li><strong>Replace / Append.</strong> Replace will replace current objects geometry with that of the instance. Append will keep geometry and append the instanced object with additional transform options.</li>
+<li><strong>Symmetry Space:</strong> Coordinate space to use for symmetry.<ul>
+<li><strong>Local:</strong> Symmetrize in object's local space (default mirror modifier behavior).</li>
+<li><strong>Global:</strong> Symmetrize in global space based on the world origin.</li>
+<li><strong>Object:</strong> Symmetrize using another objects position and rotation.</li>
 </ul>
-<h3 id="transform-instance">Transform Instance<a class="headerlink" href="#transform-instance" title="Permanent link">&para;</a></h3>
-<p>When appending the instance, these settings allow you to transform the instance relative to the objects origin.</p>
+</li>
+<li><strong>Axis:</strong> Which axis to symmetrize on, relative to the <strong><em>Symmetry Space</em></strong>.</li>
+<li><strong>Flip Axis:</strong> Reverse direction of symmetry operation.</li>
+<li><strong>Show Axis:</strong> Display location and direction of symmetry operation.</li>
+<li><strong>Clipping:</strong> Clip geometry on the mirrored side of the symmetry plane.<ul>
+<li><strong>None:</strong> No Clipping. All geometry will be mirrored across the symmetry plane.</li>
+<li><strong>Snap Points:</strong> Points on the mirrored side will be snapped to the symmetry plane.</li>
+<li><strong>Cut Geometry:</strong> Geometry will be sliced on the symmetry plane.</li>
+</ul>
+</li>
+</ul>
+<h3 id="merge-points">Merge Points<a class="headerlink" href="#merge-points" title="Permanent link">&para;</a></h3>
+<p>Merge points by distance after symmetry operation.</p>
+<h3 id="uvs">UVs<a class="headerlink" href="#uvs" title="Permanent link">&para;</a></h3>
+<p>Options to flip and offset UVs.</p>
+<ul>
+<li><strong>UV Map:</strong> Name of UV Map to edit.</li>
+<li><strong>Flip U:</strong> Flip mirrored UVs horizontally.</li>
+<li><strong>Flip V:</strong> Flip mirrored UVs vertically.</li>
+<li><strong>Offset:</strong> Offset mirrored UVs.</li>
+</ul>
+<h3 id="center-normals">Center Normals<a class="headerlink" href="#center-normals" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Mark Sharp:</strong> Mark center edges as sharp based on angle.</li>
+<li><strong>Angle:</strong> Minimum angle for a sharp edge.</li>
+<li><strong>Unify Custom Normals:</strong> Face corner normals on center points will average. Sharp edges will be preserved. Only applies if custom normals exist on mesh.</li>
+</ul>
 
 
 

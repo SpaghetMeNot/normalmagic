@@ -387,6 +387,8 @@
       
         
       
+        
+      
     
     
     
@@ -501,6 +503,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mesh_tools/symmetrize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Symmetrize
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -519,6 +544,8 @@
       
         
           
+        
+      
         
       
         
@@ -731,6 +758,29 @@
   
   <span class="md-ellipsis">
     Repair Mirrored Normals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../normal_tools/lock_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lock Normals
     
   </span>
   
@@ -1041,6 +1091,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Change Materials
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1052,6 +1115,73 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#material" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material *
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material *">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1315,6 +1445,62 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#material" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material *
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material *">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1330,7 +1516,31 @@
 
 
 <h1 id="change-materials">Change Materials<a class="headerlink" href="#change-materials" title="Permanent link">&para;</a></h1>
-<p>temp</p>
+<p><a class="glightbox" href="../../assets/icons/change_materials.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Icon" src="../../assets/icons/change_materials.png" width="128" /></a></p>
+<p>Assign materials or material indices to face selections.</p>
+<p><a class="glightbox" href="../../assets/change_materials/change_materials_demo.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Demo" src="../../assets/change_materials/change_materials_demo.gif" /></a></p>
+<p>Up to 6 materials can be assigned per modifier. Selections can be driven by existing material/index or arbitrary vertex/face groups.</p>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Materials to Apply:</strong> The number of materials to apply. This will show a panel for each material with a checkbox to enable/disable.</li>
+</ul>
+<h3 id="material">Material *<a class="headerlink" href="#material" title="Permanent link">&para;</a></h3>
+<p>Panel for each material assignment, contains two panels: One for selecting faces and one for specifying material/index.</p>
+<h4 id="selection">Selection<a class="headerlink" href="#selection" title="Permanent link">&para;</a></h4>
+<p>Choose which faces to apply a material to.</p>
+<ul>
+<li><strong>Face Group:</strong> Specify a vertex/face group to apply materials to.</li>
+<li><strong>Material:</strong> Select faces by a specific material.</li>
+<li><strong>Material Index:</strong> Select faces by their material index.</li>
+<li><strong>Invert:</strong> Invert selection</li>
+</ul>
+<h4 id="material_1">Material<a class="headerlink" href="#material_1" title="Permanent link">&para;</a></h4>
+<p>Which material to apply to selected faces.</p>
+<ul>
+<li><strong>Set:</strong> Whether to set a specific material or material index.</li>
+<li><strong>Material:</strong> Which specific material to apply.</li>
+<li><strong>Material Index:</strong> Which material index to apply.</li>
+</ul>
 
 
 

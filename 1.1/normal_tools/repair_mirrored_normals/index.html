@@ -14,7 +14,7 @@
         <link rel="prev" href="../repair_boolean_normals/">
       
       
-        <link rel="next" href="../../visualize_tools/">
+        <link rel="next" href="../lock_normals/">
       
       
       <link rel="icon" href="../../assets/normalMagicIcon.png">
@@ -387,6 +387,8 @@
       
         
       
+        
+      
     
     
     
@@ -501,6 +503,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mesh_tools/symmetrize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Symmetrize
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -521,6 +546,8 @@
       
         
           
+        
+      
         
       
         
@@ -796,9 +823,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#selection" class="md-nav__link">
+  <a href="#specify" class="md-nav__link">
     <span class="md-ellipsis">
-      Selection
+      Specify
     </span>
   </a>
   
@@ -813,6 +840,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lock_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lock Normals
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1406,9 +1456,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#selection" class="md-nav__link">
+  <a href="#specify" class="md-nav__link">
     <span class="md-ellipsis">
-      Selection
+      Specify
     </span>
   </a>
   
@@ -1438,7 +1488,8 @@
 <h1 id="repair-mirrored-normals">Repair Mirrored Normals<a class="headerlink" href="#repair-mirrored-normals" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="../../assets/icons/repair_mirrored.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Repair Mirrored Normals" src="../../assets/icons/repair_mirrored.png" width="128" /></a></p>
 <p>Mirroring a mesh with custom normals will not mirror the normals. This leads to incorrect normals on the mirrored geometry.</p>
-<p>This modifier will detect mesh islands with flipped normals and what axis they need flipping on.</p>
+<p>This modifier can repair these normals by flipping them in the correct direction.
+Alternatively the <a href="../../mesh_tools/symmetrize/">Symmetrize</a> modifier is a better option when only mirroring on one axis.</p>
 <div class="grid cards">
 <ul>
 <li><a class="glightbox" href="../../assets/mirrored_flipped.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Mirrored Flipped" src="../../assets/mirrored_flipped.png" /></a>
@@ -1449,23 +1500,28 @@ Mirrored Custom Normals</li>
 </div>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Normal Domain.</strong> Whether normals are stored on points (smooth) or face corners (allows sharp edges)</li>
-<li><strong>Method.</strong> Choose which faces get mirrored normals:<ul>
-<li><strong>Detect.</strong> Faces and axes will be determined automatically, this should work in most cases.</li>
-<li><strong>Side of Origin.</strong> Select and mirror normals based on axis and object origin.</li>
-<li><strong>Specify.</strong> Specify which faces to flip normals and which axes to flip them on.</li>
+<li><strong>Normal Domain:</strong> Whether normals are stored on points (smooth) or face corners (allows sharp edges)</li>
+<li><strong>Method:</strong> Choose which faces get mirrored normals:<ul>
+<li><strong>Detect:</strong> Faces and axes will be determined automatically, this should work in most cases.</li>
+<li><strong><a href="#side-of-origin">Side of Origin:</a></strong> Select and mirror normals based on axis and object origin.</li>
+<li><strong><a href="#specify">Specify:</a></strong> Specify which faces to flip normals and which axes to flip them on.</li>
 </ul>
 </li>
+<li><strong>Mirror Object:</strong> If using a mirror object, specify it here.</li>
 </ul>
 <h3 id="side-of-origin">Side of Origin<a class="headerlink" href="#side-of-origin" title="Permanent link">&para;</a></h3>
-<p>When using this method, other options become available:</p>
+<p>Flip normals for faces on the "mirrored" side. Use this method when using "Bisect" on a mirror modifier or when original geometry doesn't cross the mirror plane(s).</p>
 <ul>
-<li><strong>Recalculate Center Normals.</strong> Recalculate Normals for points at the center of specified axes</li>
-<li><strong>Mirror Axis.</strong> Which axes to select and mirror normals on.</li>
-<li><strong>Flip Axis.</strong> Flip the direction of the selection of normals to mirror.</li>
+<li><strong>Recalculate Center Normals:</strong> Recalculate Normals for points at the center of specified axes.</li>
+<li><strong>Mirror Axis:</strong> Which axes to select and mirror normals on.</li>
+<li><strong>Flip Axis:</strong> Flip the direction of the selection of normals to mirror.</li>
 </ul>
-<h3 id="selection">Selection<a class="headerlink" href="#selection" title="Permanent link">&para;</a></h3>
-<p>See <a href="../../common_settings/#selection">Selection Options</a></p>
+<h3 id="specify">Specify<a class="headerlink" href="#specify" title="Permanent link">&para;</a></h3>
+<p>Choose which faces have flipped normals and what axis to flip them on. Use when geometry is mirrored across both sides of the mirror plane(s) and "Bisect" is turned off.</p>
+<ul>
+<li><strong>Mirror Axis:</strong> Which axes to select and mirror normals on.</li>
+<li><strong>Selection:</strong> See <a href="../../common_settings/#selection">Selection Options</a></li>
+</ul>
 
 
 
