@@ -9,3 +9,4 @@ These modifiers effect the normals of a mesh and nothing else.
 - [Repair Bevel Normals](repair_bevel_normals.md)
 - [Repair Boolean Normals](repair_boolean_normals.md)
 - [Repair Mirrored Normals](repair_mirrored_normals.md)
+- [Lock Normals](lock_normals.md)

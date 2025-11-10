@@ -95,6 +95,7 @@ nav:
   - tools_overview.md
   - common_settings.md
   - examples.md
+  - changelog.md
   - licensing.md
 
   - Mesh Modifiers:
@@ -102,6 +103,7 @@ nav:
     - mesh_tools/boolean_pro.md
     - mesh_tools/surface_project.md
     - mesh_tools/surface_insert.md
+    - mesh_tools/symmetrize.md
   
   - Normal Modifiers:
     - normal_tools/index.md
@@ -112,6 +114,7 @@ nav:
     - normal_tools/repair_bevel_normals.md
     - normal_tools/repair_boolean_normals.md
     - normal_tools/repair_mirrored_normals.md
+    - normal_tools/lock_normals.md
 
   - Visualize Modifiers:
     - visualize_tools/index.md
@@ -124,6 +127,7 @@ nav:
     - other_tools/mark_sharp.md
     - other_tools/sharp_edges_to_attribute.md
     - other_tools/auto-flip_faces.md
+    - other_tools/change_materials.md
 
   - Manual Tools:
     - manual_tools/index.md

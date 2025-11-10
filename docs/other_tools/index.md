@@ -6,3 +6,4 @@ These modifiers change things that are related to normals such as sharp edges or
 - [Auto-Flip Faces](auto-flip_faces.md)
 - [Sharp Edges to Attribute](sharp_edges_to_attribute.md)
 - [Instance Object](instance_object.md)
+- [Change Materials](change_materials.md)
