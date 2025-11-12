@@ -132,6 +132,7 @@ nav:
   - Manual Tools:
     - manual_tools/index.md
     - manual_tools/recalculate_weighted.md
+    - manual_tools/add_custom_normals.md
 
   - Add-on:
     - add-on/index.md

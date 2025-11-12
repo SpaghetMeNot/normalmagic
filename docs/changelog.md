@@ -19,10 +19,14 @@
 	- Works with custom normals.
 	- Local/Global/Object space mirroring.
 - Repair Mirrored Normals:
-	- Added Mirror Object option
+	- Added Mirror Object option.
+- New Modifier: Change Materials:
+    - Assign materials or material indices to face selections.
 - New Modifier: Lock Normals:
     - Creates custom normals if none exist.
     - Allows converting normals to "Tangent Space" which allows for deformation after setting.
+- New Manual Tool: Add Custom Normals:
+    - Tool version of "Lock Normals" for Object and Edit Mesh modes.
 - Normal Transfer:
 	- Improving sharp edges appearing when transferring normals on small meshes
 - Smooth Normals:
