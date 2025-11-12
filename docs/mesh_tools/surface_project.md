@@ -27,39 +27,47 @@ Examples can be found in the **Surface Project/Insert** scene in the [example fi
 
 ## Options
 
-### Transfer Objects
+### Projection Targets
 
 Choose which meshes to project to.
 
-- **Object Count:** How many mesh objects to project to.
+- **Target Objects:** How many mesh objects to project to.
 - **Objects:** Choose individual mesh objects to project to.
 - **Collection:** Choose a collection containing mesh objects to project to.
 
-### Shrinkwrap
+### Projection
 
 Define how mesh is projected to surfaces.
 
-- **Wrap Method:** Method for vertex projection:
-    - **Nearest Surface:** Move vertices towards the closest point on target surface.
-    - **Project:** Project rays to collide with target surface.
-    - **Project Decal:** Project rays to collide with target surface and flatten geometry while keeping normals. Excludes projection masking options.
+- **Method:** Method for vertex projection:
+    - **Wrap to Surface:** Wrap mesh to target surface. Points will be projected to target surface and re-displaced based on their calculated height.
+    - **Blend with Surface:** Project points to target surface then blend between original and projected positions.
+    - **Project Decal:** Flatten geometry to target surface while keeping original normals. Ideal for "floaters" intended for baking.
 - **Surface Offset:** Move projected vertices a fixed amount towards or away from the target surface.
 
-#### Projection Settings
+#### Projection Direction
 
-- **Projection Direction:** Define direction to project rays:
-    - **Object Direction:** Direction in object space (default is -Z).
-    - **World Direction:** Direction in global space (default is -Z).
-    - **Surface Normal:** Surface normal of the closest target surface.
+Control the direction and properties of surface projection.
+
+- **Project Direction:** Define direction of projection rays:
+    - **Object Direction:** Direction in object space (default -Z).
+    - **World Direction:** Direction in world space (default -Z).
+    - **Mesh Normal:** Use individual point normals.
     - **Mesh Island Normal:** Use the average normal of each mesh island.
-    - **Surface Tangent:** Direction of surface at edge boundaries.
-
-- **Ray Length:** Maximum distance rays will collide with target surface.
+    - **Mesh Tangent:** Use individual point tangents.
+    - **Surface Normal:** Use the normal of the closest part of target surface.
+- **Base Height:** How height is calculated for ***Wrap to Surface*** and ***Project Decal*** projection methods:
+    - **Boundary Center:** Calculate height from a plane defined by the center of the boundary and the projection direction.
+    - **Object Origin:** Calculate height from a plane defined by the objects origin and the projection direction.
+- **Re-Displace:** When using ***Wrap to Surface***. Direction to apply calculated height:
+    - **Projection:** Apply height displacement using the projection direction.
+    - **Surface Normal:** Apply height displacement using the normal of the target surface.
+- **Ray Length:** Maximum distance rays will collide with target surface. Best to keep at a large enough value that all points collide.
 - **No Hit:** Change behavior of vertices when projection rays miss:
     - **Unchanged:** Do not move vertex.
     - **Closest Surface to Max Dist:** Move vertex to the maximum distance in ray direction then snap to closest point on target surface.
 
-#### Masking
+#### Projection Masking
 
 Control how projection is masked. See [Mask Falloff](../common_settings.md#mask-falloff).
 
@@ -67,30 +75,18 @@ Control how projection is masked. See [Mask Falloff](../common_settings.md#mask-
 
 - **Vertex Group:** Choose a vertex group to project.
 
-### Normals
+### Transfer Normals
 
-Define how normals are transferred from target surfaces. This uses [Normal Transfer](../normal_tools/normal_transfer.md) internally. Normals are transferred after vertex projection, using the closest target surface.
+Transfer normals from target surfaces. Internally this uses [Normal Transfer](../normal_tools/normal_transfer.md). Normals are transferred after vertex projection, using the closest target surface.
 
 - **Normal Domain:** Whether normals are stored on points (smooth) or face corners (allows sharp edges).
 - **Use Shrinkwrap Amount:** Use the same mask used for vertex [projection](#masking).
 - **Amount:** Specify a vertex group or single value to choose how much normals are transferred.
 - **Automatic Masking:** Use [mask falloff](../common_settings.md#mask-falloff) settings to make a new mask for transferring normals.
 
-### UVs
+### Transfer UVs
 
 Transfer UVs from target surface.
 
-- **Transfer UVs:** Turn UV transfer on/off.
 - **UV Map From:** Which UV Map to transfer from the **surface**.
 - **UV Map To:** Which UV Map to write to on this object.
-
-#### Selection
-
-Limit UV transfer to specific faces.
-
-- **Selection:** Which faces to modify UVs for. Defaults to "on", applying to every face.
-- **Material:** Limit UV modification to a specific material.
-- **Invert Selection:** Inverts the selection to modify UVs on every face that is not selected using the above options.
-
-
-
