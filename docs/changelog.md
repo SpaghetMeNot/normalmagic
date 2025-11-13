@@ -4,32 +4,32 @@
 
 ### Asset Library
 
-- Surface Project: Complete refactor to better match the options on Surface Insert.
+- [Surface Project](./mesh_tools/surface_project.md): Complete refactor to better match the options on Surface Insert.
     - Introduced "Wrap" Mode.
     - Option to turn off normal transfer.
-- Surface Insert:
+- [Surface Insert](./mesh_tools/surface_insert.md):
 	- Renamed "Projection Origin" to "Base Height".
 	- "Base Height" no longer shows when in "Blend to Surface" mode. 
 	- Fixed Cases where cutters would be flipped when generated causing several bugs.
 	- Refactored height calculation — should be no change to behavior.
 	- Added Debug for projection direction.
     - Cleaned up all attributes created by modifier.
-- New Modifier: Symmetrize:
+- New Modifier: [Symmetrize](./mesh_tools/symmetrize.md):
 	- Mirror-like modifier for single axis symmetry.
 	- Works with custom normals.
 	- Local/Global/Object space mirroring.
-- Repair Mirrored Normals:
+- [Repair Mirrored Normals](./normal_tools/repair_mirrored_normals.md):
 	- Added Mirror Object option.
-- New Modifier: Change Materials:
+- New Modifier: [Change Materials](./other_tools/change_materials.md):
     - Assign materials or material indices to face selections.
-- New Modifier: Lock Normals:
+- New Modifier: [Lock Normals](./normal_tools/lock_normals.md):
     - Creates custom normals if none exist.
     - Allows converting normals to "Tangent Space" which allows for deformation after setting.
-- New Manual Tool: Add Custom Normals:
+- New Manual Tool: [Add Custom Normals](./manual_tools/add_custom_normals.md):
     - Tool version of "Lock Normals" for Object and Edit Mesh modes.
-- Normal Transfer:
+- [Normal Transfer](./normal_tools/normal_transfer.md):
 	- Improving sharp edges appearing when transferring normals on small meshes.
-- Smooth Normals:
+- [Smooth Normals](./normal_tools/smooth_normals.md):
 	- Fixed broken normals on very small meshes.
 
 

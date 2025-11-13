@@ -40,6 +40,7 @@ Choose which meshes to project to.
 Define how mesh is projected to surfaces.
 
 - **Method:** Method for vertex projection:
+    ![Method GIF](../assets/surface_project/projection_methods.gif)
     - **Wrap to Surface:** Wrap mesh to target surface. Points will be projected to target surface and re-displaced based on their calculated height.
     - **Blend with Surface:** Project points to target surface then blend between original and projected positions.
     - **Project Decal:** Flatten geometry to target surface while keeping original normals. Ideal for "floaters" intended for baking.

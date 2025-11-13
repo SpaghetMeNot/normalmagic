@@ -9,6 +9,8 @@ Mirrors a mesh on a single axis. Similar to Blender's [Mirror Modifier](https://
 3. Output attribute for mirrored faces.
 4. Global space option without having to use another object.
 
+![Symmetrize GIF](../assets/symmetrize/symmetrize.gif)
+
 The one disadvantage of Symmetrize is the limitation to a single axis. However, this can easily be overcome by using another symmetrize modifier.
 
 ## Options
