@@ -81,9 +81,10 @@ Control how projection is masked. See [Mask Falloff](../common_settings.md#mask-
 Transfer normals from target surfaces. Internally this uses [Normal Transfer](../normal_tools/normal_transfer.md). Normals are transferred after vertex projection, using the closest target surface.
 
 - **Normal Domain:** Whether normals are stored on points (smooth) or face corners (allows sharp edges).
-- **Use Shrinkwrap Amount:** Use the same mask used for vertex [projection](#masking).
-- **Amount:** Specify a vertex group or single value to choose how much normals are transferred.
-- **Automatic Masking:** Use [mask falloff](../common_settings.md#mask-falloff) settings to make a new mask for transferring normals.
+- **Normal Masking:** How to mask the normal transfer:
+    - **Projection Mask:** Use the same mask used for vertex [projection](#projection-masking).
+    - **New Mask:** Create a new mask using [mask falloff](../common_settings.md#mask-falloff).
+- **Vertex Group:** Limit all normal transfer to a vertex group.
 
 ### Transfer UVs
 
