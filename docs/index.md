@@ -26,7 +26,7 @@ Controlling normals can be essential for creating high quality 3D artwork. Hard 
 
     See this video for more information: [Custom Normal Issues](https://youtu.be/NoISc01URHg?si=s6NedSzDIFr30zOe)
 
-[:material-beehive-outline:  Buy on Superhive](https://spaghetmenot.gumroad.com/l/normalmagic){ .md-button }
+[:material-beehive-outline:  Buy on Superhive](https://superhivemarket.com/products/normalmagic){ .md-button }
 [:simple-gumroad:  Buy on Gumroad](https://spaghetmenot.gumroad.com/l/normalmagic){ .md-button .md-button--primary }
 
 ## Tool Highlights
