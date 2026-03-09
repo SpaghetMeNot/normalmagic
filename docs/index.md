@@ -1,6 +1,7 @@
 # normalMagic Home
 
 Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
+2.0 test
 
 <div class="grid cards" markdown>
 
