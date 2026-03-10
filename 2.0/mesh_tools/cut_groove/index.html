@@ -735,6 +735,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    🚧 Cut Groove
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -744,6 +755,94 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cutters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cutters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#groove-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groove Geometry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debug
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1598,6 +1697,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cutters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cutters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#groove-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groove Geometry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debug
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1613,6 +1789,49 @@
 
 <h1 id="cut-groove"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:" /> Cut Groove<a class="headerlink" href="#cut-groove" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="../../assets/icons/cut_groove_2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Cut Groove Icon" src="../../assets/icons/cut_groove_2.png" width="128" /></a></p>
+<p>Cut a v-shaped groove into a surface along the intersection of cutter objects.</p>
+<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<p>The <strong>Cut Groove</strong> Modifier performs the following steps:</p>
+<ol>
+<li>Generate a curve from the intersection of cutter objects.</li>
+<li>Convert the curve to a 'ribbon' mesh that follows the surface closely.</li>
+<li>Extrude the 'ribbon' mesh with a v-shaped profile to create a solid 'groove cutter'.</li>
+<li>Cut the 'groove cutter' from the original surface using a difference Boolean.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Viewing Steps</p>
+<p>You can view the result of each of the above steps using the <a href="#debug">Debug panel</a></p>
+</div>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<h3 id="cutters">Cutters<a class="headerlink" href="#cutters" title="Permanent link">&para;</a></h3>
+<p>This section specifies which cutters to use.</p>
+<ul>
+<li><strong>Objects/Collection:</strong> Choose individual mesh objects or a collection containing mesh objects.</li>
+<li><strong>Object Count:</strong> How many cutter mesh objects to use (when in <strong><em>Objects</em></strong> mode).</li>
+<li><strong>Cutter Outset:</strong> Expands the cutter mesh with options for <a href="../../common_settings/#even-thickness">even thickness</a>.</li>
+</ul>
+<h3 id="groove-geometry">Groove Geometry<a class="headerlink" href="#groove-geometry" title="Permanent link">&para;</a></h3>
+<p>Control how the groove geometry is generated.</p>
+<h3 id="boolean">Boolean<a class="headerlink" href="#boolean" title="Permanent link">&para;</a></h3>
+<p>Settings for final Boolean where groove mesh is cut into the object's surface.</p>
+<h3 id="normals">Normals<a class="headerlink" href="#normals" title="Permanent link">&para;</a></h3>
+<p>How to calculate normals</p>
+<h3 id="debug">Debug<a class="headerlink" href="#debug" title="Permanent link">&para;</a></h3>
+<p>This section lets you inspect the <a href="#how-it-works">steps</a> of the process if the modifier isn't behaving as expected.</p>
+<ul>
+<li>
+<p><strong>View.</strong> Outputs geometry from different points in the node graph.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This changes the output of the graph, make sure to turn off when you're done inspecting.</p>
+</div>
+<ul>
+<li><strong>Intersection Curve:</strong> Output the curve generated by the Boolean intersection.</li>
+<li><strong>Ribbon:</strong> Output the extruded curve or "ribbon".</li>
+<li><strong>Final Cutters:</strong> Output the 'groove cutter' extruded from the 'ribbon'.</li>
+</ul>
+</li>
+</ul>
 
 
 

@@ -630,6 +630,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    🚧 Boolean Extrude
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -639,6 +650,85 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cutters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cutters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extrude" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extrude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inset-when-extrusion-mode-extrude-faces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inset (When Extrusion Mode = Extrude Faces)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weld" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weld
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1598,6 +1688,74 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cutters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cutters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extrude" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extrude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inset-when-extrusion-mode-extrude-faces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inset (When Extrusion Mode = Extrude Faces)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weld" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weld
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1613,6 +1771,35 @@
 
 <h1 id="boolean-extrude"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:" /> Boolean Extrude<a class="headerlink" href="#boolean-extrude" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="../../assets/icons/boolean_extrude_5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Boolean Extrude Icon" src="../../assets/icons/boolean_extrude_5.png" width="128" /></a></p>
+<p>Cuts and extrude the intersection area of a Boolean operation. There are two operations this modifier can perform:</p>
+<div class="grid cards">
+<ul>
+<li><img alt="TODO: gif" src="" />
+<strong>Extrude</strong><br />
+Slice mesh and extrude intersection faces.</li>
+<li><img alt="TODO: gif" src="" />
+<strong>Panel</strong><br />
+Perform an "Intersect" Boolean and extrude the result into a solid panel.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Equal and Opposite</p>
+<p>These two operations are essentially the inverse of each other, combining them can create interesting details.</p>
+</div>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<h3 id="cutters">Cutters<a class="headerlink" href="#cutters" title="Permanent link">&para;</a></h3>
+<p>This section specifies which cutters to use.</p>
+<ul>
+<li><strong>Objects/Collection:</strong> Choose individual mesh objects or a collection containing mesh objects.</li>
+<li><strong>Object Count:</strong> How many cutter mesh objects to use (when in <strong><em>Objects</em></strong> mode).</li>
+<li><strong>Cutter Outset:</strong> Expands the cutter mesh with options for even thickness.</li>
+</ul>
+<h3 id="extrude">Extrude<a class="headerlink" href="#extrude" title="Permanent link">&para;</a></h3>
+<p>This section details the extrude operation</p>
+<h3 id="inset-when-extrusion-mode-extrude-faces">Inset (When Extrusion Mode = <strong><em>Extrude Faces</em></strong>)<a class="headerlink" href="#inset-when-extrusion-mode-extrude-faces" title="Permanent link">&para;</a></h3>
+<p>Inset the front of the extrude operation.</p>
+<h3 id="normals">Normals<a class="headerlink" href="#normals" title="Permanent link">&para;</a></h3>
+<h3 id="weld">Weld<a class="headerlink" href="#weld" title="Permanent link">&para;</a></h3>
 
 
 

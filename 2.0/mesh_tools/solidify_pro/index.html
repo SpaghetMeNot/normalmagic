@@ -714,6 +714,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    🚧 Solidify Pro
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -723,6 +734,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#current-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current Limitations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1598,6 +1637,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#current-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current Limitations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1613,6 +1669,23 @@
 
 <h1 id="solidify-pro"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6a7.svg" title=":construction:" /> Solidify Pro<a class="headerlink" href="#solidify-pro" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="../../assets/icons/solidify_pro_5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Solidify Pro Icon" src="../../assets/icons/solidify_pro_5.png" width="128" /></a></p>
+<p>An alternative to Blender's <a href="https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/solidify.html">Solidify Modifier</a>, <strong>Solidify Pro</strong> offers several advantages:</p>
+<ol>
+<li>Custom normal support.</li>
+<li>Edge loops.</li>
+<li>Custom profile.</li>
+<li>Inset control.</li>
+<li>More creasing control on the rim.</li>
+<li>Match Boundary normals.</li>
+<li>UV settings.</li>
+</ol>
+<h2 id="current-limitations">Current Limitations<a class="headerlink" href="#current-limitations" title="Permanent link">&para;</a></h2>
+<p>Not all the settings of Blender's native "Solidify" modifier have been replicated yet. The notable exclusions are:</p>
+<ul>
+<li><strong>Vertex Group / Selection</strong>. Solidify Pro applies to the whole mesh.</li>
+<li>Complex mode <strong>Boundary</strong> control. Boundaries are extruded along the surface normal.</li>
+<li>Float control of <strong>Bevel Weight</strong>. Bevel weight can be set on/off by using the output attribute <strong><em>Boundary Edges</em></strong>. This attribute can then be specified in a subsequent bevel modifier.</li>
+</ul>
 
 
 
