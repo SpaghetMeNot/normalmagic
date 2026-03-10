@@ -3,6 +3,7 @@ site_url: https://spaghetmenot.github.io/normalmagic/
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Ubuntu
     code: Red Hat Mono
@@ -11,6 +12,9 @@ theme:
   features:
     - navigation.tracking
     - navigation.indexes
+    # - navigation.expand
+    # - navigation.path
+    # - navigation.prune
     - navigation.sections
     # - navigation.tabs
     
@@ -70,6 +74,9 @@ extra:
   generator: false
   version:
     provider: mike
+    default: latest
+    alias: true
+
 
 
 plugins:
@@ -90,20 +97,27 @@ plugins:
       manual: false
 
 nav:
-  - Home: index.md
-  - install.md
-  - tools_overview.md
-  - common_settings.md
-  - examples.md
-  - changelog.md
-  - licensing.md
+  - Home: 
+    - index.md
+    - changelog.md
+    - licensing.md
+    - tools_overview.md
+    - common_settings.md
+
+  - Getting Started:
+    - install.md
+    - examples.md
 
   - Mesh Modifiers:
     - mesh_tools/index.md
     - mesh_tools/boolean_pro.md
+    - mesh_tools/boolean_trim.md
+    - mesh_tools/boolean_extrude.md
     - mesh_tools/surface_project.md
     - mesh_tools/surface_insert.md
     - mesh_tools/symmetrize.md
+    - mesh_tools/solidify_pro.md
+    - mesh_tools/cut_groove.md
   
   - Normal Modifiers:
     - normal_tools/index.md
@@ -139,3 +153,5 @@ nav:
     - add-on/preferences.md
     - add-on/boolean_pro.md
     - add-on/instance_objects.md
+    - add-on/object_display.md
+    - add-on/modifier_references.md

@@ -1,6 +1,6 @@
 # normalMagic Add-on
 
-This add-on is included with the **Pro** version of normalMagic and makes working with certain modifiers easier.
+This add-on is included with the **Pro** version of normalMagic. It streamlines workflows and makes working with certain modifiers easier.
 
 <div class="grid cards" markdown>
 
@@ -14,7 +14,14 @@ This add-on is included with the **Pro** version of normalMagic and makes workin
     
     ![bpro panel](../assets/add-on/bpro_panel.png)
 
-    Set up booleans using the Boolean Pro [modifier](../mesh_tools/boolean_pro.md) with one click and convert existing booleans.
+    Set up booleans using the [Boolean Pro](../mesh_tools/boolean_pro.md) modifier with one click and convert existing booleans.
+
+- [:material-file-tree-outline: Modifier References](./modifier_references.md)
+
+    ---
+
+    ![modifier reference panel](../assets/add-on/modifier_reference_panel.png)
+    Manage complex non-destructive scenes with many cutters, inserts, or other objects referenced by modifiers.
 
 - [:octicons-link-16: Instance Objects](./instance_objects.md)
     
@@ -22,7 +29,14 @@ This add-on is included with the **Pro** version of normalMagic and makes workin
 
     ![instance panel](../assets/add-on/instance_panel.png)
 
-    Duplicate objects as instances using the Instance Object [modifier](../other_tools/instance_object.md) with one click.
+    Duplicate objects as instances using the [Instance Object](../other_tools/instance_object.md) modifier with one click.
+
+- [:material-monitor-eye: Object Display](./object_display.md)
+
+    ---
+
+    ![object display panel](../assets/add-on/object_display_panel.png)
+    Instantly make objects "Viewport Only", hiding them from all renders.
 
 </div>
 

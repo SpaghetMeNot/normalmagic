@@ -1,12 +1,15 @@
-# normalMagic Home
+# normalMagic 2.0
 
 Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
-2.0 test
 
 <div class="grid cards" markdown>
 
 - [:octicons-download-16: Install normalMagic](install.md)
 - [:material-run: Examples](examples.md)
+- [:material-cube-outline: Mesh Modifiers](mesh_tools/index.md)
+- [:material-vector-polyline: Normal Modifiers](normal_tools/index.md)
+- [:material-eye: Visualize Modifiers](visualize_tools/index.md)
+- [:octicons-tools-16: Other Modifiers](other_tools/index.md)
 
 </div>
 

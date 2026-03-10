@@ -47,7 +47,7 @@ Bias the selection towards 1. Here it is being used in [Surface Project](./mesh_
 Often we'll want to limit the effects of modifiers to certain areas. The "Selection" section is the same for many tools. It allows for partial selection and, when normals are stored on face corners, hard boundaries.
 
 - **Vertex Group:** Specify a vertex group to limit modifier's effect.
-- **Face Group (Face Corner Only):** Specify a vertex group that will have hard boundaries.
+- **Face Group (Face Corner Selection Only):** Specify a vertex group that will have hard boundaries.
 - **Material:** Limit the modifier's effect to a specific material.
 - **Invert:** Invert selection.
 

@@ -22,6 +22,6 @@ For each selected object:
 2. Add [Instance Object](../other_tools/instance_object.md) modifier and specify selected object.
 3. Select instance object and deselect original.
 
-## Select Original
+## Select Source
 
-Selects the original object(s) being instanced by selected object(s). This is useful when you wish to change modifier behavior on the original.
+Selects the source object(s) being instanced by selected object(s). This is useful when you wish to edit the mesh or change modifiers on the original object.
