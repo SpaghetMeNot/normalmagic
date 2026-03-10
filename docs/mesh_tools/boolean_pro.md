@@ -37,7 +37,7 @@ There is also a ***Slice*** operation with optional inset:
     - **Float:** Simple solver with good performance.
     - **Exact:** Slower solver with best results on coplanar faces.
     - **Manifold:** (Default) Fastest solver that only works on manifold meshes, but gives better results.
-- **Outset:** Expands the cutter mesh with even thickness.
+- **Outset:** Expands the cutter mesh with options for even thickness.
 - **Inset (Slice Mode):** Offsets the cutter inwards for the intersect boolean to give a gap between meshes.
 
 ### Weld

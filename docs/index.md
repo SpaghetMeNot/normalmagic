@@ -6,6 +6,12 @@ Welcome to the **normalMagic** documentation. Here you'll find everything there 
 
 - [:octicons-download-16: Install normalMagic](install.md)
 - [:material-run: Examples](examples.md)
+
+</div>
+
+## Quick Links
+<div class="grid cards" markdown>
+
 - [:material-cube-outline: Mesh Modifiers](mesh_tools/index.md)
 - [:material-vector-polyline: Normal Modifiers](normal_tools/index.md)
 - [:material-eye: Visualize Modifiers](visualize_tools/index.md)

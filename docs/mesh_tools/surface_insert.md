@@ -107,7 +107,7 @@ This section controls how materials and UVs are transferred from the surface to 
 - **UV Map.** Which UV map to transfer.
 
 ### Debug
-This section lets you inspect certain points along the process if the modifier isn't behaving as expected.
+This section lets you inspect steps of the process if the modifier isn't behaving as expected.
 
 - **View.** Outputs geometry from different points in the node graph.
 

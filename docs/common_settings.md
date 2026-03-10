@@ -55,3 +55,9 @@ Here we can see how **Vertex Group** and **Face Group** can be combined:
 
 ![Selection Demo](./assets/selection/selection.gif)
 
+---
+
+## Even Thickness
+Many operations involve offsetting the surface of a mesh. These settings will determine how the offset is calculated.
+
+
