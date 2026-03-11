@@ -6,7 +6,7 @@ Uses one side of a plane object to cut and 'Trim' the mesh. The cutter must be s
 
 <div class="grid cards" markdown>
 - ![Boolean Trim GIF](../assets/booleans/boolean_trim.gif)
-The trim plane can turn corners
+Trim plane(s) can turn corners
 - ![Boolean Trim Multiple GIF](../assets/booleans/boolean_trim_multiple.gif)
 Multiple trim planes can be used with one modifier
 </div>
