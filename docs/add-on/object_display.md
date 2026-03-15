@@ -6,6 +6,8 @@ This panel helps manage object's visibility. Assigning a mesh as ***Viewport Onl
 
 This is particularly useful for objects referenced by [Mesh Modifiers](../mesh_tools/index.md) such as [Surface Insert](../mesh_tools/surface_insert.md)
 
+![Object Display GIF](../assets/add-on/object_display.gif)
+
 ## Rendered
 Show object in renders and viewport. Applies default "visible" object properties.
 

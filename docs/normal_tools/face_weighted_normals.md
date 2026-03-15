@@ -6,10 +6,7 @@ Calculate face weighted normals for a mesh. This is similar to Blender's built-i
 
 
 - Selection Panel lets you limit weighted normals to a specific part of your mesh.
-- Options are designed to be more intuitive.
-
-!!! warning ""Corner Angle" weighting is not yet implemented"
-    This can create some odd shading on certain topology and is planned for a future update.
+- Options are designed to be more intuitive and easier to use.
 
 <div class="grid cards" markdown>
 
@@ -29,6 +26,7 @@ Weighted normals
     - **Face Strength.** Use the "Face Strength" attribute. [Official Documentation](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/mesh/normals.html#set-face-strength)
     - **Attribute.** Define an attribute to use for normal weighting.
 - **Keep Sharp.** Keep sharp edges on face corners.
+- **Corner Angle Weights.** Include corner angles in weighting. Produces better normals for non -quads.
 
 ### Area Weights
 Have more control over area-weighted normals.
