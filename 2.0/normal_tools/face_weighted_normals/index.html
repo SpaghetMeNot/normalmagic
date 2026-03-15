@@ -602,7 +602,7 @@
         
   
   <span class="md-ellipsis">
-    🚧 Boolean Trim
+    Boolean Trim
   </span>
   
 
@@ -1720,12 +1720,8 @@
 <p>Calculate face weighted normals for a mesh. This is similar to Blender's built-in <a href="https://docs.blender.org/manual/en/latest/modeling/modifiers/normals/weighted_normal.html">Weighted Normals Modifier</a> but with some differences:</p>
 <ul>
 <li>Selection Panel lets you limit weighted normals to a specific part of your mesh.</li>
-<li>Options are designed to be more intuitive.</li>
+<li>Options are designed to be more intuitive and easier to use.</li>
 </ul>
-<div class="admonition warning">
-<p class="admonition-title">"Corner Angle" weighting is not yet implemented</p>
-<p>This can create some odd shading on certain topology and is planned for a future update.</p>
-</div>
 <div class="grid cards">
 <ul>
 <li>
@@ -1748,6 +1744,7 @@ Weighted normals</p>
 </ul>
 </li>
 <li><strong>Keep Sharp.</strong> Keep sharp edges on face corners.</li>
+<li><strong>Corner Angle Weights.</strong> Include corner angles in weighting. Produces better normals for non -quads.</li>
 </ul>
 <h3 id="area-weights">Area Weights<a class="headerlink" href="#area-weights" title="Permanent link">&para;</a></h3>
 <p>Have more control over area-weighted normals.</p>
