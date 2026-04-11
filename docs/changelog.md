@@ -1,5 +1,54 @@
 # Changelog
 
+## 2.0
+
+### New Modifiers
+
+- [Cut Groove](./mesh_tools/cut_groove.md): Cuts a V-shaped groove or gap where other meshes intersect.
+- [Solidify Pro](./mesh_tools/solidify_pro.md): Solidify meshes with advanced profile control. Supports custom normals.
+- [Boolean Extrude](./mesh_tools/boolean_extrude.md): Extrude area of Boolean intersection area in or out.
+- [Boolean Trim](./mesh_tools/boolean_trim.md): Cut and 'trim' a mesh with single-sided cutter objects.
+
+### Existing Modifiers
+- Surface Project renamed to [Project to Surface](./mesh_tools/project_to_surface.md):
+	- Added Color debug options for projection and normal masks.
+- [Surface Insert](./mesh_tools/surface_insert.md):
+	- Added "Instances" option to insert mesh panel. You can now:
+		- Realize instances and insert using their local transform (if applicable).
+		- Realize instances and insert using their parent insert object's transform (if applicable).
+		- Keep instances, maintain their relative position to the nearest insert geometry.
+	- Debug Color for projection and normal masks.
+	- Surface Boolean is now optional.
+	- Added "Boolean Caps" menu to help with certain edge cases.
+- [Boolean Pro](./mesh_tools/boolean_pro.md):
+	- New "Non-manifold fallback" solver option.
+- [Face Weighted Normals](./normal_tools/face_weighted_normals.md):
+	- Now takes into account corner angle. Triangulated meshes now have better weighting.
+- [Symmetrize](./mesh_tools/symmetrize.md)
+	- Added support for mirroring instances.
+	- Added option to convert geometry to an instance before mirroring. This works well when using the object as an insert mesh with [Surface Insert](./mesh_tools/surface_insert.md).
+
+### Pro Add-on
+- Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on.)
+- New Panel: Surface Integration. Contains operators for:
+	- [Surface Insert](./mesh_tools/surface_insert.md)
+	- [Project to Surface](./mesh_tools/project_to_surface.md)
+	
+- New Panel: Modifier References.
+- New Panel: Object Display.
+- Boolean Pro Panel.
+	- "Advanced Boolean" sub-panel contains new operators:
+		- [Boolean Extrude](./mesh_tools/boolean_extrude.md)
+		- [Boolean Trim](./mesh_tools/boolean_trim.md)
+		- [Cut Groove](./mesh_tools/cut_groove.md)
+	- Modifier Settings now handled by the modifier defaults system
+- Modifier Menu Header Bar.
+	- [Mark Sharp](./other_tools/mark_sharp.md). Available in the modifier header.
+- Modifier Defaults:
+- Boolean Pro Panel:
+
+----
+
 ## 1.1
 
 ### Asset Library

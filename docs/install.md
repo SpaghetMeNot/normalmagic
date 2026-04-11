@@ -1,11 +1,16 @@
 # Install
 
-normalMagic is installed as an **asset library** in Blender. There is an optional **add-on** included with the Pro version which makes it easier and faster to set up certain modifiers.
+To install normalMagic please see the relevant section for your version:
 
-Timestamped install video:
-<iframe width="900" height="390" src="https://www.youtube.com/embed/JhmOyhYI4zM?si=lt3rrJaOTV8b3G8s&amp;start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[**Base Version**](#base-version-asset-library) is installed as an **asset library.**
 
-## Asset Library
+[**Pro Version**](#pro-version-add-on) is installed as an **add-on** (that is packaged with the asset library).
+
+
+
+## Base Version (Asset Library)
+
+The Base version of normalMagic is installed as an **asset library**, not an add-on.
 
 !!! tip "TLDR"
     Download the **.zip**, extract to a folder, add the folder as an asset library.
@@ -22,20 +27,57 @@ Timestamped install video:
 4. Click ++"\+"++ Add Asset Library. ![install_1](assets/install/install_1.png)
 5. Navigate to the unzipped folder and press **Add Asset Library**. ![install_2](assets/install/install_2.png)
 6. You should now see "normalMagic" in your asset libraries.  
-**Optional**: Here you can choose how the data is imported by default. Setting this to 'Link' will reduce file sizes and make it easier to update versions. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
+**Optional**: Here you can choose how the data is imported by default. Setting this to **Pack** or **Link** will make it easier to update versions. **Link** will also reduce file sizes. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
 
-normalMagic should now be installed. Modifiers will now show up under the **Add Modifier** menu. ![install_check](./assets/install/install_check.png)
+normalMagic should now be installed. Modifiers will now show up under the **Add Modifier** menu:
 
-### Update Version
+![install_check](./assets/install/add_modifier.gif)
 
-To update to a newer version of normalMagic:
+### Update Asset Library
+
+To update to a newer version of the normalMagic asset library:
 
 1. Remove existing asset library under **Edit/Preferences/File Paths/Asset Libraries.**
 2. Repeat [install instructions](#first-time-install) to add new version.
 
-### Update Existing Modifiers
+Alternatively you could replace the files in the existing library with the newer ones.
 
-#### Linked Library
+
+----
+
+
+## Pro Version (Add-on)
+
+!!! tip "TLDR"
+    Download the add-on **.zip** file and drag it into Blender's viewport. For more detailed instructions see below.
+
+### Install Add-on
+To install/update the add-on simply:
+
+1. Download the latest "addon" .zip file.
+2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)  
+    You should now see a "Normal Magic" tab in the sidebar of the 3D viewport. ![addon panel](./assets/install/sidebar_1.png)
+3. Press ++"Automatic Install"++ to install the asset library from the add-on, or ++"Open Preferences"++ to add the asset library from elsewhere (See the next section).
+
+### Custom Asset Library Location
+If you want your asset library imported from another location:
+
+1. Install the asset library.
+    - Through the ++"Choose Asset Library"++ button in the add-on's Preferences.
+    - Through **Edit/Preferences/Filepaths** (see [Base Version](#base-version-asset-library) instructions).
+2. Refresh Asset library location, or restart Blender.  
+    ![refresh](./assets/install/refresh_library.png)
+
+### Update Add-on
+
+Simple drag the new .zip file into Blender, this will update the existing version.
+
+---- 
+
+## Update Existing Scenes
+Modifiers that already exist in scenes might need updating depending on your asset library setup.
+
+### Linked/Packed Library
 Update modifiers in existing scenes if **library is set to "Link"**:
 
 1. Go to the outliner and change the view to "Blend File".
@@ -45,7 +87,7 @@ Update modifiers in existing scenes if **library is set to "Link"**:
 
 ![Relocate Library](./assets/install/relocate_library.png){ width=512 }
 
-#### Appended Library
+### Appended Library
 
 Update modifiers in existing scenes if **library is set to "Append"**:
 
@@ -56,22 +98,3 @@ Update modifiers in existing scenes if **library is set to "Append"**:
 5. Select the newer version (most likely called ".001").
 
 ![Remap Modifiers](./assets/install/remap_modifiers.png){ width=512 }
-
-
-
-## Add-on
-
-!!! tip "Pro version"
-    The normalMagic add-on is available to the **Pro** tier only.
-
-    [Add-on Documentation](./add-on/index.md)
-
-
-To install/update the add-on simply:
-
-1. Download the latest "addon" .zip file.
-2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)
-
-You should now see a "Normal Magic" tab in the sidebar of the 3D viewport.
-
-![addon panel](./assets/add-on/addon_panel.png)

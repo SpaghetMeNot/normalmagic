@@ -9,6 +9,9 @@ Welcome to the **normalMagic** documentation. Here you'll find everything there 
 
 </div>
 
+!!! warning "Blender Compatibility"
+    normalMagic 2.0 requires **Blender 5.0** or higher. For 4.5 support please use version [1.1](https://spaghetmenot.github.io/normalmagic/1.1/)
+
 ## Quick Links
 <div class="grid cards" markdown>
 

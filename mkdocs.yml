@@ -113,7 +113,7 @@ nav:
     - mesh_tools/boolean_pro.md
     - mesh_tools/boolean_trim.md
     - mesh_tools/boolean_extrude.md
-    - mesh_tools/surface_project.md
+    - mesh_tools/project_to_surface.md
     - mesh_tools/surface_insert.md
     - mesh_tools/symmetrize.md
     - mesh_tools/solidify_pro.md
