@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://spaghetmenot.github.io/normalmagic/2.0/mesh_tools/surface_project/">
+        <link rel="canonical" href="https://spaghetmenot.github.io/normalmagic/2.0/mesh_tools/project_to_surface/">
       
       
+        <link rel="prev" href="../boolean_extrude/">
+      
+      
+        <link rel="next" href="../surface_insert/">
       
       
       <link rel="icon" href="../../assets/normalMagicIcon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Surface Project - normalMagic</title>
+        <title>Project to Surface - normalMagic</title>
       
     
     
@@ -79,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#surface-project" class="md-skip">
+        <a href="#project-to-surface" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Surface Project
+              Project to Surface
             
           </span>
         </div>
@@ -518,6 +522,8 @@
       
   
   
+    
+  
   
   
     
@@ -552,11 +558,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
@@ -579,7 +585,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Mesh Modifiers
@@ -661,10 +667,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../project_to_surface/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Project to Surface
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -675,6 +703,110 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Projection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection-direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Direction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projection-masking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Masking
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-uvs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer UVs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1674,6 +1806,98 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Targets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Projection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection-direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Direction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projection-masking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projection Masking
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-normals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer Normals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfer-uvs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transfer UVs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1688,12 +1912,101 @@
 
 
 
-<h1 id="surface-project">Surface Project<a class="headerlink" href="#surface-project" title="Permanent link">&para;</a></h1>
+<h1 id="project-to-surface">Project to Surface<a class="headerlink" href="#project-to-surface" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="../../assets/icons/surface_blend_9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Surface Project" src="../../assets/icons/surface_blend_9.png" width="128" /></a></p>
-<div class="admonition warning">
-<p class="admonition-title">Modifier Renamed</p>
-<p>This modifier is now called <a href="../project_to_surface/">Project to Surface</a>.</p>
+<p>Project and blend geometry onto other mesh surfaces. Transfer normals and UVs for a seamless blend.</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><a class="glightbox" href="../../assets/surface_project/surface_blend_1.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Surface Project 1" src="../../assets/surface_project/surface_blend_1.gif" /></a><br />
+Blend a mesh object to other surfaces. Multiple other mesh surfaces can be specified.</p>
+</li>
+<li>
+<p><a class="glightbox" href="../../assets/surface_project/surface_blend_2.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Surface Project 2" src="../../assets/surface_project/surface_blend_2.gif" /></a><br />
+Project mesh as a "Decal" onto other objects. This flattens the geometry but keeps the original normals.</p>
+</li>
+</ul>
 </div>
+<div class="admonition tip">
+<p class="admonition-title">Open Edges</p>
+<p>This modifier works best on meshes with "open edges", i.e. non-solid objects. These edges are used as the base for most <a href="../../common_settings/#mask-falloff">masking methods</a>.</p>
+<p><a class="glightbox" href="../../assets/surface_project/open_edges.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="open_edges" src="../../assets/surface_project/open_edges.png" width="512" /></a></p>
+</div>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<p>Examples can be found in the <strong>Surface Project/Insert</strong> scene in the <a href="../../examples/">example file</a>.</p>
+<p><a class="glightbox" href="../../assets/examples/surface_project_insert.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="examples" src="../../assets/examples/surface_project_insert.png" /></a></p>
+<h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<h3 id="projection-targets">Projection Targets<a class="headerlink" href="#projection-targets" title="Permanent link">&para;</a></h3>
+<p>Choose which meshes to project to.</p>
+<ul>
+<li><strong>Target Objects:</strong> How many mesh objects to project to.</li>
+<li><strong>Objects:</strong> Choose individual mesh objects to project to.</li>
+<li><strong>Collection:</strong> Choose a collection containing mesh objects to project to.</li>
+</ul>
+<h3 id="projection">Projection<a class="headerlink" href="#projection" title="Permanent link">&para;</a></h3>
+<p>Define how mesh is projected to surfaces.</p>
+<ul>
+<li><strong>Method:</strong> Method for vertex projection:
+    <a class="glightbox" href="../../assets/surface_project/projection_methods.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Method GIF" src="../../assets/surface_project/projection_methods.gif" /></a><ul>
+<li><strong>Wrap to Surface:</strong> Wrap mesh to target surface. Points will be projected to target surface and re-displaced based on their calculated height.</li>
+<li><strong>Blend with Surface:</strong> Project points to target surface then blend between original and projected positions.</li>
+<li><strong>Project Decal:</strong> Flatten geometry to target surface while keeping original normals. Ideal for "floaters" intended for baking.</li>
+</ul>
+</li>
+<li><strong>Surface Offset:</strong> Move projected vertices a fixed amount towards or away from the target surface.</li>
+</ul>
+<h4 id="projection-direction">Projection Direction<a class="headerlink" href="#projection-direction" title="Permanent link">&para;</a></h4>
+<p>Control the direction and properties of surface projection.</p>
+<ul>
+<li><strong>Project Direction:</strong> Define direction of projection rays:<ul>
+<li><strong>Object Direction:</strong> Direction in object space (default -Z).</li>
+<li><strong>World Direction:</strong> Direction in world space (default -Z).</li>
+<li><strong>Mesh Normal:</strong> Use individual point normals.</li>
+<li><strong>Mesh Island Normal:</strong> Use the average normal of each mesh island.</li>
+<li><strong>Mesh Tangent:</strong> Use individual point tangents.</li>
+<li><strong>Surface Normal:</strong> Use the normal of the closest part of target surface.</li>
+</ul>
+</li>
+<li><strong>Base Height:</strong> How height is calculated for <strong><em>Wrap to Surface</em></strong> and <strong><em>Project Decal</em></strong> projection methods:<ul>
+<li><strong>Boundary Center:</strong> Calculate height from a plane defined by the center of the boundary and the projection direction.</li>
+<li><strong>Object Origin:</strong> Calculate height from a plane defined by the objects origin and the projection direction.</li>
+</ul>
+</li>
+<li><strong>Re-Displace:</strong> When using <strong><em>Wrap to Surface</em></strong>. Direction to apply calculated height:<ul>
+<li><strong>Projection:</strong> Apply height displacement using the projection direction.</li>
+<li><strong>Surface Normal:</strong> Apply height displacement using the normal of the target surface.</li>
+</ul>
+</li>
+<li><strong>Ray Length:</strong> Maximum distance rays will collide with target surface. Best to keep at a large enough value that all points collide.</li>
+<li><strong>No Hit:</strong> Change behavior of vertices when projection rays miss:<ul>
+<li><strong>Unchanged:</strong> Do not move vertex.</li>
+<li><strong>Closest Surface to Max Dist:</strong> Move vertex to the maximum distance in ray direction then snap to closest point on target surface.</li>
+</ul>
+</li>
+</ul>
+<h4 id="projection-masking">Projection Masking<a class="headerlink" href="#projection-masking" title="Permanent link">&para;</a></h4>
+<p>Control how projection is masked. See <a href="../../common_settings/#mask-falloff">Mask Falloff</a>.</p>
+<p><a class="glightbox" href="../../assets/surface_insert/falloff.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="falloff" src="../../assets/surface_insert/falloff.gif" /></a></p>
+<ul>
+<li><strong>Vertex Group:</strong> Choose a vertex group to project.</li>
+</ul>
+<h3 id="transfer-normals">Transfer Normals<a class="headerlink" href="#transfer-normals" title="Permanent link">&para;</a></h3>
+<p>Transfer normals from target surfaces. Internally this uses <a href="../../normal_tools/normal_transfer/">Normal Transfer</a>. Normals are transferred after vertex projection, using the closest target surface.</p>
+<ul>
+<li><strong>Normal Domain:</strong> Whether normals are stored on points (smooth) or face corners (allows sharp edges).</li>
+<li><strong>Normal Masking:</strong> How to mask the normal transfer:<ul>
+<li><strong>Projection Mask:</strong> Use the same mask used for vertex <a href="#projection-masking">projection</a>.</li>
+<li><strong>New Mask:</strong> Create a new mask using <a href="../../common_settings/#mask-falloff">mask falloff</a>.</li>
+</ul>
+</li>
+<li><strong>Vertex Group:</strong> Limit all normal transfer to a vertex group.</li>
+</ul>
+<h3 id="transfer-uvs">Transfer UVs<a class="headerlink" href="#transfer-uvs" title="Permanent link">&para;</a></h3>
+<p>Transfer UVs from target surface.</p>
+<ul>
+<li><strong>UV Map From:</strong> Which UV Map to transfer from the <strong>surface</strong>.</li>
+<li><strong>UV Map To:</strong> Which UV Map to write to on this object.</li>
+</ul>
 
 
 
