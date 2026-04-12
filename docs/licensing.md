@@ -4,8 +4,10 @@
 
 For an individual purchasing normalMagic, licenses are as follows:
 
-- Asset Library: [Standard Royalty Free License](#standard-royalty-free-license).
-- Add-on (Pro version): [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
+- Base Version (Asset Library Only): [Standard Royalty Free License](#standard-royalty-free-license).
+- Pro Version:
+    - Add-on Python Code: [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
+    - Asset Library: [Standard Royalty Free License](#standard-royalty-free-license).
 
 
 ## Team / Studio Licenses
@@ -16,15 +18,18 @@ The following team sizes are available:
 - Small Studio: up to 9 users.
 - Large Studio: 10-20 users.
 
-
 For teams that exceed 20 users, additional licenses should be purchased. This only applies to the asset library's [Standard Royalty Free License](#standard-royalty-free-license).
 The licensing is as follows:
 
 - Asset Library: [Standard Royalty Free License](#standard-royalty-free-license).
-- Add-on: [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
+- Add-on Python Code: [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
 
 !!! info "Early Access Customers"
     For Studios that bought early access copies: individual licenses can be transferred into a studio license per request. This will discount the studio license by the price paid for each individual license.
+
+## Enterprise License
+
+For unlimited users across a large organization please reach out via email: spaghetmenot@gmail.com
 
 
 ## Standard Royalty Free License
