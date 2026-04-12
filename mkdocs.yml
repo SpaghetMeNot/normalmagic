@@ -148,10 +148,12 @@ nav:
     - manual_tools/recalculate_weighted.md
     - manual_tools/add_custom_normals.md
 
-  - Add-on:
+  - Pro Add-on:
     - add-on/index.md
     - add-on/preferences.md
     - add-on/boolean_pro.md
+    - add-on/surface_integration.md
     - add-on/instance_objects.md
     - add-on/object_display.md
     - add-on/modifier_references.md
+    - add-on/modifier_header.md

@@ -2,11 +2,14 @@
 
 ![bpro panel](../assets/add-on/bpro_panel.png)
 
-These tools make it easier to use the [Boolean Pro](../mesh_tools/boolean_pro.md) modifier.
+This panel lets you quickly set up Boolean modifiers on selected geometry. Modifiers are added to the active object, other selected objects will be added as cutters. There are operators for adding the following modifiers:
 
-## Top Panel Operators
+- [Boolean Pro](../mesh_tools/boolean_pro.md)
+- [Boolean Extrude](../mesh_tools/boolean_extrude.md)
+- [Boolean Trim](../mesh_tools/boolean_trim.md)
+- [Cut Groove](../mesh_tools/cut_groove.md)
 
-The top of the panel contains operators for all Boolean Pro modes.
+
 
 <div class="grid cards" markdown>
 
@@ -20,6 +23,12 @@ The top of the panel contains operators for all Boolean Pro modes.
 
 </div>
 
+## Boolean Pro Operators
+
+The top of the panel contains operators for all Boolean Pro modes.
+
+
+
 ### Operations
 
 | Intersect | Union | Difference | Slice |
@@ -31,13 +40,23 @@ The top of the panel contains operators for all Boolean Pro modes.
 The "Split" Operator will duplicate the object:
 
 - The original will get a **Difference** Boolean
-- The duplicate will get a **Intersect** Boolean. There is an option under [Cutter Behavior](#cutter-behavior) to make the intersection object linked.
+- The duplicate will get a **Intersect** Boolean.
+- The duplicate can be a linked copy by toggling the link option next to the button.
+
+## Advanced Boolean Operators
+
+The "Advanced Booleans" section lets you add the following modifiers:
+
+- [Boolean Extrude](../mesh_tools/boolean_extrude.md)
+- [Boolean Trim](../mesh_tools/boolean_trim.md)
+- [Cut Groove](../mesh_tools/cut_groove.md)
+
+
 
 ## Modifier Settings
 
-This section lets you change what settings the Boolean Pro modifiers get **before being added** (Settings for existing modifiers won't be updated).
+To change the default settings for any modifier, use the [Modifier Defaults](./modifier_defaults.md) menu to save defaults from a modifier.
 
-All options in this section are covered on the [Boolean Pro modifier](../mesh_tools/boolean_pro.md) page.
 
 
 ## Cutter Behavior

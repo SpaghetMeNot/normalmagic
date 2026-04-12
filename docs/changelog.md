@@ -29,25 +29,26 @@
 	- Added option to convert geometry to an instance before mirroring. This works well when using the object as an insert mesh with [Surface Insert](./mesh_tools/surface_insert.md).
 
 ### Pro Add-on
-- Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on.)
-- New Panel: Surface Integration. Contains operators for:
+- Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on)
+- New Panel: [Surface Integration](./add-on/surface_integration.md). Contains operators for:
 	- [Surface Insert](./mesh_tools/surface_insert.md)
 	- [Project to Surface](./mesh_tools/project_to_surface.md)
 	
-- New Panel: Modifier References.
-- New Panel: Object Display.
-- Boolean Pro Panel.
+- New Panel: [Modifier References](./add-on/modifier_references.md)
+- New Panel: [Object Display](./add-on/object_display.md)
+- [Boolean Pro Panel](./add-on/boolean_pro.md)
 	- "Advanced Boolean" sub-panel contains new operators:
 		- [Boolean Extrude](./mesh_tools/boolean_extrude.md)
 		- [Boolean Trim](./mesh_tools/boolean_trim.md)
 		- [Cut Groove](./mesh_tools/cut_groove.md)
-	- Modifier Settings now handled by the modifier defaults system
-- Modifier Menu Header Bar.
-	- [Mark Sharp](./other_tools/mark_sharp.md). Available in the modifier header.
-- Modifier Defaults:
-- Boolean Pro Panel:
+	- Modifier Settings now handled by the [modifier defaults](./add-on/modifier_defaults.md) system
+- [Modifier Header Bar](./add-on/modifier_header.md).
+	- [Mark Sharp](./other_tools/mark_sharp.md). Available in the modifier header
+- [Modifier Defaults](./add-on/modifier_defaults.md). Save default settings for modifiers added via the add-on
+
 
 ----
+
 
 ## 1.1
 
