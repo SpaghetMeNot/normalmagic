@@ -24,8 +24,10 @@ The Base version of normalMagic is installed as an **asset library**, not an add
 1. Download latest .zip file for the closest Blender version (*normalMagic 4.5 v1.0.blend*).
 2. Unzip/extract to a folder in your desired location.
 3. Open Blender and go to **Edit/Preferences/File Paths/Asset Libraries.**
-4. Click ++"\+"++ Add Asset Library. ![install_1](assets/install/install_1.png)
-5. Navigate to the unzipped folder and press **Add Asset Library**. ![install_2](assets/install/install_2.png)
+4. Click ++"\+"++ Add Asset Library.  
+    ![install_1](assets/install/install_1.png)
+5. Navigate to the unzipped folder and press **Add Asset Library**.  
+    ![install_2](assets/install/install_2.png)
 6. You should now see "normalMagic" in your asset libraries.  
 **Optional**: Here you can choose how the data is imported by default. Setting this to **Pack** or **Link** will make it easier to update versions. **Link** will also reduce file sizes. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
 
@@ -48,8 +50,15 @@ Alternatively you could replace the files in the existing library with the newer
 
 ## Pro Version (Add-on)
 
+The Pro version of normalMagic is installed as an add-on. The asset library is now packaged with the add-on and can be set up with a single click.
+
 !!! tip "TLDR"
-    Download the add-on **.zip** file and drag it into Blender's viewport. For more detailed instructions see below.
+    - Download the add-on **.zip** file and drag it into Blender's viewport.
+    - Click "Automatic Install" to set up the asset library. (Recommended)
+
+!!! warning "Remove Existing Asset Libraries"
+    Updating from 1.x versions will require removing the existing asset library from **Edit/Preference/File Paths/Asset Libraries**.
+    
 
 ### Install Add-on
 To install/update the add-on simply:
@@ -59,18 +68,21 @@ To install/update the add-on simply:
     You should now see a "Normal Magic" tab in the sidebar of the 3D viewport. ![addon panel](./assets/install/sidebar_1.png)
 3. Press ++"Automatic Install"++ to install the asset library from the add-on, or ++"Open Preferences"++ to add the asset library from elsewhere (See the next section).
 
+
 ### Custom Asset Library Location
 If you want your asset library imported from another location:
 
-1. Install the asset library.
+1. Remove any existing normalMagic asset libraries from **Edit/Preferences/Filepaths**.
+2. Install the asset library.  
     - Through the ++"Choose Asset Library"++ button in the add-on's Preferences.
     - Through **Edit/Preferences/Filepaths** (see [Base Version](#base-version-asset-library) instructions).
-2. Refresh Asset library location, or restart Blender.  
+3. Refresh Asset library location. (Alternatively you can disable/re-enable the add-on or restart Blender).  
     ![refresh](./assets/install/refresh_library.png)
 
 ### Update Add-on
 
-Simple drag the new .zip file into Blender, this will update the existing version.
+1. Drag the new .zip file into Blender, this will update the existing version.
+2. Press "Automatic Install" to set up the new asset library. If you are using a custom asset library location this will need updating manually.
 
 ---- 
 
