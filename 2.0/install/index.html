@@ -2029,8 +2029,10 @@
 <li>Download latest .zip file for the closest Blender version (<em>normalMagic 4.5 v1.0.blend</em>).</li>
 <li>Unzip/extract to a folder in your desired location.</li>
 <li>Open Blender and go to <strong>Edit/Preferences/File Paths/Asset Libraries.</strong></li>
-<li>Click <span class="keys"><kbd>+</kbd></span> Add Asset Library. <a class="glightbox" href="../assets/install/install_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="install_1" src="../assets/install/install_1.png" /></a></li>
-<li>Navigate to the unzipped folder and press <strong>Add Asset Library</strong>. <a class="glightbox" href="../assets/install/install_2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="install_2" src="../assets/install/install_2.png" /></a></li>
+<li>Click <span class="keys"><kbd>+</kbd></span> Add Asset Library.<br />
+<a class="glightbox" href="../assets/install/install_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="install_1" src="../assets/install/install_1.png" /></a></li>
+<li>Navigate to the unzipped folder and press <strong>Add Asset Library</strong>.<br />
+<a class="glightbox" href="../assets/install/install_2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="install_2" src="../assets/install/install_2.png" /></a></li>
 <li>You should now see "normalMagic" in your asset libraries.<br />
 <strong>Optional</strong>: Here you can choose how the data is imported by default. Setting this to <strong>Pack</strong> or <strong>Link</strong> will make it easier to update versions. <strong>Link</strong> will also reduce file sizes. See the <a href="https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings">Official Documentation</a> for more information. <a class="glightbox" href="../assets/install/install_3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="install_3" src="../assets/install/install_3.png" /></a></li>
 </ol>
@@ -2045,9 +2047,17 @@
 <p>Alternatively you could replace the files in the existing library with the newer ones.</p>
 <hr />
 <h2 id="pro-version-add-on">Pro Version (Add-on)<a class="headerlink" href="#pro-version-add-on" title="Permanent link">&para;</a></h2>
+<p>The Pro version of normalMagic is installed as an add-on. The asset library is now packaged with the add-on and can be set up with a single click.</p>
 <div class="admonition tip">
 <p class="admonition-title">TLDR</p>
-<p>Download the add-on <strong>.zip</strong> file and drag it into Blender's viewport. For more detailed instructions see below.</p>
+<ul>
+<li>Download the add-on <strong>.zip</strong> file and drag it into Blender's viewport.</li>
+<li>Click "Automatic Install" to set up the asset library. (Recommended)</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Remove Existing Asset Libraries</p>
+<p>Updating from 1.x versions will require removing the existing asset library from <strong>Edit/Preference/File Paths/Asset Libraries</strong>.</p>
 </div>
 <h3 id="install-add-on">Install Add-on<a class="headerlink" href="#install-add-on" title="Permanent link">&para;</a></h3>
 <p>To install/update the add-on simply:</p>
@@ -2060,16 +2070,20 @@
 <h3 id="custom-asset-library-location">Custom Asset Library Location<a class="headerlink" href="#custom-asset-library-location" title="Permanent link">&para;</a></h3>
 <p>If you want your asset library imported from another location:</p>
 <ol>
-<li>Install the asset library.<ul>
+<li>Remove any existing normalMagic asset libraries from <strong>Edit/Preferences/Filepaths</strong>.</li>
+<li>Install the asset library.  <ul>
 <li>Through the <span class="keys"><kbd>Choose Asset Library</kbd></span> button in the add-on's Preferences.</li>
 <li>Through <strong>Edit/Preferences/Filepaths</strong> (see <a href="#base-version-asset-library">Base Version</a> instructions).</li>
 </ul>
 </li>
-<li>Refresh Asset library location, or restart Blender.<br />
+<li>Refresh Asset library location. (Alternatively you can disable/re-enable the add-on or restart Blender).<br />
 <a class="glightbox" href="../assets/install/refresh_library.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="refresh" src="../assets/install/refresh_library.png" /></a></li>
 </ol>
 <h3 id="update-add-on">Update Add-on<a class="headerlink" href="#update-add-on" title="Permanent link">&para;</a></h3>
-<p>Simple drag the new .zip file into Blender, this will update the existing version.</p>
+<ol>
+<li>Drag the new .zip file into Blender, this will update the existing version.</li>
+<li>Press "Automatic Install" to set up the new asset library. If you are using a custom asset library location this will need updating manually.</li>
+</ol>
 <hr />
 <h2 id="update-existing-scenes">Update Existing Scenes<a class="headerlink" href="#update-existing-scenes" title="Permanent link">&para;</a></h2>
 <p>Modifiers that already exist in scenes might need updating depending on your asset library setup.</p>
