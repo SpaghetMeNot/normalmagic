@@ -376,13 +376,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#20" class="md-nav__link">
+  <a href="#200-beta2" class="md-nav__link">
     <span class="md-ellipsis">
-      2.0
+      2.0.0-beta2
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2.0">
+    <nav class="md-nav" aria-label="2.0.0-beta2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pro Add-on
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#200-beta1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.0.0-beta1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.0-beta1">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -404,7 +437,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#pro-add-on" class="md-nav__link">
+  <a href="#pro-add-on_1" class="md-nav__link">
     <span class="md-ellipsis">
       Pro Add-on
     </span>
@@ -1854,13 +1887,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#20" class="md-nav__link">
+  <a href="#200-beta2" class="md-nav__link">
     <span class="md-ellipsis">
-      2.0
+      2.0.0-beta2
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2.0">
+    <nav class="md-nav" aria-label="2.0.0-beta2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pro Add-on
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#200-beta1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.0.0-beta1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.0-beta1">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1882,7 +1948,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#pro-add-on" class="md-nav__link">
+  <a href="#pro-add-on_1" class="md-nav__link">
     <span class="md-ellipsis">
       Pro Add-on
     </span>
@@ -1945,7 +2011,33 @@
 
 
 <h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
-<h2 id="20">2.0<a class="headerlink" href="#20" title="Permanent link">&para;</a></h2>
+<h2 id="200-beta2">2.0.0-beta2<a class="headerlink" href="#200-beta2" title="Permanent link">&para;</a></h2>
+<h3 id="modifiers">Modifiers<a class="headerlink" href="#modifiers" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="../mesh_tools/symmetrize/">Symmetrize</a>:<ul>
+<li>Fixed "Unify Custom Normals" not picking up unmarked sharp edges</li>
+<li>Fixed "Cut Geometry" clipping mode on 2d planes perpendicular to mirror direction</li>
+</ul>
+</li>
+<li><a href="../normal_tools/repair_bevel_normals/">Repair Bevel Normals</a>:<ul>
+<li>Added "Mark Sharp" Section:<ul>
+<li>Bevel Loop Angle: Helps preserve sharp edges when the bevel loop turns a steep angle.</li>
+<li>Bevel Boundary Edge: Marks sharp when bevels end on a sharp edge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="pro-add-on">Pro Add-on<a class="headerlink" href="#pro-add-on" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Asset Library Loading:<ul>
+<li>Throw readable error from operators when Blender gets stuck "Loading Asset Libraries".</li>
+<li>Modifier Header is now disabled when asset library isn't loaded.</li>
+</ul>
+</li>
+<li>Added <a href="../mesh_tools/symmetrize/">Symmetrize</a> operator. It is on by default in the modifier header bar.</li>
+</ul>
+<h2 id="200-beta1">2.0.0-beta1<a class="headerlink" href="#200-beta1" title="Permanent link">&para;</a></h2>
 <h3 id="new-modifiers">New Modifiers<a class="headerlink" href="#new-modifiers" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="../mesh_tools/cut_groove/">Cut Groove</a>: Cuts a V-shaped groove or gap where other meshes intersect.</li>
@@ -1985,7 +2077,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="pro-add-on">Pro Add-on<a class="headerlink" href="#pro-add-on" title="Permanent link">&para;</a></h3>
+<h3 id="pro-add-on_1">Pro Add-on<a class="headerlink" href="#pro-add-on_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on)</li>
 <li>
