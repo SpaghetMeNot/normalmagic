@@ -1,6 +1,23 @@
 # Changelog
 
-## 2.0
+## 2.0.0-beta2
+
+### Modifiers
+
+- [Symmetrize](./mesh_tools/symmetrize.md):
+	- Fixed "Unify Custom Normals" not picking up unmarked sharp edges
+	- Fixed "Cut Geometry" clipping mode on 2d planes perpendicular to mirror direction
+- [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md):
+	- Added "Mark Sharp" Section:
+		- Bevel Loop Angle: Helps preserve sharp edges when the bevel loop turns a steep angle.
+		- Bevel Boundary Edge: Marks sharp when bevels end on a sharp edge.
+### Pro Add-on
+- Asset Library Loading:
+	- Throw readable error from operators when Blender gets stuck "Loading Asset Libraries".
+	- Modifier Header is now disabled when asset library isn't loaded.
+- Added [Symmetrize](./mesh_tools/symmetrize.md) operator. It is on by default in the modifier header bar.
+
+## 2.0.0-beta1
 
 ### New Modifiers
 
