@@ -2,7 +2,7 @@
 
 ![Boolean Trim Icon](../assets/icons/boolean_trim.png){ width=128 }
 
-Cut and 'Trim' a mesh using a single-sided cutter object.
+Cut and 'Trim' a mesh using single-sided cutter object(s).
 
 <div class="grid cards" markdown>
 - ![Boolean Trim GIF](../assets/booleans/boolean_trim.gif)
@@ -15,6 +15,12 @@ Multiple trim planes can be used with one modifier
 
 - Trim plane(s) must be single sided.
 - Trim plane(s) must extend through the entire mesh.
+
+## Examples
+
+Please check out the [examples file](../examples.md) to see Boolean Trim in action
+
+![bool_trim_examples](../assets/examples/boolean_extrude_trim.png)
 
 ## Options
 

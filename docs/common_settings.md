@@ -1,6 +1,16 @@
 # Common Settings
 Many tools share common options. They are listed on this page for reference.
 
+<div class="grid cards" markdown>
+
+- [Mask Falloff](#mask-falloff)
+
+- [Selection](#selection)
+
+- [Even Thickness](#even-thickness)
+
+</div>
+
 ---
 
 ## Mask Falloff
@@ -59,5 +69,30 @@ Here we can see how **Vertex Group** and **Face Group** can be combined:
 
 ## Even Thickness
 Many operations involve offsetting the surface of a mesh. These settings will determine how the offset is calculated.
+
+<div class="grid cards" markdown>
+
+- ![offset_even](./assets/offset_even/offset_even.gif)
+
+- 
+    - **None:**
+    Points are offset the same distance regardless of face angles.  
+    - **Simple:**
+    Distance of offset is limited to attempt even thickness with neighboring faces.  
+    - **Constraints:**
+    Distance of offset is projected to attempt even thickness with neighboring faces.
+</div>
+
+### Constraints Options
+
+- **Clamp Multiplier:** Limit offset distance to a multiple of specified distance. This keeps "explosion error" limited.
+- **Boundary:** How to offset points on the mesh boundary:
+    - **Normal:** No change in offset direction.
+    - **Flat:** Flatten the offset direction at mesh boundaries.
+    - **Boundary Angle:** Make offset perpendicular to angle of boundary edges. This exposes a setting for how many edges to check to gain an average boundary angle.
+
+    See the "Constraint Boundary Shape" Solidify Pro example in the [examples file](./examples.md#solidify-pro).
+    ![boundary_shape](./assets/offset_even/boundary_shape.png).
+
 
 

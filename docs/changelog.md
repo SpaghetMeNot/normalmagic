@@ -1,28 +1,12 @@
 # Changelog
 
-## 2.0.0-beta2
-
-### Modifiers
-
-- [Symmetrize](./mesh_tools/symmetrize.md):
-	- Fixed "Unify Custom Normals" not picking up unmarked sharp edges
-	- Fixed "Cut Geometry" clipping mode on 2d planes perpendicular to mirror direction
-- [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md):
-	- Added "Mark Sharp" Section:
-		- Bevel Loop Angle: Helps preserve sharp edges when the bevel loop turns a steep angle.
-		- Bevel Boundary Edge: Marks sharp when bevels end on a sharp edge.
-### Pro Add-on
-- Asset Library Loading:
-	- Throw readable error from operators when Blender gets stuck "Loading Asset Libraries".
-	- Modifier Header is now disabled when asset library isn't loaded.
-- Added [Symmetrize](./mesh_tools/symmetrize.md) operator. It is on by default in the modifier header bar.
-
-## 2.0.0-beta1
+## 2.0.0-beta7
 
 ### New Modifiers
 
 - [Cut Groove](./mesh_tools/cut_groove.md): Cuts a V-shaped groove or gap where other meshes intersect.
 - [Solidify Pro](./mesh_tools/solidify_pro.md): Solidify meshes with advanced profile control. Supports custom normals.
+- [Offset Surface](./mesh_tools/offset_surface.md): Offset the surface of a mesh.
 - [Boolean Extrude](./mesh_tools/boolean_extrude.md): Extrude area of Boolean intersection area in or out.
 - [Boolean Trim](./mesh_tools/boolean_trim.md): Cut and 'trim' a mesh with single-sided cutter objects.
 
@@ -62,6 +46,7 @@
 - [Modifier Header Bar](./add-on/modifier_header.md).
 	- [Mark Sharp](./other_tools/mark_sharp.md). Available in the modifier header
 - [Modifier Defaults](./add-on/modifier_defaults.md). Save default settings for modifiers added via the add-on
+- Added [Symmetrize](./mesh_tools/symmetrize.md) operator. It is on by default in the modifier 
 
 
 ----

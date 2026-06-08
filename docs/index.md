@@ -2,7 +2,7 @@
 
 Welcome to the **normalMagic** documentation. Here you'll find everything there is to know about the tools.
 
-!!! warning "Blender 5.0 Required"
+!!! info "Blender 5.0 Required"
     normalMagic 2.0 requires **Blender 5.0** or higher. For 4.5 support please use version [1.1](https://spaghetmenot.github.io/normalmagic/1.1/)
 
 !!! warning "2.0 Docs Incomplete"

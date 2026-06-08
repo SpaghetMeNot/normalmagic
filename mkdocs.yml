@@ -17,7 +17,6 @@ theme:
     # - navigation.prune
     - navigation.sections
     # - navigation.tabs
-    
     # - navigation.top
     - toc.follow
 
@@ -117,6 +116,7 @@ nav:
     - mesh_tools/surface_insert.md
     - mesh_tools/symmetrize.md
     - mesh_tools/solidify_pro.md
+    - mesh_tools/offset_surface.md
     - mesh_tools/cut_groove.md
   
   - Normal Modifiers:

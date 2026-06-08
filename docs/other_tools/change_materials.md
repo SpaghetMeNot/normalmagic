@@ -2,7 +2,7 @@
 
 ![Icon](../assets/icons/change_materials.png){ width=128 }
 
-Assign materials or material indices to face selections.
+Assign materials or material indices to face selections. 
 
 ![Demo](../assets/change_materials/change_materials_demo.gif)
 
@@ -12,7 +12,7 @@ Up to 6 materials can be assigned per modifier. Selections can be driven by exis
 
 - **Materials to Apply:** The number of materials to apply. This will show a panel for each material with a checkbox to enable/disable.
 
-### Material *
+### Material \#
 Panel for each material assignment, contains two panels: One for selecting faces and one for specifying material/index.
 
 #### Selection
