@@ -2,7 +2,7 @@
 
 ![Boolean Pro Icon](../assets/icons/boolean_cut_7_sparkles.png){ width=128 }
 
-Boolean Pro is designed to act as a replacement for Blender's built-in boolean modifier, and provides extra functionality. For reference, documentation for Blender's built-in modifier can be found [here](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html).
+Boolean Pro is designed to act as a replacement for Blender's built-in boolean modifier that provides extra functionality. For reference, documentation for Blender's built-in modifier can be found [here](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html).
 
 !!! tip "Add-on"
     The [normalMagic Add-on](../add-on/index.md) includes operators to quickly set up the Boolean Pro modifier, similar to the Bool Tool add-on.
