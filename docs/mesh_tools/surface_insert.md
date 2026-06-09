@@ -2,10 +2,17 @@
 
 ![Surface Insert Icon](../assets/icons/surface_insert6.png){width=128}
 
-Seamlessly join **insert meshes** into the surface of a mesh.
+Seamlessly join **insert meshes** into the surface of a mesh. Unlike [Project to Surface](../mesh_tools/project_to_surface.md), this modifier is added to the main surface in order to be able to cut and weld the surface geometry.
 !!! tip "An **insert mesh** can be thought of as a "decal", "patch" or "plug"."
 
 <iframe width="900" height="390" src="https://www.youtube.com/embed/xlBAIdUAhiw?si=B4-DWee9Gs_cy452" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Examples
+Be sure to check out the [examples file](../examples.md) to see Project to Surface in action.
+
+![project_to_surface_examples](../assets/examples/surface_project_insert.png)
+
+## Overview
 
 There are two primary ways of performing the insert operation:
 
@@ -46,6 +53,10 @@ This section specifies which meshes to insert.
 
 - **Objects/Collection:** Choose individual mesh objects or a collection containing mesh objects.
 - **Object Count:** How many mesh objects to insert (when in ***Objects*** mode).
+- **Instances:** How to handle instances in insert geometry:
+    - **Realize, Use Transforms:** Realize instances and use their local transforms (if projection direction is "Insert Direction").
+    - **Realize, Ignore Transforms:** Realize instances and use their parent insert object's transform (if projection direction is "Insert Direction").
+    - **Stick to Insert Mesh:** Keep instances and maintain their relative position to the nearest insert geometry.
 
 ### Insert Mesh Projection
 
@@ -58,11 +69,13 @@ This section specifies which meshes to insert.
     - **Insert Direction:** Specify a direction in the space of each insert object.
     - **Object Direction:** Specify a direction in the space of receiving object.
 
-- **Projection Origin.** Where to use as the origin of the insert object. This will affect how the objects height is calculated for re-projection.
+- **Base Height.** Where to use as the origin of the insert object. This will affect how the objects height is calculated for re-projection.
+    - **Boundary Center:** Use average position of mesh boundary.
+    - **Object Origin:** Use insert mesh origin.
 
 - **Height Offset.** Offsets insert mesh away from surface by a specified height.
 
-- **Ray Length.** Maximum distance an insert mesh can have an effect.
+- **Ray Length.** Maximum distance an insert mesh can have an effect. Increase 
 
 #### Projection Masking
 This section controls masking the projection of insert meshes to the surface. This is most useful when using ***Blend with Surface***.
@@ -71,7 +84,7 @@ This section controls masking the projection of insert meshes to the surface. Th
 
 Controlling falloff is covered [here](../common_settings.md#mask-falloff)
 
-#### Normals
+#### Insert Mesh Normals
 This section controls how much of the surface normals are transferred to the insert mesh. This is most useful when using ***Blend with Surface***.
 
 - **Normal Masking**
@@ -84,10 +97,16 @@ This section controls how much of the surface normals are transferred to the ins
 If ***New Mask*** is chosen, the settings for the falloff will appear below. Controlling falloff is covered [here](../common_settings.md#mask-falloff)
 
 ### Surface Boolean
-This section controls how the surface is cut for the insert mesh.
+This section controls how the surface is cut for the insert mesh. Turn off if you don't wish to merge surface, this will make the modifier act like [Project to Surface](../mesh_tools/project_to_surface.md). To avoid guess-work it's often best to tweak these settings when viewing the "Boolean Cutters" [debug view](#debug).
 
-- **Weld Surface.** Welds vertices between the surface and insert mesh. Turning this off will leave them as separate mesh islands.
+- **Weld Surfaces.** Welds vertices between the surface and insert mesh. Turning this off will leave them as separate mesh islands.
 - **Weld Distance.** Distance at which to weld vertices, this takes effect at several points during the process, not just the final weld between surface and insert mesh.
+- **Triangulate Blend Polys:** Triangulate ngons created between the original surface and insert geometry.
+- **Cutting Edges:** Edge group that, if present, will limit which edges will cut into the surface. By default all open edges will cut but you can use an edge group to specify edges.
+- **Boolean Caps:** How to generate boolean end caps. This can allow for complex insert meshes:
+    - **Allow Holes:** Allow insert geometry to have holes. E.g.A circular strip of mesh to make a panel line where the center remains the original surface.
+    - **Allow Tubes:** Insert geometry joins the surface at multiple points. E.g. A handle that joins the surface in two places.
+    - **Flatten Insert Mesh:** Flatten and use insert geometry as the boolean end caps. Can break when there are overhangs but can handle curvature in tight spaces better than the other methods.
 - **Boolean Extrusion.** How far to extrude the cutter shape from the surface. You might need to increase this value if the insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
     ![Boolean Extrusion](../assets/surface_insert/boolean_extrusion.gif)
 - **Boolean Offset.** Offset the Boolean cutter outside the surface. This only effects the "top" of the cutter and will also help when an insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.

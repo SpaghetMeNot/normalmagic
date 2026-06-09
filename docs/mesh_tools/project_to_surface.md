@@ -4,6 +4,8 @@
 
 Project and blend geometry onto other mesh surfaces. Transfer normals and UVs for a seamless blend.
 
+Similar to [Surface Insert](../mesh_tools/surface_insert.md) but this modifier is added to the "decal/patch" mesh, not the main surface. It's the faster option if you don't need to weld the meshes together.
+
 <div class="grid cards" markdown>
 
 - ![Surface Project 1](../assets/surface_project/surface_blend_1.gif)  
@@ -20,10 +22,9 @@ Project mesh as a "Decal" onto other objects. This flattens the geometry but kee
     ![open_edges](../assets/surface_project/open_edges.png){width=512}
 
 ## Examples
+Be sure to check out the [examples file](../examples.md) to see Project to Surface in action.
 
-Examples can be found in the **Surface Project/Insert** scene in the [example file](../examples.md).
-
-![examples](../assets/examples/surface_project_insert.png)
+![project_to_surface_examples](../assets/examples/surface_project_insert.png)
 
 ## Options
 

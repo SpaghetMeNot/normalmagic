@@ -16,6 +16,12 @@ The **Cut Groove** Modifier performs the following steps:
 !!! tip "Viewing Steps"
     You can view the result of each of the above steps using the [Debug panel](#debug)
 
+
+## Examples
+Be sure to check out the [examples file](../examples.md) to see Cut Groove in action.
+
+![cut_groove_examples](../assets/examples/cut_groove.png)
+
 ## Options
 
 ### Cut Operation

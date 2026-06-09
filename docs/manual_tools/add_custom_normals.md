@@ -1,8 +1,8 @@
 # Add Custom Normals
 
-![Icon](../assets/icons/add_custom_normals.png){width=128}
+![Icon](../assets/icons/add_custom_normals_object.png){width=128}
 
-Adds custom normals to selected mesh object. Internally uses the [Lock Normals](../normal_tools/lock_normals.md) tool.
+Found in the **Object** menu. Adds custom normals to selected mesh objects. Internally uses the [Lock Normals](../normal_tools/lock_normals.md) tool.
 
 ## Options
 

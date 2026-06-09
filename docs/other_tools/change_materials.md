@@ -8,12 +8,14 @@ Assign materials or material indices to face selections.
 
 Up to 6 materials can be assigned per modifier. Selections can be driven by existing material/index or arbitrary vertex/face groups.
 
+Many normalMagic [mesh modifiers](../mesh_tools/index.md) output attributes that work well with Change Materials.
+
 ## Options
 
 - **Materials to Apply:** The number of materials to apply. This will show a panel for each material with a checkbox to enable/disable.
 
 ### Material \#
-Panel for each material assignment, contains two panels: One for selecting faces and one for specifying material/index.
+The panel for each material assignment, contains two sub-panels: One for selecting faces and one for specifying the material/index.
 
 #### Selection
 

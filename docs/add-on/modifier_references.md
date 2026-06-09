@@ -19,12 +19,18 @@ The main list displays every modifier on the active object that references other
 
 - 
 
-    **1.** **Toggle** the modifier. This makes it easy to see what effect this modifier is having.
+    **1.** **Hide/Show All:** Hide or show all referenced objects for the active object. Filter the modifier list below.
 
-    **2.**  **Show/hide** the referenced objects.
+    **2.**  **Modifier List:** Each entry here is a modifier on the active object:  
+        - **Toggle** modifier  
+        - **Show/Hide** referenced objects  
+        - **Select/Deselect** referenced objects
 
-    **3.** **Select/deselect** the referenced objects.
+
+    **3.** **Modifier Defaults:** Set the default settings for the highlighted modifier. See [here](../add-on/modifier_defaults.md) for more information.
     
-    **4.** Below shows the type of the selected modifier and lists the individual referenced objects
+    **4.** **Apply/Remove Modifier:** Apply or remove the highlighted modifier with an option to delete referenced objects.
+
+    **5.** **Referenced Objects:** Displays referenced objects, you can rename them here.
 </div>
 

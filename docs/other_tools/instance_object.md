@@ -22,6 +22,8 @@ Append to and nest modular pieces. Such as these bolt inserts, these can be inst
     - Create a linked duplicate of an object(s), replace all modifiers with **Instance Object**
     - Select original object being instanced
 
+    See [add-on docs](../add-on/instance_objects.md) for more information.
+
 
 ## Options
 

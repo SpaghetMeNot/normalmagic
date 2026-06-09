@@ -18,7 +18,7 @@ Multiple trim planes can be used with one modifier
 
 ## Examples
 
-Please check out the [examples file](../examples.md) to see Boolean Trim in action
+Please check out the [examples file](../examples.md) to see Boolean Trim in action.
 
 ![bool_trim_examples](../assets/examples/boolean_extrude_trim.png)
 

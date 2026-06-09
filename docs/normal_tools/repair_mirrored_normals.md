@@ -2,10 +2,11 @@
 
 ![Repair Mirrored Normals](../assets/icons/repair_mirrored.png){width=128}
 
-Mirroring a mesh with custom normals will not mirror the normals. This leads to incorrect normals on the mirrored geometry.
-
+Mirroring a mesh with custom normals will not mirror the normals. This leads to incorrect normals on the mirrored geometry. 
 This modifier can repair these normals by flipping them in the correct direction.
-Alternatively the [Symmetrize](../mesh_tools/symmetrize.md) modifier is a better option when only mirroring on one axis.
+
+!!! tip "Symmetrize"
+    Try the [Symmetrize](../mesh_tools/symmetrize.md) modifier instead for mirroring with custom normals.
 
 
 <div class="grid cards" markdown>

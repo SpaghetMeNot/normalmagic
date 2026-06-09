@@ -22,22 +22,35 @@ There is also a ***Slice*** operation with optional inset:
 |---|---|---|---|
 |![Intersect](../assets//booleans/bool_intersect.png) |![Union](../assets//booleans/bool_union.png)|![Difference](../assets//booleans/bool_diff.png) |![Slice](../assets//booleans/bool_slice.gif)|
 
+## Examples
+Be sure to check out the [examples file](../examples.md) to see Boolean Pro in action.
+
+![boolean_pro_examples](../assets/examples/booleans.png)
+
 ## Options
 
-### Main
+### Cutters
+Specify cutter geometry. You can specify up to 6 objects or use a collection.
+
+### Cutters
+This section specifies which cutters to use.
+
+- **Objects/Collection:** Choose individual mesh objects or a collection containing mesh objects.
+- **Object Count:** How many cutter mesh objects to use (when in ***Objects*** mode).
+- **Outset:** Expands the cutter mesh with options for [even thickness](../common_settings.md#even-thickness).
+
+
+### Boolean
 
 - **Operation:** Which boolean operation to perform.
     - **Intersect:** Keep the part of the mesh that is shared between inputs.
     - **Union:** Combine input meshes into a single mesh.
     - **Difference:** (Default) Subtract input meshes from source mesh.
     - **Slice:** Slice source mesh with input meshes. This combines "Intersect" and "Difference" into the same output.
-- **Object:** Mesh object to use for boolean operation.
-- **Collection:** Collection containing mesh objects to use for boolean operation.
 - **Solver:**
     - **Float:** Simple solver with good performance.
     - **Exact:** Slower solver with best results on coplanar faces.
     - **Manifold:** (Default) Fastest solver that only works on manifold meshes, but gives better results.
-- **Outset:** Expands the cutter mesh with options for even thickness.
 - **Inset (Slice Mode):** Offsets the cutter inwards for the intersect boolean to give a gap between meshes.
 
 ### Weld

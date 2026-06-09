@@ -19,6 +19,11 @@ Smooth Normals will smooth mesh normals without smoothing mesh topology. This ca
     Mix smoothed point normals for a unique effect (cheap SSS shading).
 </div>
 
+## Examples
+Be sure to check out the [examples file](../examples.md) to see Smooth Normals in action.
+
+![smooth_normals_examples](../assets/examples/smooth_normals.png)
+
 ## Options
 
 - **Normal Domain.** Whether normals are stored on points (smooth) or face corners (allows sharp edges).

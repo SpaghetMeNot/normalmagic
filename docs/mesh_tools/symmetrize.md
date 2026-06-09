@@ -11,7 +11,10 @@ Mirrors a mesh on a single axis. Similar to Blender's [Mirror Modifier](https://
 
 ![Symmetrize GIF](../assets/symmetrize/symmetrize.gif)
 
-The one disadvantage of Symmetrize is the limitation to a single axis. However, this can easily be overcome by using another symmetrize modifier.
+## Current Limitations
+
+- Limited to a single axis. This can easily be overcome by using another symmetrize modifier.
+- You can't edit the mirrored side when "On Cage" is turned on like with the default mirror modifier.
 
 ## Options
 

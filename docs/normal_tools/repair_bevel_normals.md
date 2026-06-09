@@ -11,6 +11,13 @@ Beveling a mesh with custom normals can lead to unexpected behavior. This tool i
     Repaired Normals
 </div>
 
+
+## Examples
+Be sure to check out the [examples file](../examples.md) to see Repair Bevel Normals in action.
+
+![normal_examples](../assets/examples/normal_modifiers.png)
+
+
 ## Requirements
 
 - Mesh object with beveled faces you wish to fix

@@ -3,7 +3,10 @@
 ![Icon](../assets/icons/lock_normals.png){ width=128 }
 
 Creates custom normals for a mesh if none exist. Can also be used to convert between "Free" and "Tangent Space" normals,
-see the [Blender Docs](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/write/set_mesh_normal.html#properties):
+see the [Blender Docs](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/mesh/write/set_mesh_normal.html#properties).
+
+!!! tip "Collapsing Meshes"
+    Tangent Space normals make manual edits to geometry with custom normals much easier. Apply this modifier or use [Add Custom Normals](../manual_tools/add_custom_normals.md) to achieve this.
 
 
 ## Options

@@ -82,4 +82,8 @@ This section lets you choose what happens to objects when you add a Boolean.
 
 ## Convert Existing Booleans
 
+!!! info "Where is this operator?"
+    There is no longer a button for this operator but you can search for it with the ++"F3"++ operator search:
+    ![convert booleans](../assets/add-on/convert_booleans.png)
+
 Will convert all 'Boolean' modifiers on selected objects to 'Boolean Pro'. All relevant settings will be transferred.
