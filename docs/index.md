@@ -45,14 +45,15 @@ Controlling normals can be essential for creating high quality 3D artwork. Hard 
 
 ## Tool Highlights
 
-### :material-check-circle: **Perfect boolean normals**
+### :material-check-circle: **Advanced Booleans, perfect normals**
 
 - Completely avoid boolean normal issues with [Boolean Pro](mesh_tools/boolean_pro.md).
 - Repair normals on previously cut geometry with [Repair Boolean Normals](normal_tools/repair_boolean_normals.md).
+- Perform advanced Boolean operations with [Boolean Extrude](./mesh_tools/boolean_extrude.md), [Boolean Trim](./mesh_tools/boolean_trim.md) and [Cut Groove](./mesh_tools/cut_groove.md). 
 
 ### :material-check-circle: **Seamlessly blend surfaces**
 
-- Project positions, normals and UVs with [Surface Project](mesh_tools/surface_project.md).
+- Project positions, normals and UVs with [Project to Surface](mesh_tools/project_to_surface.md).
 - Merge, cut and weld projected meshes into a surface with [Surface Insert](mesh_tools/surface_insert.md).
 
 Convenient auto-masking options means no need for creating and managing vertex groups. Sharp edges can be preserved and transferred.
