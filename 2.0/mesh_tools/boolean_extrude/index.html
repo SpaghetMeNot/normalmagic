@@ -22,7 +22,7 @@
     
     
       
-        <title>🚧 Boolean Extrude - normalMagic</title>
+        <title>Boolean Extrude - normalMagic</title>
       
     
     
@@ -137,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🚧 Boolean Extrude
+              Boolean Extrude
             
           </span>
         </div>
@@ -732,7 +732,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Boolean Extrude
+    Boolean Extrude
   
 
     
@@ -750,7 +750,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Boolean Extrude
+    Boolean Extrude
   
 
     
@@ -815,6 +815,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#options" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -849,10 +860,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#inset-when-extrusion-mode-extrude-faces" class="md-nav__link">
+  <a href="#inset" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Inset (When Extrusion Mode = Extrude Faces)
+        Inset
       
     </span>
   </a>
@@ -1820,14 +1831,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../manual_tools/recalculate_weighted/" class="md-nav__link">
+      <a href="../../manual_tools/recalculate_normals/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Recalculate Weighted
+    Recalculate Normals
   
 
     
@@ -2027,7 +2038,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Surface Integration
+    Surface Integration
   
 
     
@@ -2226,6 +2237,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Examples
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#options" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2260,10 +2282,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#inset-when-extrusion-mode-extrude-faces" class="md-nav__link">
+  <a href="#inset" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Inset (When Extrusion Mode = Extrude Faces)
+        Inset
       
     </span>
   </a>
@@ -2314,7 +2336,7 @@
 
 
 
-<h1 id="boolean-extrude"><img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f6a7.svg" title=":construction:"> Boolean Extrude<a class="headerlink" href="#boolean-extrude" title="Permanent link">¶</a></h1>
+<h1 id="boolean-extrude">Boolean Extrude<a class="headerlink" href="#boolean-extrude" title="Permanent link">¶</a></h1>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/icons/boolean_extrude_5.png" data-desc-position="bottom"><img alt="Boolean Extrude Icon" src="../../assets/icons/boolean_extrude_5.png" width="128"></a></p>
 <p>Cuts and extrudes where cutter meshes intersect.</p>
 <h2 id="extrusion-operation">Extrusion Operation<a class="headerlink" href="#extrusion-operation" title="Permanent link">¶</a></h2>
@@ -2335,20 +2357,48 @@ Perform an "Intersect" Boolean and extrude the result into a solid panel.</li>
 <p>These two operations are essentially the inverse of each other. Duplicating the object and using opposite operations with different outsets can create interesting effects.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/booleans/bool_extrude_combined.png" data-desc-position="bottom"><img alt="Boolean Extrude Combined" src="../../assets/booleans/bool_extrude_combined.png"></a></p>
 </div>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h2>
+<p>Please check out the <a href="../../examples/">examples file</a> to see Boolean Extrude in action.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/examples/boolean_extrude_trim.png" data-desc-position="bottom"><img alt="bool_trim_examples" src="../../assets/examples/boolean_extrude_trim.png"></a></p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">¶</a></h2>
 <h3 id="cutters">Cutters<a class="headerlink" href="#cutters" title="Permanent link">¶</a></h3>
 <p>This section specifies which cutters to use.</p>
 <ul>
 <li><strong>Objects/Collection:</strong> Choose individual mesh objects or a collection containing mesh objects.</li>
 <li><strong>Object Count:</strong> How many cutter mesh objects to use (when in <strong><em>Objects</em></strong> mode).</li>
-<li><strong>Cutter Outset:</strong> Expands the cutter mesh with options for even thickness.</li>
+<li><strong>Cutter Outset:</strong> Expands the cutter mesh with options for <a href="../../common_settings/#even-thickness">even thickness</a>.</li>
 </ul>
 <h3 id="extrude">Extrude<a class="headerlink" href="#extrude" title="Permanent link">¶</a></h3>
-<p>This section details the extrude operation</p>
-<h3 id="inset-when-extrusion-mode-extrude-faces">Inset (When Extrusion Mode = <strong><em>Extrude Faces</em></strong>)<a class="headerlink" href="#inset-when-extrusion-mode-extrude-faces" title="Permanent link">¶</a></h3>
-<p>Inset the front of the extrude operation.</p>
+<p>Control the extrude operation.</p>
+<ul>
+<li><strong>Operation:</strong> Choose between Emboss/Panel operations:<ul>
+<li><strong>Emboss Surface:</strong> Slice mesh and extrude intersection faces in or out.</li>
+<li><strong>Panel:</strong> Perform an "Intersect" Boolean and extrude the result into a solid panel.</li>
+</ul>
+</li>
+<li><strong>Amount:</strong> Distance to extrude.</li>
+<li><strong>Extrusion Method:</strong> How to generate extrusion:<ul>
+<li><strong>Extrude Faces:</strong> Extrude intersection area(s) along surface normal. The rim is a strip of quads perpendicular to original surface with options to inset the cut area.</li>
+<li><strong>Offset Boolean:</strong> Offset surface and cut with Boolean cutter(s). The rim is aligned to cutter(s) and there are no options to inset the cut area.</li>
+</ul>
+</li>
+<li><strong>Offset Even:</strong> Use <a href="../../common_settings/#even-thickness">even thickness</a> settings on extrusion.</li>
+<li><strong>Boolean Solver:</strong> Boolean solver to use internally.</li>
+</ul>
+<h3 id="inset">Inset<a class="headerlink" href="#inset" title="Permanent link">¶</a></h3>
+<p>(<strong><em>Extrude Faces</em></strong> mode only). Inset the front of the extrude operation.</p>
+<ul>
+<li><strong>Scale:</strong> Scale extruded faces around their average position.</li>
+<li><strong>Inset:</strong> Inset extruded faces away from the extrusion boundary.</li>
+<li><strong>Edge Falloff:</strong> Falloff distance from the edge of the inset. Use to smooth errors at the edge of the inset.</li>
+</ul>
 <h3 id="normals">Normals<a class="headerlink" href="#normals" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Transfer Normals:</strong> Transfer normals from source geometry. Produces the best normals.</li>
+<li><strong>Rim Sharp Angle:</strong> Mark edges as sharp on the extrusion rim if they exceed this angle.</li>
+</ul>
 <h3 id="weld">Weld<a class="headerlink" href="#weld" title="Permanent link">¶</a></h3>
+<p>Weld points by distance</p>
 
 
 
