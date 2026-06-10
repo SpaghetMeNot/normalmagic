@@ -37,3 +37,9 @@ Add a [Project to Surface](../mesh_tools/project_to_surface.md) modifier to all 
 Similar to the Boolean [cutters](../add-on/boolean_pro.md#cutter-behavior) menu, there are options for what to do with the projected meshes.
 
 ![projection_mesh_options](../assets/add-on/project_to_surface_options.png)
+
+## Modifier Settings
+
+To change default modifier settings for either modifier, see [modifier defaults](../add-on/modifier_defaults.md).
+
+![defaults](../assets/add-on/modifer_defaults_generic.png)
