@@ -721,7 +721,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Boolean Extrude
+    Boolean Extrude
   
 
     
@@ -1660,14 +1660,14 @@
   
   
     <li class="md-nav__item">
-      <a href="manual_tools/recalculate_weighted/" class="md-nav__link">
+      <a href="manual_tools/recalculate_normals/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Recalculate Weighted
+    Recalculate Normals
   
 
     
@@ -1867,7 +1867,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Surface Integration
+    Surface Integration
   
 
     
@@ -2061,10 +2061,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#perfect-boolean-normals" class="md-nav__link">
+  <a href="#advanced-booleans-perfect-normals" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Perfect boolean normals
+        Advanced Booleans, perfect normals
       
     </span>
   </a>
@@ -2132,11 +2132,6 @@
 <p class="admonition-title">Blender 5.0 Required</p>
 <p>normalMagic 2.0 requires <strong>Blender 5.0</strong> or higher. For 4.5 support please use version <a href="https://spaghetmenot.github.io/normalmagic/1.1/">1.1</a></p>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">2.0 Docs Incomplete</p>
-<p>normalMagic 2.0 is currently in Beta and the docs haven't yet been fully updated.</p>
-<p>The best place to get support is the spaghetTools <a href="https://discord.gg/CtpZWGHFhG"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.317 4.37a19.8 19.8 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.3 18.3 0 0 0-5.487 0 13 13 0 0 0-.617-1.25.08.08 0 0 0-.079-.037A19.7 19.7 0 0 0 3.677 4.37a.1.1 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.08.08 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.08.08 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13 13 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10 10 0 0 0 .372-.292.07.07 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.07.07 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.08.08 0 0 0 .084.028 19.8 19.8 0 0 0 6.002-3.03.08.08 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 0 0-.031-.03M8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418m7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418"></path></svg></span> Discord</a></p>
-</div>
 <div class="grid cards">
 <ul>
 <li><a href="install/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06z"></path></svg></span> Install normalMagic</a></li>
@@ -2168,14 +2163,15 @@ Tools are included to fix situations such as <a href="normal_tools/repair_mirror
 <p><a class="md-button" href="https://superhivemarket.com/products/normalmagic"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23 14.5c0-1.56-1.03-2.87-2.45-3.32.28-.5.45-1.07.45-1.68 0-1.56-1.03-2.87-2.45-3.32.28-.5.45-1.07.45-1.68C19 2.57 17.43 1 15.5 1h-7C6.57 1 5 2.57 5 4.5c0 .61.17 1.18.45 1.68C4.04 6.63 3 7.94 3 9.5c0 .61.17 1.18.45 1.68C2.04 11.63 1 12.94 1 14.5c0 1.26.67 2.34 1.67 2.96-.42.57-.67 1.28-.67 2.04C2 21.43 3.57 23 5.5 23h13c1.93 0 3.5-1.57 3.5-3.5 0-.76-.25-1.47-.67-2.04 1-.62 1.67-1.7 1.67-2.96M8.5 3h7c.83 0 1.5.67 1.5 1.5S16.33 6 15.5 6h-7C7.67 6 7 5.33 7 4.5S7.67 3 8.5 3m-2 5h11c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-11C5.67 11 5 10.33 5 9.5S5.67 8 6.5 8M4 19.5c0-.83.67-1.5 1.5-1.5H9v3H5.5c-.83 0-1.5-.67-1.5-1.5M18.5 21H15v-3h3.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5m1-5h-4.68c-.42-1.16-1.52-2-2.82-2s-2.4.84-2.82 2H4.5c-.83 0-1.5-.67-1.5-1.5S3.67 13 4.5 13h15c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5"></path></svg></span>  Buy on Superhive</a>
 <a class="md-button md-button--primary" href="https://spaghetmenot.gumroad.com/l/normalmagic"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0m-.007 5.12c4.48 0 5.995 3.025 6.064 4.744h-3.239c-.069-.962-.897-2.406-2.896-2.406-2.136 0-3.514 1.857-3.514 4.126s1.378 4.125 3.514 4.125c1.93 0 2.758-1.512 3.103-3.025h-3.103v-1.238h6.509v6.327h-2.855v-3.989c-.207 1.444-1.102 4.264-4.617 4.264-3.516 0-5.584-2.82-5.584-6.326 0-3.645 2.276-6.602 6.618-6.602"></path></svg></span>  Buy on Gumroad</a></p>
 <h2 id="tool-highlights">Tool Highlights<a class="headerlink" href="#tool-highlights" title="Permanent link">¶</a></h2>
-<h3 id="perfect-boolean-normals"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"></path></svg></span> <strong>Perfect boolean normals</strong><a class="headerlink" href="#perfect-boolean-normals" title="Permanent link">¶</a></h3>
+<h3 id="advanced-booleans-perfect-normals"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"></path></svg></span> <strong>Advanced Booleans, perfect normals</strong><a class="headerlink" href="#advanced-booleans-perfect-normals" title="Permanent link">¶</a></h3>
 <ul>
 <li>Completely avoid boolean normal issues with <a href="mesh_tools/boolean_pro/">Boolean Pro</a>.</li>
 <li>Repair normals on previously cut geometry with <a href="normal_tools/repair_boolean_normals/">Repair Boolean Normals</a>.</li>
+<li>Perform advanced Boolean operations with <a href="mesh_tools/boolean_extrude/">Boolean Extrude</a>, <a href="mesh_tools/boolean_trim/">Boolean Trim</a> and <a href="mesh_tools/cut_groove/">Cut Groove</a>. </li>
 </ul>
 <h3 id="seamlessly-blend-surfaces"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"></path></svg></span> <strong>Seamlessly blend surfaces</strong><a class="headerlink" href="#seamlessly-blend-surfaces" title="Permanent link">¶</a></h3>
 <ul>
-<li>Project positions, normals and UVs with <a href="mesh_tools/surface_project/">Surface Project</a>.</li>
+<li>Project positions, normals and UVs with <a href="mesh_tools/project_to_surface/">Project to Surface</a>.</li>
 <li>Merge, cut and weld projected meshes into a surface with <a href="mesh_tools/surface_insert/">Surface Insert</a>.</li>
 </ul>
 <p>Convenient auto-masking options means no need for creating and managing vertex groups. Sharp edges can be preserved and transferred.</p>

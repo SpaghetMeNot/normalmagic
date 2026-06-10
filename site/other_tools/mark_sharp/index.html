@@ -721,7 +721,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Boolean Extrude
+    Boolean Extrude
   
 
     
@@ -1720,14 +1720,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../manual_tools/recalculate_weighted/" class="md-nav__link">
+      <a href="../../manual_tools/recalculate_normals/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Recalculate Weighted
+    Recalculate Normals
   
 
     
@@ -1927,7 +1927,7 @@
   <span class="md-ellipsis">
     
   
-    🚧 Surface Integration
+    Surface Integration
   
 
     
@@ -2116,7 +2116,7 @@
 
 <h1 id="mark-sharp">Mark Sharp<a class="headerlink" href="#mark-sharp" title="Permanent link">¶</a></h1>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/icons/mark_sharp.png" data-desc-position="bottom"><img alt="Mark Sharp Icon" src="../../assets/icons/mark_sharp.png" width="128"></a></p>
-<p>Mark Sharp will mark edges as sharp based on edge angle. This is similar to Blender's <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/normals/smooth_by_angle.html">Smooth By Angle</a> modifier but with extra options. There is also the option to remove custom normals.</p>
+<p>Mark Sharp will mark edges as sharp based on edge angle. This is similar to Blender's <a href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/normals/smooth_by_angle.html">Smooth By Angle</a> modifier but with extra options. There are options to remove and/or add custom normals.</p>
 <div class="grid cards">
 <ul>
 <li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/mark_sharp_off.png" data-desc-position="bottom"><img alt="Smooth By Angle" src="../../assets/mark_sharp_off.png"></a>
@@ -2129,13 +2129,15 @@ Separate angles for convex/concave edges</li>
 </div>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Keep Existing.</strong> Keep edges marked as sharp.</li>
-<li><strong>Angle Type.</strong> <ul>
-<li><strong>Absolute Angle.</strong> Use a single angle regardless off convexity. This behaves like "Smooth By Angle".</li>
-<li><strong>Convex / Concave.</strong> Specify different angles depending whether edges are convex or concave.</li>
+<li><strong>Keep Existing:</strong> Keep edges already marked as sharp.</li>
+<li><strong>Angle Type:</strong> <ul>
+<li><strong>Absolute Angle:</strong> Use a single angle regardless off convexity. This behaves like "Smooth By Angle".</li>
+<li><strong>Convex / Concave:</strong> Specify different angles depending whether edges are convex or concave.</li>
+<li><strong>Edge Creases:</strong> Mark creased edges as sharp.</li>
+<li><strong>Custom Normal Seams:</strong> Detect seams in custom normals and mark as sharp.</li>
 </ul>
 </li>
-<li><strong>Remove Custom Normals.</strong> Will remove any custom normals from geometry and use default normal calculation from sharp edges.</li>
+<li><strong>Remove Custom Normals:</strong> Will remove any custom normals from geometry and use default normal calculation from sharp edges.</li>
 </ul>
 
 
