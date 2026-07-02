@@ -32,11 +32,6 @@ Examples for various uses of [Surface Insert](./mesh_tools/surface_insert.md) an
 
 ![surface_project_insert](./assets/examples/surface_project_insert.png)
 
-## Panel Methods
-Examples for creating panels/panel lines using normalMagic modifiers. More examples are covered in [Workflows 1](#workflows-1).
-
-![panel_methods](./assets/examples/panel_methods.png)
-
 ## Normal Modifiers
 Examples for normal modifiers in use:
 [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md), [Bent Normals](./normal_tools/bent_normals.md), [Face Weighted Normals](./normal_tools/face_weighted_normals.md), [Repair Mirrored Normals](./normal_tools/repair_mirrored_normals.md), [Normal Transfer](./normal_tools/normal_transfer.md).
@@ -59,6 +54,11 @@ Examples for [View Normals](./visualize_tools/view_normals.md) and [View Sharp](
 ![view_modifiers](./assets/examples/view_modifiers.png)
 
 ## Workflows 1
+Examples for creating panels/panel lines using normalMagic modifiers. More examples are covered in [Workflows 2](#workflows-2).
+
+![panel_methods](./assets/examples/panel_methods.png)
+
+## Workflows 2
 Three approaches to a non-destructive canopy and example of how to offset cutters.
 
 ![workflows_1](./assets/examples/workflow_1.png)

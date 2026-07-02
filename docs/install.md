@@ -10,7 +10,10 @@ To install normalMagic please see the relevant section for your version:
 
 ## Base Version (Asset Library)
 
+<iframe width="900" height="390" src="https://www.youtube.com/embed/JhmOyhYI4zM?si=6bum43lpGP8y-p-x&amp;start=101" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The Base version of normalMagic is installed as an **asset library**, not an add-on.
+
 
 !!! tip "TLDR"
     Download the **.zip**, extract to a folder, add the folder as an asset library.
@@ -49,6 +52,8 @@ Alternatively you could replace the files in the existing library with the newer
 
 
 ## Pro Version (Add-on)
+
+<iframe width="900" height="390" src="https://www.youtube.com/embed/0sf4ywieXwA?si=OkeINCXTq5aEIvTH&amp;start=373" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The Pro version of normalMagic is installed as an add-on. The asset library is now packaged with the add-on and can be set up with a single click.
 
