@@ -1426,5 +1426,27 @@
       <script src="/normalmagic/1.1/assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
-  </body>
+  
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (document.querySelector(".md-banner--warning")) return;
+            var bannerContainer = document.createElement("div");
+            bannerContainer.innerHTML = `
+        <aside class="md-banner md-banner--warning" style="display: block;">
+          <div class="md-banner__inner md-grid md-typeset">
+            You're not viewing the latest stable version.
+            <a href="../"> 
+              <strong>Click here to go to latest.</strong>
+            </a>
+          </div>
+        </aside>
+        `;
+            var header = document.querySelector(".md-header");
+            if (header) {
+                header.parentNode.insertBefore(bannerContainer.firstElementChild, header);
+            }
+        });
+        </script>
+        </body>
+        
 </html>
