@@ -1,6 +1,8 @@
 # Changelog
 
-## 2.0.0-beta7
+## 2.0.0
+
+<iframe width="900" height="390" src="https://www.youtube.com/embed/0sf4ywieXwA?si=Nxh37v053igm-wQy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### New Modifiers
 
@@ -22,31 +24,32 @@
 	- Surface Boolean is now optional.
 	- Added "Boolean Caps" menu to help with certain edge cases.
 - [Boolean Pro](./mesh_tools/boolean_pro.md):
+	- Has multi-object input like other mesh modifiers.
 	- New "Non-manifold fallback" solver option.
+	- Output attributes for boundary edges and slice faces.
 - [Face Weighted Normals](./normal_tools/face_weighted_normals.md):
 	- Now takes into account corner angle. Triangulated meshes now have better weighting.
-- [Symmetrize](./mesh_tools/symmetrize.md)
+- [Symmetrize](./mesh_tools/symmetrize.md):
 	- Added support for mirroring instances.
 	- Added option to convert geometry to an instance before mirroring. This works well when using the object as an insert mesh with [Surface Insert](./mesh_tools/surface_insert.md).
 
 ### Pro Add-on
 - Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on)
-- New Panel: [Surface Integration](./add-on/surface_integration.md). Contains operators for:
+- [Surface Integration](./add-on/surface_integration.md). New panel, contains operators for:
 	- [Surface Insert](./mesh_tools/surface_insert.md)
 	- [Project to Surface](./mesh_tools/project_to_surface.md)
-	
-- New Panel: [Modifier References](./add-on/modifier_references.md)
-- New Panel: [Object Display](./add-on/object_display.md)
+- [Modifier References](./add-on/modifier_references.md). New panel: show/hide, select/deselect, apply/delete objects referenced by modfiers on the active object.
+- [Object Display](./add-on/object_display.md). New panel to manage object visibility.
 - [Boolean Pro Panel](./add-on/boolean_pro.md)
 	- "Advanced Boolean" sub-panel contains new operators:
 		- [Boolean Extrude](./mesh_tools/boolean_extrude.md)
 		- [Boolean Trim](./mesh_tools/boolean_trim.md)
 		- [Cut Groove](./mesh_tools/cut_groove.md)
-	- Modifier Settings now handled by the [modifier defaults](./add-on/modifier_defaults.md) system
-- [Modifier Header Bar](./add-on/modifier_header.md).
-	- [Mark Sharp](./other_tools/mark_sharp.md). Available in the modifier header
-- [Modifier Defaults](./add-on/modifier_defaults.md). Save default settings for modifiers added via the add-on
-- Added [Symmetrize](./mesh_tools/symmetrize.md) operator. It is on by default in the modifier 
+	- Modifier Settings now handled by the [modifier defaults](./add-on/modifier_defaults.md) system.
+- [Modifier Header Bar](./add-on/modifier_header.md). Quickly apply modifiers and manage modifier references from the modifier properties panel.
+- [Modifier Defaults](./add-on/modifier_defaults.md). Save default settings for modifiers added via the add-on.
+- Added [Symmetrize](./mesh_tools/symmetrize.md) and [Mark Sharp](./other_tools/mark_sharp.md) operators. They are in the modifier header bar by default.
+- All operators now support more than 6 cutters/inserts at a time.
 
 
 ----
