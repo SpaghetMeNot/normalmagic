@@ -71,7 +71,10 @@ To install/update the add-on simply:
 1. Download the latest "addon" .zip file.
 2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)  
     You should now see a "Normal Magic" tab in the sidebar of the 3D viewport. ![addon panel](./assets/install/sidebar_1.png)
-3. Press ++"Automatic Install"++ to install the asset library from the add-on (recommended). or ++"Open Preferences"++ to add the asset library from elsewhere (See the next section).
+3. Press ++"Automatic Install"++ to install the asset library from the add-on* (recommended). or ++"Open Preferences"++ to add the asset library from elsewhere (See the next section).
+
+
+\* if you don't see this option make sure to remove old versions of the asset library before repeating the install steps.
 
 ### Custom Asset Library Location
 It is advised to install the asset library from the add-on to keep them in sync. However, if you want your asset library imported from another location follow the instructions below.
