@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.2
+
+### Asset Library
+
+- [Solidify Pro](./mesh_tools/solidify_pro.md):
+	- Fixed bevel weights getting broken on resulting mesh (tooling to control this coming in 2.1).
+- [Symmetrize](./mesh_tools/symmetrize.md):
+	- Fixed incorrect normals when custom normals are stored as tangents.
+
 ## 2.0.0
 
 <iframe width="900" height="390" src="https://www.youtube.com/embed/0sf4ywieXwA?si=Nxh37v053igm-wQy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
