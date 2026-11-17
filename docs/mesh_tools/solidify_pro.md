@@ -22,7 +22,7 @@ Be sure to check out the [examples file](../examples.md) to see Solidify Pro in 
 Not all the settings of Blender's native "Solidify" modifier have been replicated yet. The notable exclusions are:
 
 - Cannot solidify edges with more than two faces. This is possible with "Complex" mode in the native modifier. ![3faceedge](../assets/solidify_pro/3_face_edge.png)
-- Float control of **Bevel Weight**. Bevel weight can be set on/off by using the output attribute ***Boundary Edges***. This attribute can then be specified in a subsequent bevel modifier.
+- Float control of **Bevel Weight** on the solidified edges. Existing bevel weights can be carried over to the rim using the [Bevel Weights](#bevel-weights) panel, or bevel weight can be set on/off by using the output attribute ***Boundary Edges***. This attribute can then be specified in a subsequent bevel modifier.
 
 ## Options
 
@@ -80,6 +80,17 @@ Apply crease values to the rim.
     - **Signed Edge Angle:** Apply creases by convex/concave angles.
     - **Vertex Crease:** Use Vertex creaes values for edge creases.
 - **Rim:** Crease value to apply to selected rim edges.
+
+### Bevel Weights
+
+Control how existing bevel weights are handled. Bevel weights on the original mesh are kept on the front and back faces.
+
+- **Edge Weight Name:** Name of the edge bevel weight attribute (default `bevel_weight_edge`).
+- **Rim Weights:** How to set bevel weights on the rim edges:
+    - **None:** No bevel weights on the rim.
+    - **Extend:** (Default) Extend bevel weights from the boundary across the rim.
+    - **From Vertex Weights:** Use vertex bevel weights to set the rim's edge weights.
+- **Vert Weight Name:** Name of the vertex bevel weight attribute (default `bevel_weight_vert`). Used by "From Vertex Weights".
 
 ### Normals
 

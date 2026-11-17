@@ -40,6 +40,10 @@ This section specifies which cutters to use.
 ### Cutter Geometry
 Control how the groove cutter is generated. This can be previewed using the "Final Cutters" [debug view](#debug).
 
+- **Cutter Alignment:** Where the groove sits relative to the cutter:
+    - **Groove Border:** (Default) The Groove's border's are centered on the intersection.
+    - **Groove Center:** The Groove slides until the center point lies on the cutter.
+    - **Border & Center:** Combines both alignments. Sides may be uneven.
 - **Width:** Width of the cut.
 - **Groove/Cutter Depth:** How deep to make the cutter.
 - **Cutter Boundary Weld:** Distance at which to weld points along the cutter boundary. This is useful for avoiding bad shading and mesh errors along the cut boundary.

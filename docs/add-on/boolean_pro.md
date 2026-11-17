@@ -67,23 +67,23 @@ This section lets you choose what happens to objects when you add a Boolean.
     - **Wireframe.** Display cutter as wireframe.
     - **Bounds.** Display cutter as bounding box.
 
-- **Collection.** When enabled, specify the name of a collection to add cutter objects to. If the collection doesn't exist one will be created.
+- **Collection.** When enabled, specify the name of a collection to add cutter objects to. Each scene keeps its own cutter collection, which is reused by name. If it doesn't exist one will be created.
 - **Deselect.** Which objects get deselected after the boolean operation:
     - **None.** Keep all objects selected.
     - **Main Object.** Deselect the object that receives the modifier.
     - **Cutters.** Deselect cutter object(s)
 - **Parent to Object.** Parent the cutter object(s) to the main object. This will transform them together when you move the main object.
 - **Link Split Mesh.** When performing the [Split](#split) operation, link the intersected mesh to the original so editing one mesh edits the other too.
-- **Auto-Smooth.** Apply Blender's "Smooth By Angle" modifier to objects in Boolean operation if they don't have one already:
+- **Auto-Smooth.** Apply the [Preferred Smooth Modifier](./preferences.md#preferred-smooth-modifier) to objects in Boolean operation if they don't have one already. Instances and checkpoints are skipped, as their shading comes from the source object:
     - **Cutters.** Apply smoothing to cutter object(s).
-    - **All.** Apply smoothing to all objects involved in the Boolean.
+    - **All.** (Default) Apply smoothing to all objects involved in the Boolean.
     - **None.** Don't apply smoothing to any objects.
 - **Angle.** Angle to set auto-smoothing at when "Auto-Smooth" is turned on.
 
 ## Convert Existing Booleans
 
-!!! info "Where is this operator?"
-    There is no longer a button for this operator but you can search for it with the ++"F3"++ operator search:
-    ![convert booleans](../assets/add-on/convert_booleans.png)
+Will convert all 'Boolean' modifiers on selected objects to 'Boolean Pro'. All relevant settings will be transferred, along with the modifier's name, on/off toggles and position in the stack. Collection Booleans are converted using Boolean Pro's Collection mode.
 
-Will convert all 'Boolean' modifiers on selected objects to 'Boolean Pro'. All relevant settings will be transferred.
+The ++"Convert Existing Booleans"++ button shows at the bottom of the panel when any selected object has a Blender Boolean modifier. You can also search for it with the ++"F3"++ operator search:
+
+![convert booleans](../assets/add-on/convert_booleans.png)

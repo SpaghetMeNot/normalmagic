@@ -24,3 +24,16 @@ Separate angles for convex/concave edges
     - **Edge Creases:** Mark creased edges as sharp.
     - **Custom Normal Seams:** Detect seams in custom normals and mark as sharp.
 - **Remove Custom Normals:** Will remove any custom normals from geometry and use default normal calculation from sharp edges.
+
+## Shade Auto Smooth (First)
+
+!!! tip "Pro Add-on"
+    This operator is part of the [normalMagic Add-on](../add-on/index.md).
+
+Found in the object right-click menu, above **Shade Smooth**.
+
+Adds the [Preferred Smooth Modifier](../add-on/preferences.md#preferred-smooth-modifier) (**Mark Sharp** or **Smooth by Angle**) at the **start** of the modifier stack, so shading is based on the original mesh before other modifiers add new edges. On a [checkpoint](../add-on/instance_objects.md#checkpoints) it is added after the Instance Object modifier.
+
+If the object already has one, it is moved to the start instead (Blender's "Smooth by Angle" is unpinned from the end of the stack).
+
+- **Angle.** Maximum face angle for smooth edges. Only applies to newly added modifiers.

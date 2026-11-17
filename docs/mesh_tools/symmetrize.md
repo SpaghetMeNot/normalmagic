@@ -6,7 +6,7 @@ Mirrors a mesh on a single axis. Similar to Blender's [Mirror Modifier](https://
 
 1. Correctly mirrors custom normals.
 2. Optional gizmo for displaying the symmetry plane and direction.
-3. Output attribute for mirrored faces.
+3. Output attributes for mirrored faces and center points.
 4. Global space option without having to use another object.
 
 ![Symmetrize GIF](../assets/symmetrize/symmetrize.gif)

@@ -40,6 +40,15 @@ How to detect bevelled faces.
 
 - **Attribute.** Use an attribute or vertex group to select beveled faces.
 
+### Mark Sharp
+
+Optionally mark sharp edges within and around the bevel. Both options are off by default.
+
+- **Bevel Loop Angle.** Mark sharp within the bevel by face loop angle.
+    - **Loop Angle.** Angle between face loops at which to mark sharp.
+- **Bevel Boundary Angle.** Mark sharp when the angle between the bevel and surrounding faces exceeds this angle. Useful for partial bevels that terminate on corners.
+    - **Boundary Angle.** Angle between the bevel and surrounding faces at which to mark sharp.
+
 ### Area Weighting
 
 For weighting normals **inside** the bevel. Available when [Bevel Detection](#bevel-detection) is set to **Face Area** or **Attribute**

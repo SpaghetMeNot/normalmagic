@@ -72,7 +72,6 @@ This section specifies which cutters to use.
 - **Result:** Whether to output a solid object or a cut surface.
     - **Solid:** Output full Boolean result.
     - **Surface:** Output a cut surface with open edges where new faces would appear.
-- **Sequential (Float solver only):** Perform Booleans one mesh island at a time. This often gives better results but can be slower.
 - **Self Intersection (Exact solver only):** Correctly calculates cases when one or both operands have self-intersections. This involves more calculations making the node slower.
 - **Hole Tolerant:** Optimizes the Boolean output for non-manifold geometry at the cost of increased computational time. Because of the performance impact, this option should only be enabled when the solver demonstrates errors with non-manifold geometry.
 

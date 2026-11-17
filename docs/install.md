@@ -26,13 +26,13 @@ The Base version of normalMagic is installed as an **asset library**, not an add
 
 1. Download latest .zip file for the closest Blender version (*normalMagic 4.5 v1.0.blend*).
 2. Unzip/extract to a folder in your desired location.
-3. Open Blender and go to **Edit/Preferences/File Paths/Asset Libraries.**
+3. Open Blender and go to **Edit/Preferences/Asset Libraries.**
 4. Click ++"\+"++ Add Asset Library.  
     ![install_1](assets/install/install_1.png)
 5. Navigate to the unzipped folder and press **Add Asset Library**.  
     ![install_2](assets/install/install_2.png)
 6. You should now see "normalMagic" in your asset libraries.  
-**Optional**: Here you can choose how the data is imported by default. Setting this to **Pack** or **Link** will make it easier to update versions. **Link** will also reduce file sizes. See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
+**Optional**: Here you can choose how the data is imported by default. **Link** keeps scenes up to date with the installed library and reduces file sizes, but files need the library to open. **Pack** and **Append** store a copy in each file, so files work anywhere but keep their version until you [update them](#update-existing-scenes). See the [Official Documentation](https://docs.blender.org/manual/en/latest/editors/asset_browser.html#import-settings) for more information. ![install_3](./assets/install/install_3.png)
 
 normalMagic should now be installed. Modifiers will now show up under the **Add Modifier** menu:
 
@@ -59,7 +59,7 @@ The Pro version of normalMagic is installed as an add-on. The asset library is n
 
 !!! tip "TLDR"
     - Download the add-on **.zip** file and drag it into Blender's viewport.
-    - Click "Automatic Install" to set up the asset library. (Recommended)
+    - The asset library is set up automatically.
 
 !!! warning "Remove Existing Asset Libraries"
     Updating from 1.x versions will require removing the existing asset library from **Edit/Preference/File Paths/Asset Libraries**.
@@ -69,35 +69,59 @@ The Pro version of normalMagic is installed as an add-on. The asset library is n
 To install/update the add-on simply:
 
 1. Download the latest "addon" .zip file.
-2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)  
-    You should now see a "Normal Magic" tab in the sidebar of the 3D viewport. ![addon panel](./assets/install/sidebar_1.png)
-3. Press ++"Automatic Install"++ to install the asset library from the add-on* (recommended). or ++"Open Preferences"++ to add the asset library from elsewhere (See the next section).
+2. Drag the .zip file into Blender and press ++"OK"++. ![install_addon](./assets/install/install_addon.png)
+3. The bundled asset library is set up automatically. If it isn't found, press ++"Install Asset Library"++ in the sidebar, or ++"Open Preferences"++ to use an asset library from elsewhere (See the next section).
 
-
-\* if you don't see this option make sure to remove old versions of the asset library before repeating the install steps.
+!!! tip "Other normalMagic Libraries"
+    If you have other normalMagic asset libraries installed (e.g. the Base version or a 1.x version), they are listed in the add-on's [preferences](./add-on/preferences.md#other-normalmagic-libraries) where you can disable or remove them.
 
 ### Custom Asset Library Location
-It is advised to install the asset library from the add-on to keep them in sync. However, if you want your asset library imported from another location follow the instructions below.
+It is advised to use the asset library bundled with the add-on to keep them in sync. However, if you want your asset library imported from another location follow the instructions below.
 
-1. Remove any existing normalMagic asset libraries from **Edit/Preferences/Filepaths**.
-2. Install the asset library.  
-    - Through the ++"Choose Asset Library"++ button in the add-on's Preferences.
-    - Through **Edit/Preferences/Filepaths** (see [Base Version](#base-version-asset-library) instructions).
-3. Refresh Asset library location. (Alternatively you can disable/re-enable the add-on or restart Blender).  
-    ![refresh](./assets/install/refresh_library.png)
+1. Add the asset library through **Edit/Preferences/File Paths/Asset Libraries** (see [Base Version](#base-version-asset-library) instructions).
+2. In the add-on's [preferences](./add-on/preferences.md#asset-library), set **Location** to **Custom** and choose your library from the list.
+
+!!! warning "Library Version"
+    A custom library won't update with the add-on. The add-on will warn you if the library's version doesn't match.
 
 ### Update Add-on
 
 1. Drag the new .zip file into Blender, this will update the existing version.
-2. Press "Automatic Install" to set up the new asset library. If you are using a custom asset library location this will need updating manually.
+2. The bundled asset library updates with the add-on. If you are using a custom asset library location this will need updating manually.
+
+Your preferences and [Modifier Defaults](./add-on/modifier_defaults.md) are kept when updating.
 
 ---- 
 
 ## Update Existing Scenes
 Modifiers that already exist in scenes might need updating depending on your asset library setup.
 
-### Linked/Packed Library
-Update modifiers in existing scenes if **library is set to "Link"**:
+### Pro Add-on
+
+The add-on detects normalMagic modifiers made with an older version.
+
+![update_modifiers](./assets/add-on/update_modifiers.png){width=512}
+
+When opening an older file a **Newer Modifiers Available** message shows at the top of the sidebar panel, and an :material-information-outline: info dropdown shows in the [modifier header](./add-on/modifier_header.md#warnings).
+
+- **Update Packed Modifiers.** Replace old modifiers with the versions from the current asset library. With the **Linked** [import method](./add-on/preferences.md#asset-library) you can choose **Update & Link** or **Update Packed** instead.
+- **Ignore, Keep Old Versions.** Keep the old versions in this file. You'll be asked again when a newer version of normalMagic is installed.
+
+Modifier settings are kept when updating. Updating can be undone with ++"Ctrl"+"Z"++.
+
+!!! warning "Breaking Changes"
+    If a modifier has changed in a way that may affect how existing scenes look, a **Breaking Changes** dialog lists those modifiers before updating. Untick any you want to keep at their old version.
+
+To turn off update checks, disable **Offer to Update Existing Modifiers** in the [preferences](./add-on/preferences.md#asset-library).
+
+### Base Version
+
+For the Base version (asset library only), update modifiers manually.
+
+#### Linked Library
+If **library is set to "Link"**, modifiers update automatically when the new version is installed in the same location.
+
+If the new version is installed somewhere else, point existing scenes to it:
 
 1. Go to the outliner and change the view to "Blend File".
 2. Locate the normalMagic file.
@@ -106,14 +130,18 @@ Update modifiers in existing scenes if **library is set to "Link"**:
 
 ![Relocate Library](./assets/install/relocate_library.png){ width=512 }
 
-### Appended Library
+#### Packed/Appended Library
 
-Update modifiers in existing scenes if **library is set to "Append"**:
+Update modifiers in existing scenes if **library is set to "Pack" or "Append"**. These store a copy in each file, which doesn't update when the library does:
 
 1. Add new version of modifier somewhere in your scene.
 2. Go to the outliner and change the view to "Blend File".
-3. Find the modifier under "Node Groups".
+3. Find the old modifier:
+    - **Appended:** under "Node Groups".
+    - **Packed:** under the normalMagic library it was packed from (not under "Node Groups").
 4. Right Click/Remap Users.
-5. Select the newer version (most likely called ".001").
+5. Select the newer version:
+    - **Appended:** most likely called ".001".
+    - **Packed:** same name, from the newer normalMagic library.
 
 ![Remap Modifiers](./assets/install/remap_modifiers.png){ width=512 }

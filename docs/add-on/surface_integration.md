@@ -31,6 +31,10 @@ Add a [Project to Surface](../mesh_tools/project_to_surface.md) modifier to all 
 2. Select the surface mesh last
 3. Press the ++"Project to Surface"++ button
 
+!!! tip "Single Surface"
+    By default (**Single Surface** on) every other selected object projects onto the active (last selected) object.  
+    Turn **Single Surface** off in the "Adjust Last Operation" panel to project the active object onto all other selected objects instead. More than 6 surfaces will add extra modifiers.
+
 ### Projection Mesh Options
 
 

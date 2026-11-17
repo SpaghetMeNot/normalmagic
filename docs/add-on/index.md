@@ -47,7 +47,7 @@ This add-on is included with the **Pro** version of normalMagic. It streamlines 
 
     ![instance panel](../assets/add-on/instance_panel.png)
 
-    Duplicate objects as instances using the [Instance Object](../other_tools/instance_object.md) modifier with one click.
+    Duplicate objects as instances, or create checkpoints to keep heavy modifier stacks responsive. Uses the [Instance Object](../other_tools/instance_object.md) modifier.
 
 - [:material-monitor-eye: Object Display](./object_display.md)
 
