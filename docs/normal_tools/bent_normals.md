@@ -28,7 +28,7 @@ Collide with other objects in the scene.
 - **Object.** Object to collide rays with.
 - **Collection.** Collection to collide rays with.
 
-### RayCast
+### Raycast
 Control the distribution of rays used to calculate the bent normals.
 
 - **Ray Count.** How many rays are cast.

@@ -45,7 +45,9 @@ Define how mesh is projected to surfaces.
     - **Wrap to Surface:** Wrap mesh to target surface. Points will be projected to target surface and re-displaced based on their calculated height.
     - **Blend with Surface:** Project points to target surface then blend between original and projected positions.
     - **Project Decal:** Flatten geometry to target surface while keeping original normals. Ideal for "floaters" intended for baking.
+- **Wrap Normals:** Set normals based on interpolated surface normals. Gives better results.
 - **Surface Offset:** Move projected vertices a fixed amount towards or away from the target surface.
+- **Decal Height:** How much of the original mesh height to keep when using ***Project Decal***. 0 is completely flat.
 
 #### Projection Direction
 

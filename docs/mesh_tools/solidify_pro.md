@@ -78,7 +78,7 @@ Apply crease values to the rim.
 - **Rim Crease:** Method for creasing perpendicular rim edges:
     - **Edge Angle:** Apply creases by edge angle.
     - **Signed Edge Angle:** Apply creases by convex/concave angles.
-    - **Vertex Crease:** Use Vertex creaes values for edge creases.
+    - **Vertex Crease:** Use vertex crease values for edge creases.
 - **Rim:** Crease value to apply to selected rim edges.
 
 ### Bevel Weights

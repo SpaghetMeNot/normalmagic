@@ -46,6 +46,7 @@ Choose which meshes to transfer normals from.
     - **Project Object Direction.** Raycast-sample target geometry in object space.
     - **Project Island Normal.** Raycast-sample target geometry along the average mesh island normal.
     - **Project Source Normals.** Raycast-sample target geometry along mesh normals of this object.
+    - **Project Target Normals.** Raycast-sample target geometry and use the normal of the closest target surface.
 
 - **Ray Length (Project Methods).** Maximum length of raycast to target surface.
 - **Direction (Project Object Direction Only).** Direction in object space to raycast (default is -Z).

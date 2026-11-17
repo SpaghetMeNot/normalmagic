@@ -85,7 +85,7 @@ Many operations involve offsetting the surface of a mesh. These settings will de
 
 ### Constraints Options
 
-- **Clamp Multiplier:** Limit offset distance to a multiple of specified distance. This keeps "explosion error" limited.
+- **Clamp Distance:** Limit offset distance to a multiple of specified distance. This keeps "explosion error" limited.
 - **Boundary:** How to offset points on the mesh boundary:
     - **Normal:** No change in offset direction.
     - **Flat:** Flatten the offset direction at mesh boundaries.

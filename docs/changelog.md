@@ -10,10 +10,15 @@
 	- New [Bevel Weights](./mesh_tools/solidify_pro.md#bevel-weights) panel. Control how edge and vertex bevel weights are carried over to the rim.
 - [Boolean Pro](./mesh_tools/boolean_pro.md):
 	- Removed the "Sequential" Float solver option. This fixes Boolean Pro being ~3x slower in Blender 5.2.
+	- Fixed wrong results with Union, Intersect and Slice when cutter islands overlap each other.
+	- Faster "Difference" operation with the Manifold solver.
 - [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md):
 	- "Bevel Loop Angle" and "Bevel Boundary Angle" Mark Sharp options are now off by default.
 - [Symmetrize](./mesh_tools/symmetrize.md):
 	- New "Center Points" output attribute.
+- [Surface Insert](./mesh_tools/surface_insert.md):
+	- Around 13% faster.
+- Internal helper node groups are now hidden from the Add › Group menu. Turn on "Show Hidden" in Blender's search preferences to see them.
 
 ### Pro Add-on
 

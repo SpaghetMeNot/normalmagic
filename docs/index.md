@@ -47,7 +47,7 @@ Controlling normals can be essential for creating high quality 3D artwork. Hard 
 
 ### :material-check-circle: **Advanced Booleans, perfect normals**
 
-- Completely avoid boolean normal issues with [Boolean Pro](mesh_tools/boolean_pro.md).
+- Completely avoid Boolean normal issues with [Boolean Pro](mesh_tools/boolean_pro.md).
 - Repair normals on previously cut geometry with [Repair Boolean Normals](normal_tools/repair_boolean_normals.md).
 - Perform advanced Boolean operations with [Boolean Extrude](./mesh_tools/boolean_extrude.md), [Boolean Trim](./mesh_tools/boolean_trim.md) and [Cut Groove](./mesh_tools/cut_groove.md). 
 

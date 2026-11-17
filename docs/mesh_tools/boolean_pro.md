@@ -2,13 +2,13 @@
 
 ![Boolean Pro Icon](../assets/icons/boolean_cut_7_sparkles.png){ width=128 }
 
-Boolean Pro is designed to act as a replacement for Blender's built-in boolean modifier that provides extra functionality. For reference, documentation for Blender's built-in modifier can be found [here](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html).
+Boolean Pro is designed to act as a replacement for Blender's built-in Boolean modifier that provides extra functionality. For reference, documentation for Blender's built-in modifier can be found [here](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html).
 
 !!! tip "Add-on"
     The [normalMagic Add-on](../add-on/index.md) includes operators to quickly set up the Boolean Pro modifier, similar to the Bool Tool add-on.
 
 
-The most powerful feature is transferring the normals automatically from boolean inputs for perfect boolean normals:
+The most powerful feature is transferring the normals automatically from Boolean inputs for perfect Boolean normals:
 
 ![Perfect Boolean Normals](../assets/bool_pro_1.gif)
 
@@ -42,7 +42,7 @@ This section specifies which cutters to use.
 
 ### Boolean
 
-- **Operation:** Which boolean operation to perform.
+- **Operation:** Which Boolean operation to perform.
     - **Intersect:** Keep the part of the mesh that is shared between inputs.
     - **Union:** Combine input meshes into a single mesh.
     - **Difference:** (Default) Subtract input meshes from source mesh.
@@ -51,7 +51,7 @@ This section specifies which cutters to use.
     - **Float:** Simple solver with good performance.
     - **Exact:** Slower solver with best results on coplanar faces.
     - **Manifold:** (Default) Fastest solver that only works on manifold meshes, but gives better results.
-- **Inset (Slice Mode):** Offsets the cutter inwards for the intersect boolean to give a gap between meshes.
+- **Inset (Slice Mode):** Offsets the cutter inwards for the intersect Boolean to give a gap between meshes.
 
 ### Weld
 
@@ -61,9 +61,9 @@ This section specifies which cutters to use.
 ### Shading
 
 - **Materials:** How to assign materials to new faces.
-    - **Index Based:** Match material index from boolean meshes.
+    - **Index Based:** Match material index from Boolean meshes.
     - **Specify:** Specify a material to apply to all new faces.
-    - **Transfer:** Transfer materials from boolean meshes. This might not be accurate when using collections.
+    - **Transfer:** Transfer materials from Boolean meshes. This might not be accurate when using collections.
 - **Transfer Normals:** Use normals from input meshes. Produces the best normals.
 - **Mark Sharp:** Mark all intersection edges between meshes as sharp.
 
@@ -72,6 +72,9 @@ This section specifies which cutters to use.
 - **Result:** Whether to output a solid object or a cut surface.
     - **Solid:** Output full Boolean result.
     - **Surface:** Output a cut surface with open edges where new faces would appear.
+- **Non-Manifold Fallback:** Solver to use when an input isn't manifold:
+    - **Float:** Simple solver with good performance.
+    - **Exact:** Slower solver with best results on coplanar faces.
 - **Self Intersection (Exact solver only):** Correctly calculates cases when one or both operands have self-intersections. This involves more calculations making the node slower.
 - **Hole Tolerant:** Optimizes the Boolean output for non-manifold geometry at the cost of increased computational time. Because of the performance impact, this option should only be enabled when the solver demonstrates errors with non-manifold geometry.
 

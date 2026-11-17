@@ -68,7 +68,7 @@ This section lets you choose what happens to objects when you add a Boolean.
     - **Bounds.** Display cutter as bounding box.
 
 - **Collection.** When enabled, specify the name of a collection to add cutter objects to. Each scene keeps its own cutter collection, which is reused by name. If it doesn't exist one will be created.
-- **Deselect.** Which objects get deselected after the boolean operation:
+- **Deselect.** Which objects get deselected after the Boolean operation:
     - **None.** Keep all objects selected.
     - **Main Object.** Deselect the object that receives the modifier.
     - **Cutters.** Deselect cutter object(s)

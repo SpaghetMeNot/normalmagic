@@ -2,7 +2,7 @@
 
 ![Repair Boolean Icon](../assets/icons/repair_boolean_normals_1.png){ width=128}
 
-This tool attempts to fix bad normals caused by booleans. This is intended for destructively applied booleans, for boolean modifiers please consider using [Boolean Pro](../mesh_tools/boolean_pro.md) as it provides much more accurate and consistent results.
+This tool attempts to fix bad normals caused by Booleans. This is intended for destructively applied Booleans, for Boolean modifiers please consider using [Boolean Pro](../mesh_tools/boolean_pro.md) as it provides much more accurate and consistent results.
 
 <div class="grid cards" markdown>
 - ![Bool Normals Default](../assets/booleans/bool_unrepaired.png)
@@ -13,9 +13,9 @@ Repaired Boolean Normals
 
 ## Requirements
 
-1. Mesh object with destructive booleans applied.
-2. Mesh is un-triangulated i.e. boolean operations have created ngons.
-3. Mesh has sharp edges on boolean seams.
+1. Mesh object with destructive Booleans applied.
+2. Mesh is un-triangulated i.e. Boolean operations have created ngons.
+3. Mesh has sharp edges on Boolean seams.
 
 Even if a mesh meets all these requirements it isn't 100% guaranteed to fix all it's normals
 

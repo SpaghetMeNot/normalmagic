@@ -2,7 +2,7 @@
 
 These modifiers affect normals, underlying geometry and other attributes such as UVs.
 
-- [Boolean Pro](boolean_pro.md): Replacement for Blender's built-in boolean modifier with extra options and accurate normals.
+- [Boolean Pro](boolean_pro.md): Replacement for Blender's built-in Boolean modifier with extra options and accurate normals.
 - [Boolean Trim](boolean_trim.md): Cut and 'Trim' a mesh using a single-sided cutter object.
 - [Boolean Extrude](boolean_extrude.md): Cuts and extrudes where cutter meshes intersect.
 - [Surface Project](surface_project.md): Projects and blends mesh edges onto other mesh surfaces.

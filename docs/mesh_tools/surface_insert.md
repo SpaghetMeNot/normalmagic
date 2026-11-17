@@ -75,7 +75,7 @@ This section specifies which meshes to insert.
 
 - **Height Offset.** Offsets insert mesh away from surface by a specified height.
 
-- **Ray Length.** Maximum distance an insert mesh can have an effect. Increase 
+- **Ray Length.** Maximum distance to cast projection rays. Keep this value high: all rays need to hit for a successful insert.
 
 #### Projection Masking
 This section controls masking the projection of insert meshes to the surface. This is most useful when using ***Blend with Surface***.
@@ -103,14 +103,14 @@ This section controls how the surface is cut for the insert mesh. Turn off if yo
 - **Weld Distance.** Distance at which to weld vertices, this takes effect at several points during the process, not just the final weld between surface and insert mesh.
 - **Triangulate Blend Polys:** Triangulate ngons created between the original surface and insert geometry.
 - **Cutting Edges:** Edge group that, if present, will limit which edges will cut into the surface. By default all open edges will cut but you can use an edge group to specify edges.
-- **Boolean Caps:** How to generate boolean end caps. This can allow for complex insert meshes:
+- **Boolean Caps:** How to generate Boolean end caps. This can allow for complex insert meshes:
     - **Allow Holes:** Allow insert geometry to have holes. E.g.A circular strip of mesh to make a panel line where the center remains the original surface.
     - **Allow Tubes:** Insert geometry joins the surface at multiple points. E.g. A handle that joins the surface in two places.
-    - **Flatten Insert Mesh:** Flatten and use insert geometry as the boolean end caps. Can break when there are overhangs but can handle curvature in tight spaces better than the other methods.
+    - **Flatten Insert Mesh:** Flatten and use insert geometry as the Boolean end caps. Can break when there are overhangs but can handle curvature in tight spaces better than the other methods.
 - **Boolean Extrusion.** How far to extrude the cutter shape from the surface. You might need to increase this value if the insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
     ![Boolean Extrusion](../assets/surface_insert/boolean_extrusion.gif)
 - **Boolean Offset.** Offset the Boolean cutter outside the surface. This only effects the "top" of the cutter and will also help when an insert mesh covers a large area of curvature. You can preview cutters in the [Debug](#debug) panel.
-- **Non-Manifold Solver.** Which boolean solver to use when surface mesh is not manifold. Keep this as ***Float*** for most situations.
+- **Non-Manifold Solver.** Which Boolean solver to use when surface mesh is not manifold. Keep this as ***Float*** for most situations.
     - **Float.** Faster and in a lot of cases more accurate when matching surface points.
     - **Exact.** Much slower and rarely better. Included "just in case" it helps in rare cases.
 
