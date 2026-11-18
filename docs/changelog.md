@@ -12,6 +12,8 @@
 	- Removed the "Sequential" Float solver option. This fixes Boolean Pro being ~3x slower in Blender 5.2.
 	- Fixed wrong results with Union, Intersect and Slice when cutter islands overlap each other.
 	- Faster "Difference" operation with the Manifold solver.
+	- "Merge by Distance" is now a menu: **None** (default), **Boundaries Only** or **All Vertices**.
+	- Merging vertices no longer creates false sharp edges. Normals at merged points are re-averaged, and existing sharp edges are kept.
 - [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md):
 	- "Bevel Loop Angle" and "Bevel Boundary Angle" Mark Sharp options are now off by default.
 - [Symmetrize](./mesh_tools/symmetrize.md):

@@ -55,8 +55,11 @@ This section specifies which cutters to use.
 
 ### Weld
 
-- **Merge by Distance:** Merge vertices based on distance.
-- **Distance:** Distance at which to merge vertices.
+- **Merge by Distance:** Which vertices to merge by distance after the Boolean:
+    - **None:** (Default) Don't merge any vertices.
+    - **Boundaries Only:** Only merge vertices along the Boolean boundary. Use this to clean up small slivers along the cut.
+    - **All Vertices:** Merge all vertices by distance.
+- **Distance:** Distance at which to merge vertice.
 
 ### Shading
 
