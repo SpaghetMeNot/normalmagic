@@ -33,7 +33,12 @@
 - Preferences and [Modifier Defaults](./add-on/modifier_defaults.md) are now kept when updating the add-on.
 - [Free Normals Warnings](./add-on/free_normals.md). New warnings when "Free" custom normals won't follow edits or deformation, with one-click fixes.
 - [Modifier Header](./add-on/modifier_header.md):
-	- New add-modifier buttons: [Solidify Pro](./mesh_tools/solidify_pro.md), Bevel (with [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md)), [Smooth Normals](./normal_tools/smooth_normals.md), [Face Weighted Normals](./normal_tools/face_weighted_normals.md) and [Normal Transfer](./normal_tools/normal_transfer.md).
+	- New add-modifier buttons:
+		- [Solidify Pro](./mesh_tools/solidify_pro.md)
+		- Bevel (with [Repair Bevel Normals](./normal_tools/repair_bevel_normals.md))
+		- [Smooth Normals](./normal_tools/smooth_normals.md)
+		- [Face Weighted Normals](./normal_tools/face_weighted_normals.md)
+		- [Normal Transfer](./normal_tools/normal_transfer.md).
 	- Modifiers added from the header only collapse their object inputs panel. Modifiers added from the sidebar are collapsed completely.
 - [Modifier Defaults](./add-on/modifier_defaults.md):
 	- New **Restore Defaults** button. Reset the active modifier to your saved defaults (or the built-in defaults). Object and collection inputs are kept.
