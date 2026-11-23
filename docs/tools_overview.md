@@ -6,7 +6,66 @@
     Tools are included to fix situations such as [mirroring](normal_tools/repair_mirrored_normals.md) or [beveling](normal_tools/repair_bevel_normals.md) but it is something to be aware of.
 
 ## Pro Add-on
-Included with the Pro version, the add-on makes it easier to set up some of the modifiers.
+The Pro add-on is the fastest way to work with normalMagic:
+
+- Set up modifiers, cutters and inserts in one click.
+- Manage complex scenes with modifier/object dependencies.
+- Work destructively without worrying about custom normal types.
+- Use checkpoints to keep working with heavy modifier stacks without slowdown.
+
+??? example "Add-on features"
+
+    <div class="grid cards tool-grid side" markdown>
+
+    -   :material-select-multiple:{ .tool-icon }
+
+        [Boolean Pro](./add-on/boolean_pro.md)
+
+        Select cutters, then the object, and click. Cutters are set up for you.
+
+    -   :material-wave-arrow-down:{ .tool-icon }
+
+        [Surface Integration](./add-on/surface_integration.md)
+
+        Insert or project meshes onto a surface in one click.
+
+    -   :material-file-tree-outline:{ .tool-icon }
+
+        [Modifier References](./add-on/modifier_references.md)
+
+        Show, hide, select or apply every object your modifiers reference.
+
+    -   :octicons-link-16:{ .tool-icon }
+
+        [Instance Objects](./add-on/instance_objects.md)
+
+        Duplicate as instances, or use checkpoints to keep heavy stacks responsive.
+
+    -   :material-monitor-eye:{ .tool-icon }
+
+        [Object Display](./add-on/object_display.md)
+
+        Make cutters and helpers "Viewport Only" so they never show in renders.
+
+    -   :material-dock-top:{ .tool-icon }
+
+        [Modifier Header](./add-on/modifier_header.md)
+
+        Add common modifiers from a button bar above the modifier stack.
+
+    -   :material-content-save-cog-outline:{ .tool-icon }
+
+        [Modifier Defaults](./add-on/modifier_defaults.md)
+
+        Save your preferred settings for any modifier. Kept through updates.
+
+    -   :material-alert-outline:{ .tool-icon }
+
+        [Free Normals Warnings](./add-on/free_normals.md)
+
+        Get warned before edits or deformation break custom normals, with one-click fixes.
+
+    </div>
 
 [Add-on Documentation](./add-on/index.md)
 
