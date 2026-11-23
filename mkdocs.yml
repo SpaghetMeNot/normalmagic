@@ -34,7 +34,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
+      primary: deep purple
       accent: deep orange
 
 markdown_extensions:
