@@ -16,10 +16,12 @@ Welcome to the **normalMagic** documentation. Here you'll find everything there 
 ## Quick Links
 <div class="grid cards" markdown>
 
-- [:material-cube-outline: Mesh Modifiers](mesh_tools/index.md)
-- [:material-vector-polyline: Normal Modifiers](normal_tools/index.md)
-- [:material-eye: Visualize Modifiers](visualize_tools/index.md)
-- [:octicons-tools-16: Other Modifiers](other_tools/index.md)
+- [:material-puzzle-outline: Pro Add-on](add-on/index.md)
+- [:material-cube-outline: Mesh Modifiers](tools_overview.md#mesh-modifiers)
+- [:material-vector-polyline: Normal Modifiers](tools_overview.md#normal-modifiers)
+- [:material-eye: Visualize Modifiers](tools_overview.md#visualize-modifiers)
+- [:octicons-tools-16: Other Modifiers](tools_overview.md#other-modifiers)
+- [:material-hand-back-right-outline: Manual Tools](tools_overview.md#manual-tools)
 
 </div>
 

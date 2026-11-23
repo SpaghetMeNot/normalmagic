@@ -1,0 +1,40 @@
+/* Tool grid (Tools Overview) */
+.md-typeset .grid.cards.tool-grid {
+  gap: 0.6rem;
+}
+.md-typeset .grid.cards.tool-grid > ul > li {
+  position: relative;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+.md-typeset .tool-grid > ul > li > p { margin: 0; }
+.md-typeset .tool-grid .tool-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: block;
+}
+.md-typeset .tool-grid a { font-weight: 700; }
+/* Whole card is clickable */
+.md-typeset .tool-grid a::after { content: ""; position: absolute; inset: 0; }
+.md-typeset .tool-grid > ul > li > p:last-child { color: var(--md-default-fg-color--light); }
+
+/* Layout: icon on the left, name + description on the right */
+.md-typeset .grid.cards.tool-grid.side {
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.md-typeset .tool-grid.side > ul > li {
+  display: grid;
+  grid-template-columns: 2.4rem 1fr;
+  column-gap: 0.7rem;
+  align-content: start;
+}
+.md-typeset .tool-grid.side > ul > li > p:first-child { grid-row: span 2; align-self: start; }
+
+/* Layout: icon on top, name + description underneath */
+.md-typeset .grid.cards.tool-grid.stacked {
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+}
+.md-typeset .tool-grid.stacked > ul > li { text-align: center; }
+.md-typeset .tool-grid.stacked .tool-icon { margin: 0 auto 0.35rem; }
+.md-typeset .tool-grid.stacked > ul > li > p:nth-child(2) { margin-bottom: 0.2rem; }

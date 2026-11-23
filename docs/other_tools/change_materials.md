@@ -8,7 +8,7 @@ Assign materials or material indices to face selections.
 
 Up to 6 materials can be assigned per modifier. Selections can be driven by existing material/index or arbitrary vertex/face groups.
 
-Many normalMagic [mesh modifiers](../mesh_tools/index.md) output attributes that work well with Change Materials.
+Many normalMagic [mesh modifiers](../tools_overview.md#mesh-modifiers) output attributes that work well with Change Materials.
 
 ## Options
 

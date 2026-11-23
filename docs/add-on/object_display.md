@@ -4,7 +4,7 @@
 
 This panel helps manage object's visibility. Assigning a mesh as ***Viewport Only*** will hide it from all renders but keep it visible in the viewport.
 
-This is particularly useful for objects referenced by [Mesh Modifiers](../mesh_tools/index.md) such as [Surface Insert](../mesh_tools/surface_insert.md)
+This is particularly useful for objects referenced by [Mesh Modifiers](../tools_overview.md#mesh-modifiers) such as [Surface Insert](../mesh_tools/surface_insert.md)
 
 ![Object Display GIF](../assets/add-on/object_display.gif)
 

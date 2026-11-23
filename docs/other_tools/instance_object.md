@@ -1,5 +1,7 @@
 # Instance Object
 
+![Instance Object Icon](../assets/icons/instance_object1.png){ width=128 }
+
 Instances another object (after modifiers) to replace or append to the current objects geometry. This can be particularly useful for re-using details.
 
 <div class="grid" markdown>
