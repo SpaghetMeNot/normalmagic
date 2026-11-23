@@ -30,9 +30,9 @@ Separate angles for convex/concave edges
 !!! tip "Pro Add-on"
     This operator is part of the [normalMagic Add-on](../add-on/index.md).
 
-Found in the object right-click menu, above **Shade Smooth**.
+Found in the object right-click menu, above **Shade Smooth**. It can be hidden in the add-on's [preferences](../add-on/preferences.md#auto-smooth).
 
-Adds the [Preferred Smooth Modifier](../add-on/preferences.md#preferred-smooth-modifier) (**Mark Sharp** or **Smooth by Angle**) at the **start** of the modifier stack, so shading is based on the original mesh before other modifiers add new edges. On a [checkpoint](../add-on/instance_objects.md#checkpoints) it is added after the Instance Object modifier.
+Adds the [Preferred Smooth Modifier](../add-on/preferences.md#auto-smooth) (**Mark Sharp** or **Smooth by Angle**) at the **start** of the modifier stack, so shading is based on the original mesh before other modifiers add new edges. On a [checkpoint](../add-on/instance_objects.md#checkpoints) it is added after the Instance Object modifier.
 
 If the object already has one, it is moved to the start instead (Blender's "Smooth by Angle" is unpinned from the end of the stack).
 

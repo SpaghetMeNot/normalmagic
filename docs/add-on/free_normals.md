@@ -22,7 +22,7 @@ When the mesh data of selected objects stores "Free" custom normals, a ":fontawe
 - **Convert to Tangent Normals.** (Recommended) Converts the stored normals to tangent normals.
 - **Don't Warn in This Scene.** Hide this warning for the current scene.
 
-To hide this warning everywhere, turn off "Warn About Free Source Normals" in [preferences](./preferences.md#free-normals-warnings).
+To hide this warning everywhere, turn off "Warn About Free Source Normals" in [preferences](./preferences.md#normal-warnings).
 
 ![free_normal_warning](../assets/add-on/free_normal_warning.png)
 
@@ -36,4 +36,4 @@ When "Free" normals reach a deforming modifier (e.g. Armature, Lattice, Simple D
 ![header_warning](../assets/add-on/header_normal_warning.png)
 
 !!! tip "Turning Warnings Back On"
-    Warnings hidden for a scene can be turned back on in [preferences](./preferences.md#free-normals-warnings).
+    Warnings hidden for a scene can be turned back on in [preferences](./preferences.md#normal-warnings).

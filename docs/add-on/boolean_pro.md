@@ -74,7 +74,7 @@ This section lets you choose what happens to objects when you add a Boolean.
     - **Cutters.** Deselect cutter object(s)
 - **Parent to Object.** Parent the cutter object(s) to the main object. This will transform them together when you move the main object.
 - **Link Split Mesh.** When performing the [Split](#split) operation, link the intersected mesh to the original so editing one mesh edits the other too.
-- **Auto-Smooth.** Apply the [Preferred Smooth Modifier](./preferences.md#preferred-smooth-modifier) to objects in Boolean operation if they don't have one already. Instances and checkpoints are skipped, as their shading comes from the source object:
+- **Auto-Smooth.** Apply the [Preferred Smooth Modifier](./preferences.md#auto-smooth) to objects in Boolean operation if they don't have one already. Instances and checkpoints are skipped, as their shading comes from the source object:
     - **Cutters.** Apply smoothing to cutter object(s).
     - **All.** (Default) Apply smoothing to all objects involved in the Boolean.
     - **None.** Don't apply smoothing to any objects.

@@ -28,11 +28,21 @@ For each selected object:
 
 Checkpoints are an alternative to large modifier stacks. Create a checkpoint to "freeze" the result of an object's modifiers into an instance, then keep adding modifiers to the checkpoint. Changing modifiers on the checkpoint doesn't re-evaluate the source object's modifiers, so they stay interactive, and you can always step back to change earlier modifiers.
 
-- :material-flag-outline: **Create Checkpoint.** Instance the selected object(s) as a checkpoint named `<source>_checkpoint_<n>`, with an Instance Object modifier named `<source> checkpoint <n>`. Creating a checkpoint from a checkpoint continues the same chain.
-- :material-arrow-left: / :material-arrow-right: **Previous/Next.** Step through the checkpoints of the active object. The checkpoint you step to is shown and selected, and the current one is hidden (in the viewport and in renders). The first step back is the original source object. Needs a selected mesh or curve. Checkpoints hidden by their collection are revealed through the [Hidden Collections](./modifier_references.md#hidden-collections) dialog.
+- :material-flag-outline: **Create Checkpoint.** Instance the selected object(s) as a checkpoint named `<source>_checkpoint_<n>`, with an Instance Object modifier named `<source> checkpoint <n>`. Creating a checkpoint from the last checkpoint continues the chain.
+- :material-arrow-left: / :material-arrow-right: **Previous/Next.** Step along the chain from the active object. **Previous** goes to the object the checkpoint instances, back to the original source. **Next** goes to the checkpoint made from it. The object you step to is shown and selected, and the current one is hidden (in the viewport and in renders). Needs a selected mesh or curve. Checkpoints hidden by their collection are revealed through the [Hidden Collections](./modifier_references.md#hidden-collections) dialog.
 - **Checkpoint Settings** (dropdown):
     - **Parent to Source.** (Off by default) Parent checkpoint objects to the original source object.
     - **Hide Source.** (On by default) Hide the object a checkpoint is made from, in the viewport and in renders.
+
+### Branches
+
+Creating a checkpoint from an object that already has one after it (e.g. stepping back with **Previous** and creating a new checkpoint) starts a **branch**. A dialog asks you to confirm first. Duplicating a checkpoint with ++"Shift"+"D"++ also creates a branch.
+
+When there is more than one branch, **Next** goes to the newest checkpoint.
+
+### Collapsing Checkpoints
+
+A checkpoint is part of the chain while its Instance Object modifier is first in the stack. If you apply that modifier (e.g. with [Collapse to Selected](./modifier_references.md#apply-delete)), the checkpoint becomes a normal object: **Previous** and **Select Source** no longer go back past it, and checkpoints made from it start a new chain.
 
 ## Select Source
 

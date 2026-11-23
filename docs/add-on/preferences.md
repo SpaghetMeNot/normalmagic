@@ -10,10 +10,12 @@ These options show up under ***Edit/Preferences/Add-ons/normalMagic***
 - **Show Sidebar Panel.** Enable/disable the add-on's sidebar panel. Expand to specify it's category (default is "Normal Magic")
 - **Show Modifier Header.** Enable/disable the [modifier header](../add-on/modifier_header.md). Expand to choose which add-modifier buttons show in the header.
 
-## Preferred Smooth Modifier
-Choose which smooth modifier (**Mark Sharp** or **Smooth by Angle**) gets added with Boolean Pro's cutter "Auto-Smooth" option and [Shade Auto Smooth (First)](../other_tools/mark_sharp.md#shade-auto-smooth-first).
+## Auto Smooth
 
-## Free Normals Warnings
+- **Preferred Smooth Modifier.** Which smooth modifier (**Mark Sharp** or **Smooth by Angle**) gets added with Boolean Pro's cutter "Auto-Smooth" option and [Shade Auto Smooth (First)](../other_tools/mark_sharp.md#shade-auto-smooth-first).
+- **Shade Auto Smooth (First) in Object Menu.** (On by default) Show [Shade Auto Smooth (First)](../other_tools/mark_sharp.md#shade-auto-smooth-first) in the object right-click menu.
+
+## Normal Warnings
 
 - **Warn About Free Source Normals.** Show a warning in the tool header when selected meshes store "Free" custom normals. See [Free Normals Warnings](./free_normals.md).
 - **This Scene.** Turn hidden warnings back on for the current scene:
