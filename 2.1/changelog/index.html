@@ -1,0 +1,2568 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://spaghetmenot.github.io/normalmagic/2.1/changelog/">
+      
+      
+        <link rel="prev" href="../common_settings/">
+      
+      
+        <link rel="next" href="../licensing/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/normalMagicIcon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Changelog - normalMagic</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: black; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden="">
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're not viewing the latest stable version.
+  
+<a href="../.."> 
+    
+<strong>Click here to go to latest.</strong>
+  
+</a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL(".."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="normalMagic" class="md-header__button md-logo" aria-label="normalMagic" data-md-component="logo">
+      
+  <img src="../assets/normalMagicIcon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            normalMagic
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-purple" aria-label="Dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-orange" aria-label="Light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="normalMagic" class="md-nav__button md-logo" aria-label="normalMagic" data-md-component="logo">
+      
+  <img src="../assets/normalMagicIcon.png" alt="logo">
+
+    </a>
+    normalMagic
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pro Add-on
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pro Add-on
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preferences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/boolean_pro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boolean Pro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/surface_integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Surface Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/instance_objects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instance Objects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/object_display/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Object Display
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/modifier_references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modifier References
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/modifier_header/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modifier Header
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/modifier_defaults/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modifier Defaults
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-on/free_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Free Normals Warnings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mesh Modifiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mesh Modifiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/boolean_pro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boolean Pro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/boolean_trim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boolean Trim
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/boolean_extrude/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boolean Extrude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/project_to_surface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project to Surface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/surface_insert/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Surface Insert
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/symmetrize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Symmetrize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/solidify_pro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solidify Pro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/offset_surface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Offset Surface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh_tools/cut_groove/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cut Groove
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Modifiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Normal Modifiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/normal_transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normal Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/smooth_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Smooth Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/face_weighted_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Face Weighted Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/bent_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bent Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/repair_bevel_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Repair Bevel Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/repair_boolean_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Repair Boolean Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/repair_mirrored_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Repair Mirrored Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normal_tools/lock_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lock Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualize Modifiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Visualize Modifiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visualize_tools/view_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    View Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visualize_tools/view_sharp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    View Sharp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Modifiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other Modifiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_tools/instance_object/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instance Object
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_tools/mark_sharp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mark Sharp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_tools/sharp_edges_to_attribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sharp Edges to Attribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_tools/auto-flip_faces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Auto-Flip Faces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_tools/change_materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Change Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manual Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Manual Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual_tools/recalculate_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recalculate Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual_tools/add_custom_normals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Custom Normals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../common_settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#210" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#202" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#201" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#200" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Modifiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#existing-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Existing Modifiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licensing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#210" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#202" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#201" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#200" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Modifiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#existing-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Existing Modifiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pro-add-on_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-library_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Asset Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-on" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Add-on
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">¶</a></h1>
+<h2 id="210">2.1.0<a class="headerlink" href="#210" title="Permanent link">¶</a></h2>
+<h3 id="asset-library">Asset Library<a class="headerlink" href="#asset-library" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../mesh_tools/cut_groove/">Cut Groove</a>:<ul>
+<li>Added <a href="../mesh_tools/cut_groove/#cutter-geometry">Cutter Alignment</a> option. Choose how the groove is positioned relative to the cutter.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/solidify_pro/">Solidify Pro</a>:<ul>
+<li>New <a href="../mesh_tools/solidify_pro/#bevel-weights">Bevel Weights</a> panel. Control how edge and vertex bevel weights are carried over to the rim.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/boolean_pro/">Boolean Pro</a>:<ul>
+<li>Removed the "Sequential" Float solver option. This fixes Boolean Pro being ~3x slower in Blender 5.2.</li>
+<li>Fixed wrong results with Union, Intersect and Slice when cutter islands overlap each other.</li>
+<li>Faster "Difference" operation with the Manifold solver.</li>
+<li>"Merge by Distance" is now a menu: <strong>None</strong> (default), <strong>Boundaries Only</strong> or <strong>All Vertices</strong>.</li>
+<li>Merging vertices no longer creates false sharp edges. Normals at merged points are re-averaged, and existing sharp edges are kept.</li>
+</ul>
+</li>
+<li><a href="../normal_tools/repair_bevel_normals/">Repair Bevel Normals</a>:<ul>
+<li>"Bevel Loop Angle" and "Bevel Boundary Angle" Mark Sharp options are now off by default.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/symmetrize/">Symmetrize</a>:<ul>
+<li>New "Center Points" output attribute.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/surface_insert/">Surface Insert</a>:<ul>
+<li>Around 13% faster.</li>
+</ul>
+</li>
+<li>Internal helper node groups are now hidden from the Add › Group menu. Turn on "Show Hidden" in Blender's search preferences to see them.</li>
+</ul>
+<h3 id="pro-add-on">Pro Add-on<a class="headerlink" href="#pro-add-on" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../install/#update-existing-scenes">Modifier Updates for Existing Scenes</a>. Modifiers in scenes made with an older version can now be updated with one click from the sidebar or modifier header. Settings are kept and the update can be undone.</li>
+<li><a href="../add-on/preferences/#asset-library">Asset Library Preferences</a>:<ul>
+<li>The bundled asset library is now set up automatically when the add-on is installed or updated.</li>
+<li>Choose between the <strong>Bundled</strong> library or a <strong>Custom</strong> one.</li>
+<li>New <strong>Import Method</strong> option: <strong>Packed</strong> (default) or <strong>Linked</strong>.</li>
+<li>Other normalMagic asset libraries (e.g. Base version) are listed so they can be disabled or removed.</li>
+</ul>
+</li>
+<li>Preferences and <a href="../add-on/modifier_defaults/">Modifier Defaults</a> are now kept when updating the add-on.</li>
+<li><a href="../add-on/free_normals/">Free Normals Warnings</a>. New warnings when "Free" custom normals won't follow edits or deformation, with one-click fixes.</li>
+<li><a href="../add-on/modifier_header/">Modifier Header</a>:<ul>
+<li>New add-modifier buttons:<ul>
+<li><a href="../mesh_tools/solidify_pro/">Solidify Pro</a></li>
+<li>Bevel (with <a href="../normal_tools/repair_bevel_normals/">Repair Bevel Normals</a>)</li>
+<li><a href="../normal_tools/smooth_normals/">Smooth Normals</a></li>
+<li><a href="../normal_tools/face_weighted_normals/">Face Weighted Normals</a></li>
+<li><a href="../normal_tools/normal_transfer/">Normal Transfer</a>.</li>
+</ul>
+</li>
+<li>Modifiers added from the header only collapse their object inputs panel. Modifiers added from the sidebar are collapsed completely.</li>
+</ul>
+</li>
+<li><a href="../add-on/modifier_defaults/">Modifier Defaults</a>:<ul>
+<li>New <strong>Restore Defaults</strong> button. Reset the active modifier to your saved defaults (or the built-in defaults). Object and collection inputs are kept.</li>
+<li>"Restore Defaults" from 2.0 is now called <strong>Delete Custom Defaults</strong>.</li>
+<li>Added support for Solidify Pro, Repair Bevel Normals, Smooth Normals and Face Weighted Normals.</li>
+<li>Output attribute names are now saved and restored (Blender 5.2+).</li>
+</ul>
+</li>
+<li><a href="../add-on/modifier_references/">Modifier References</a>:<ul>
+<li>"Apply Modifier" renamed to <strong>Apply Single Modifier</strong>.</li>
+<li>New <strong>Collapse to Selected</strong> button. Apply all modifiers from the top of the stack down to the highlighted one.</li>
+<li>When applying or deleting a modifier would delete objects used by other modifiers, a <strong>Shared References</strong> dialog lets you keep them.</li>
+<li>Applying modifiers converts "Free" custom normals to "Tangent" normals and makes shared meshes single user.</li>
+<li>Around 3.5x faster panel redraws.</li>
+<li>New <a href="../add-on/modifier_references/#filter-references">Filter References</a> options: show or hide modifiers without references, checkpoint sources and instance sources.</li>
+<li>Show, Select and Select All now reveal objects in hidden collections, with a <a href="../add-on/modifier_references/#hidden-collections">Force Show</a> dialog listing the collections first.</li>
+</ul>
+</li>
+<li><a href="../add-on/instance_objects/">Instance Objects</a>:<ul>
+<li>New <a href="../add-on/instance_objects/#checkpoints">Checkpoints</a>. Create instance "checkpoints" of an object and step back and forth between them.</li>
+<li><a href="../add-on/instance_objects/#select-source">Select Source</a> and checkpoint Previous/Next now show hidden objects, including those in hidden collections (with a <a href="../add-on/modifier_references/#hidden-collections">Force Show</a> dialog).</li>
+</ul>
+</li>
+<li><a href="../add-on/boolean_pro/">Boolean Pro Panel</a>:<ul>
+<li>"Auto-Smooth" cutter option now defaults to <strong>All</strong>. Instances and checkpoints are skipped.</li>
+<li>Cutter collections are now per scene, reused by name instead of creating a new one for every cutter.</li>
+<li><a href="../add-on/boolean_pro/#convert-existing-booleans">Convert Existing Booleans</a> keeps modifier names, on/off toggles and stack position. Collection Booleans use Boolean Pro's Collection mode.</li>
+<li>The <a href="../add-on/boolean_pro/#convert-existing-booleans">Convert Existing Booleans</a> button is back. It shows when selected objects have Blender Boolean modifiers.</li>
+</ul>
+</li>
+<li><a href="../add-on/surface_integration/#project-to-surface">Project to Surface</a>:<ul>
+<li>Fixed error when "Single Surface" is turned off in the "Adjust Last Operation" panel. The active object can now project onto any number of selected surfaces, more than 6 adds extra modifiers.</li>
+</ul>
+</li>
+<li><a href="../other_tools/mark_sharp/#shade-auto-smooth-first">Shade Auto Smooth (First)</a>. New operator in the object right-click menu: adds the preferred smooth modifier at the start of the modifier stack.</li>
+<li>Fixed errors when the asset library is missing (Mark Sharp, Symmetrize, Project to Surface and Boolean Pro with no cutters).</li>
+<li>When the asset library is missing, operators now cancel without changing anything. Previously cutter settings were still applied and Split left a stray duplicate.</li>
+</ul>
+<h2 id="202">2.0.2<a class="headerlink" href="#202" title="Permanent link">¶</a></h2>
+<h3 id="asset-library_1">Asset Library<a class="headerlink" href="#asset-library_1" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../mesh_tools/solidify_pro/">Solidify Pro</a>:<ul>
+<li>Fixed bevel weights getting broken on resulting mesh (tooling to control this coming in 2.1).</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/symmetrize/">Symmetrize</a>:<ul>
+<li>Fixed incorrect normals when custom normals are stored as tangents.</li>
+</ul>
+</li>
+</ul>
+<h2 id="201">2.0.1<a class="headerlink" href="#201" title="Permanent link">¶</a></h2>
+<h3 id="asset-library_2">Asset Library<a class="headerlink" href="#asset-library_2" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../mesh_tools/cut_groove/">Cut Groove</a>:<ul>
+<li>Groove depth now has even thickness.</li>
+<li>Better preservation of sharp edges from the base mesh.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/boolean_pro/">Boolean Pro</a>:<ul>
+<li>New "Internal Edges" output attribute.</li>
+</ul>
+</li>
+<li><a href="../manual_tools/recalculate_normals/">Recalculate Normals</a>:<ul>
+<li>New "Normal Type" option, "Tangent" by default.</li>
+</ul>
+</li>
+</ul>
+<h3 id="pro-add-on_1">Pro Add-on<a class="headerlink" href="#pro-add-on_1" title="Permanent link">¶</a></h3>
+<ul>
+<li>Fixed an error message when removing modifiers.</li>
+</ul>
+<h2 id="200">2.0.0<a class="headerlink" href="#200" title="Permanent link">¶</a></h2>
+<iframe width="900" height="390" src="https://www.youtube.com/embed/0sf4ywieXwA?si=Nxh37v053igm-wQy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<h3 id="new-modifiers">New Modifiers<a class="headerlink" href="#new-modifiers" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../mesh_tools/cut_groove/">Cut Groove</a>: Cuts a V-shaped groove or gap where other meshes intersect.</li>
+<li><a href="../mesh_tools/solidify_pro/">Solidify Pro</a>: Solidify meshes with advanced profile control. Supports custom normals.</li>
+<li><a href="../mesh_tools/offset_surface/">Offset Surface</a>: Offset the surface of a mesh.</li>
+<li><a href="../mesh_tools/boolean_extrude/">Boolean Extrude</a>: Extrude area of Boolean intersection area in or out.</li>
+<li><a href="../mesh_tools/boolean_trim/">Boolean Trim</a>: Cut and 'trim' a mesh with single-sided cutter objects.</li>
+</ul>
+<h3 id="existing-modifiers">Existing Modifiers<a class="headerlink" href="#existing-modifiers" title="Permanent link">¶</a></h3>
+<ul>
+<li>Surface Project renamed to <a href="../mesh_tools/project_to_surface/">Project to Surface</a>:<ul>
+<li>Added Color debug options for projection and normal masks.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/surface_insert/">Surface Insert</a>:<ul>
+<li>Added "Instances" option to insert mesh panel. You can now:<ul>
+<li>Realize instances and insert using their local transform (if applicable).</li>
+<li>Realize instances and insert using their parent insert object's transform (if applicable).</li>
+<li>Keep instances, maintain their relative position to the nearest insert geometry.</li>
+</ul>
+</li>
+<li>Debug Color for projection and normal masks.</li>
+<li>Surface Boolean is now optional.</li>
+<li>Added "Boolean Caps" menu to help with certain edge cases.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/boolean_pro/">Boolean Pro</a>:<ul>
+<li>Has multi-object input like other mesh modifiers.</li>
+<li>New "Non-manifold fallback" solver option.</li>
+<li>Output attributes for boundary edges and slice faces.</li>
+</ul>
+</li>
+<li><a href="../normal_tools/face_weighted_normals/">Face Weighted Normals</a>:<ul>
+<li>Now takes into account corner angle. Triangulated meshes now have better weighting.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/symmetrize/">Symmetrize</a>:<ul>
+<li>Added support for mirroring instances.</li>
+<li>Added option to convert geometry to an instance before mirroring. This works well when using the object as an insert mesh with <a href="../mesh_tools/surface_insert/">Surface Insert</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="pro-add-on_2">Pro Add-on<a class="headerlink" href="#pro-add-on_2" title="Permanent link">¶</a></h3>
+<ul>
+<li>Single file download/install for normalMagic Pro (Asset library is now packaged with the add-on)</li>
+<li><a href="../add-on/surface_integration/">Surface Integration</a>. New panel, contains operators for:<ul>
+<li><a href="../mesh_tools/surface_insert/">Surface Insert</a></li>
+<li><a href="../mesh_tools/project_to_surface/">Project to Surface</a></li>
+</ul>
+</li>
+<li><a href="../add-on/modifier_references/">Modifier References</a>. New panel: show/hide, select/deselect, apply/delete objects referenced by modfiers on the active object.</li>
+<li><a href="../add-on/object_display/">Object Display</a>. New panel to manage object visibility.</li>
+<li><a href="../add-on/boolean_pro/">Boolean Pro Panel</a><ul>
+<li>"Advanced Boolean" sub-panel contains new operators:<ul>
+<li><a href="../mesh_tools/boolean_extrude/">Boolean Extrude</a></li>
+<li><a href="../mesh_tools/boolean_trim/">Boolean Trim</a></li>
+<li><a href="../mesh_tools/cut_groove/">Cut Groove</a></li>
+</ul>
+</li>
+<li>Modifier Settings now handled by the <a href="../add-on/modifier_defaults/">modifier defaults</a> system.</li>
+</ul>
+</li>
+<li><a href="../add-on/modifier_header/">Modifier Header Bar</a>. Quickly apply modifiers and manage modifier references from the modifier properties panel.</li>
+<li><a href="../add-on/modifier_defaults/">Modifier Defaults</a>. Save default settings for modifiers added via the add-on.</li>
+<li>Added <a href="../mesh_tools/symmetrize/">Symmetrize</a> and <a href="../other_tools/mark_sharp/">Mark Sharp</a> operators. They are in the modifier header bar by default.</li>
+<li>All operators now support more than 6 cutters/inserts at a time.</li>
+</ul>
+<hr>
+<h2 id="11">1.1<a class="headerlink" href="#11" title="Permanent link">¶</a></h2>
+<h3 id="asset-library_3">Asset Library<a class="headerlink" href="#asset-library_3" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../mesh_tools/surface_project/">Surface Project</a>: Complete refactor to better match the options on Surface Insert.<ul>
+<li>Introduced "Wrap" Mode.</li>
+<li>Option to turn off normal transfer.</li>
+</ul>
+</li>
+<li><a href="../mesh_tools/surface_insert/">Surface Insert</a>:<ul>
+<li>Renamed "Projection Origin" to "Base Height".</li>
+<li>"Base Height" no longer shows when in "Blend to Surface" mode. </li>
+<li>Fixed Cases where cutters would be flipped when generated causing several bugs.</li>
+<li>Refactored height calculation — should be no change to behavior.</li>
+<li>Added Debug for projection direction.</li>
+<li>Cleaned up all attributes created by modifier.</li>
+</ul>
+</li>
+<li>New Modifier: <a href="../mesh_tools/symmetrize/">Symmetrize</a>:<ul>
+<li>Mirror-like modifier for single axis symmetry.</li>
+<li>Works with custom normals.</li>
+<li>Local/Global/Object space mirroring.</li>
+</ul>
+</li>
+<li><a href="../normal_tools/repair_mirrored_normals/">Repair Mirrored Normals</a>:<ul>
+<li>Added Mirror Object option.</li>
+</ul>
+</li>
+<li>New Modifier: <a href="../other_tools/change_materials/">Change Materials</a>:<ul>
+<li>Assign materials or material indices to face selections.</li>
+</ul>
+</li>
+<li>New Modifier: <a href="../normal_tools/lock_normals/">Lock Normals</a>:<ul>
+<li>Creates custom normals if none exist.</li>
+<li>Allows converting normals to "Tangent Space" which allows for deformation after setting.</li>
+</ul>
+</li>
+<li>New Manual Tool: <a href="../manual_tools/add_custom_normals/">Add Custom Normals</a>:<ul>
+<li>Tool version of "Lock Normals" for Object and Edit Mesh modes.</li>
+</ul>
+</li>
+<li><a href="../normal_tools/normal_transfer/">Normal Transfer</a>:<ul>
+<li>Improving sharp edges appearing when transferring normals on small meshes.</li>
+</ul>
+</li>
+<li><a href="../normal_tools/smooth_normals/">Smooth Normals</a>:<ul>
+<li>Fixed broken normals on very small meshes.</li>
+</ul>
+</li>
+</ul>
+<h3 id="add-on">Add-on<a class="headerlink" href="#add-on" title="Permanent link">¶</a></h3>
+<ul>
+<li>Moved "Link Split Mesh" next to the "Split" Button.</li>
+<li>Moved "Refresh" button above "Add Asset Library" to encourage use.</li>
+<li>"Add Asset Library" now runs the "Refresh" operator to avoid adding the same library twice.</li>
+<li>Fixed error when cutter collection is hidden/disabled.</li>
+<li>Added "No Change" option to cutter display options.</li>
+<li>Fixed cutters moving when using the redo panel. This occurred when parenting was on.</li>
+<li>Now allows example file to live in the same folder as the asset library.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
